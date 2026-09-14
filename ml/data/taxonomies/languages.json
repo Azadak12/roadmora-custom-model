@@ -1,0 +1,28 @@
+{
+  "South Asian": [
+    "Urdu", "Punjabi", "Sindhi", "Pashto", "Balochi", "Saraiki", "Hindko", "Brahui",
+    "Hindi", "Bengali", "Gujarati", "Marathi", "Tamil", "Telugu", "Kannada",
+    "Malayalam", "Nepali", "Sinhala", "Kashmiri"
+  ],
+  "Middle Eastern & Central Asian": [
+    "Arabic", "Persian/Farsi", "Turkish", "Hebrew", "Kurdish", "Uzbek", "Pashto",
+    "Dari", "Azerbaijani", "Armenian", "Georgian"
+  ],
+  "European": [
+    "English", "French", "Spanish", "German", "Italian", "Portuguese", "Dutch",
+    "Russian", "Polish", "Ukrainian", "Greek", "Swedish", "Norwegian", "Danish",
+    "Finnish", "Czech", "Romanian", "Hungarian", "Bulgarian", "Serbian", "Croatian"
+  ],
+  "East Asian": [
+    "Mandarin Chinese", "Cantonese", "Japanese", "Korean"
+  ],
+  "Southeast Asian": [
+    "Indonesian", "Malay", "Thai", "Vietnamese", "Filipino/Tagalog", "Burmese", "Khmer"
+  ],
+  "African": [
+    "Swahili", "Amharic", "Hausa", "Yoruba", "Somali", "Zulu"
+  ],
+  "Other": [
+    "Other"
+  ]
+}

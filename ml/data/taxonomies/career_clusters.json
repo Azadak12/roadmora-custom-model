@@ -1,0 +1,70 @@
+{
+  "_source": "16 Career Clusters framework (Advance CTE / U.S. Dept. of Education, adopted by O*NET). These 16 labels are the model's prediction classes. The occupations listed under each cluster are NOT predicted by the model — they are a curated knowledge base used to narrow down a specific role once the model has predicted the cluster, based on the user's stated skills/interests.",
+  "clusters": {
+    "Agriculture, Food & Natural Resources": [
+      "Agricultural Scientist", "Food Technologist", "Environmental Scientist",
+      "Agronomist", "Veterinarian", "Farm Manager", "Forestry Technician"
+    ],
+    "Architecture & Construction": [
+      "Architect", "Civil Engineer", "Construction Manager", "Interior Designer",
+      "Structural Engineer", "Urban Planner", "Surveyor"
+    ],
+    "Arts, Audio/Video Technology & Communications": [
+      "Graphic Designer", "Video Editor", "Content Writer", "Journalist",
+      "Photographer", "UI/UX Designer", "Animator", "Social Media Manager", "Musician"
+    ],
+    "Business Management & Administration": [
+      "Business Analyst", "Operations Manager", "Human Resources Manager",
+      "Office Administrator", "Management Consultant", "Project Manager", "Entrepreneur"
+    ],
+    "Education & Training": [
+      "Teacher", "University Lecturer", "Corporate Trainer", "Instructional Designer",
+      "School Counselor", "Curriculum Developer"
+    ],
+    "Finance": [
+      "Accountant", "Financial Analyst", "Investment Banker", "Auditor",
+      "Actuary", "Tax Consultant", "Risk Analyst", "Financial Planner"
+    ],
+    "Government & Public Administration": [
+      "Civil Servant", "Policy Analyst", "Urban Development Officer",
+      "Diplomat/Foreign Service Officer", "Public Administrator"
+    ],
+    "Health Science": [
+      "Doctor/Physician", "Nurse", "Pharmacist", "Dentist", "Physiotherapist",
+      "Medical Lab Technologist", "Nutritionist", "Public Health Specialist", "Psychologist"
+    ],
+    "Hospitality & Tourism": [
+      "Hotel Manager", "Chef", "Event Planner", "Travel Consultant",
+      "Tourism Officer", "Restaurant Manager"
+    ],
+    "Human Services": [
+      "Social Worker", "Career Counselor", "Community Development Officer",
+      "Non-Profit Program Manager", "Life Coach"
+    ],
+    "Information Technology": [
+      "Software Engineer", "Data Scientist", "Web Developer", "Mobile App Developer",
+      "Cybersecurity Analyst", "Cloud Engineer", "DevOps Engineer", "AI/ML Engineer",
+      "Database Administrator", "QA/Test Engineer", "IT Support Specialist", "Network Engineer"
+    ],
+    "Law, Public Safety, Corrections & Security": [
+      "Lawyer", "Paralegal", "Police Officer", "Legal Advisor",
+      "Corporate Counsel", "Security Analyst", "Judge/Magistrate"
+    ],
+    "Manufacturing": [
+      "Mechanical Engineer", "Industrial Engineer", "Quality Control Inspector",
+      "Production Manager", "Manufacturing Technician", "Supply Chain Engineer"
+    ],
+    "Marketing": [
+      "Marketing Manager", "Digital Marketing Specialist", "Brand Manager",
+      "SEO Specialist", "Market Research Analyst", "Advertising Executive", "Sales Manager"
+    ],
+    "Science, Technology, Engineering & Mathematics": [
+      "Electrical Engineer", "Chemical Engineer", "Physicist", "Mathematician",
+      "Research Scientist", "Biomedical Engineer", "Statistician", "Robotics Engineer"
+    ],
+    "Transportation, Distribution & Logistics": [
+      "Logistics Manager", "Supply Chain Analyst", "Pilot", "Fleet Manager",
+      "Warehouse Operations Manager", "Import/Export Specialist"
+    ]
+  }
+}

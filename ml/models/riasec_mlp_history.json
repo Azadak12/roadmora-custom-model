@@ -1,0 +1,177 @@
+[
+  {
+    "epoch": 0,
+    "train_mse": 2.9158282979679915,
+    "val_mean_percentile_rank": 0.2282452854378449
+  },
+  {
+    "epoch": 1,
+    "train_mse": 1.5691100545679408,
+    "val_mean_percentile_rank": 0.21919145322621436
+  },
+  {
+    "epoch": 2,
+    "train_mse": 1.510084305892338,
+    "val_mean_percentile_rank": 0.21923188434716978
+  },
+  {
+    "epoch": 3,
+    "train_mse": 1.47305945779996,
+    "val_mean_percentile_rank": 0.21467529701549204
+  },
+  {
+    "epoch": 4,
+    "train_mse": 1.4372257235715067,
+    "val_mean_percentile_rank": 0.2138014631109713
+  },
+  {
+    "epoch": 5,
+    "train_mse": 1.4076094494807425,
+    "val_mean_percentile_rank": 0.21848364776355253
+  },
+  {
+    "epoch": 6,
+    "train_mse": 1.3711883515879917,
+    "val_mean_percentile_rank": 0.21587049312012307
+  },
+  {
+    "epoch": 7,
+    "train_mse": 1.3393624603230438,
+    "val_mean_percentile_rank": 0.21876183996032011
+  },
+  {
+    "epoch": 8,
+    "train_mse": 1.3108891902704214,
+    "val_mean_percentile_rank": 0.21771793450184487
+  },
+  {
+    "epoch": 9,
+    "train_mse": 1.2759345181926882,
+    "val_mean_percentile_rank": 0.22005315779444842
+  },
+  {
+    "epoch": 10,
+    "train_mse": 1.2501402330543414,
+    "val_mean_percentile_rank": 0.21675489128528053
+  },
+  {
+    "epoch": 11,
+    "train_mse": 1.2258511334363273,
+    "val_mean_percentile_rank": 0.2197783565949223
+  },
+  {
+    "epoch": 12,
+    "train_mse": 1.20081532025047,
+    "val_mean_percentile_rank": 0.21892786840217904
+  },
+  {
+    "epoch": 13,
+    "train_mse": 1.1770741277566297,
+    "val_mean_percentile_rank": 0.22144542300799452
+  },
+  {
+    "epoch": 14,
+    "train_mse": 1.1220418294493688,
+    "val_mean_percentile_rank": 0.21991621367508324
+  },
+  {
+    "epoch": 15,
+    "train_mse": 1.0921977666226976,
+    "val_mean_percentile_rank": 0.22287824976546688
+  },
+  {
+    "epoch": 16,
+    "train_mse": 1.0861516627567847,
+    "val_mean_percentile_rank": 0.22197076673447355
+  },
+  {
+    "epoch": 17,
+    "train_mse": 1.071986036807855,
+    "val_mean_percentile_rank": 0.22218244321612088
+  },
+  {
+    "epoch": 18,
+    "train_mse": 1.0581803937219965,
+    "val_mean_percentile_rank": 0.226364586198563
+  },
+  {
+    "epoch": 19,
+    "train_mse": 1.0431509790083617,
+    "val_mean_percentile_rank": 0.22805121605725884
+  },
+  {
+    "epoch": 20,
+    "train_mse": 1.0378845522757396,
+    "val_mean_percentile_rank": 0.22719694559836168
+  },
+  {
+    "epoch": 21,
+    "train_mse": 1.029712008140416,
+    "val_mean_percentile_rank": 0.22664186543453474
+  },
+  {
+    "epoch": 22,
+    "train_mse": 1.0237181221724918,
+    "val_mean_percentile_rank": 0.22672311894535813
+  },
+  {
+    "epoch": 23,
+    "train_mse": 0.9911808132798621,
+    "val_mean_percentile_rank": 0.22790892459608986
+  },
+  {
+    "epoch": 24,
+    "train_mse": 0.9813718102522421,
+    "val_mean_percentile_rank": 0.22815503274203472
+  },
+  {
+    "epoch": 25,
+    "train_mse": 0.9773318764622646,
+    "val_mean_percentile_rank": 0.22840805330543326
+  },
+  {
+    "epoch": 26,
+    "train_mse": 0.9664328048876659,
+    "val_mean_percentile_rank": 0.2263088955900211
+  },
+  {
+    "epoch": 27,
+    "train_mse": 0.9655361550717282,
+    "val_mean_percentile_rank": 0.22708634691910293
+  },
+  {
+    "epoch": 28,
+    "train_mse": 0.9597924295180924,
+    "val_mean_percentile_rank": 0.22671098960907146
+  },
+  {
+    "epoch": 29,
+    "train_mse": 0.9601580938511297,
+    "val_mean_percentile_rank": 0.22662817102259825
+  },
+  {
+    "epoch": 30,
+    "train_mse": 0.9476152068405285,
+    "val_mean_percentile_rank": 0.22890287805673948
+  },
+  {
+    "epoch": 31,
+    "train_mse": 0.9464234860457524,
+    "val_mean_percentile_rank": 0.23011528999351927
+  },
+  {
+    "epoch": 32,
+    "train_mse": 0.9353308645840638,
+    "val_mean_percentile_rank": 0.2249592786879345
+  },
+  {
+    "epoch": 33,
+    "train_mse": 0.9307263302174489,
+    "val_mean_percentile_rank": 0.227730245126061
+  },
+  {
+    "epoch": 34,
+    "train_mse": 0.9295793187460485,
+    "val_mean_percentile_rank": 0.22772607159099462
+  }
+]

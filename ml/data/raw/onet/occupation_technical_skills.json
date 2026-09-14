@@ -1,0 +1,7635 @@
+{
+  "11-1011.00": [
+    "PHP",
+    "SQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks",
+    "Jira"
+  ],
+  "11-1011.03": [
+    "SQL",
+    "Data Analysis",
+    "Tableau",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "11-1021.00": [
+    "R",
+    "MATLAB",
+    "SQL",
+    "VBA",
+    "PostgreSQL",
+    "Microsoft SQL Server",
+    "AWS",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks",
+    "Jira",
+    "AutoCAD"
+  ],
+  "11-1031.00": [
+    "SQL",
+    "Microsoft SQL Server",
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "11-2011.00": [
+    "JavaScript",
+    "SQL",
+    "HTML/CSS",
+    "Microsoft SQL Server",
+    "Data Analysis",
+    "Data Visualization",
+    "Tableau",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe Premiere Pro",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "11-2021.00": [
+    "Python",
+    "JavaScript",
+    "C",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "Ruby on Rails",
+    "MySQL",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "AWS",
+    "Microsoft Azure",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Figma",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks",
+    "Jira"
+  ],
+  "11-2022.00": [
+    "R",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "Microsoft SQL Server",
+    "Microsoft Azure",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "11-2032.00": [
+    "HTML/CSS",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "11-2033.00": [
+    "HTML/CSS",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "11-3012.00": [
+    "R",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks",
+    "Jira",
+    "AutoCAD"
+  ],
+  "11-3013.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks",
+    "AutoCAD"
+  ],
+  "11-3013.01": [
+    "AWS",
+    "Microsoft Azure",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "11-3021.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "HTML/CSS",
+    "Node.js",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Cassandra",
+    "AWS",
+    "Microsoft Azure",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Jira"
+  ],
+  "11-3031.00": [
+    "R",
+    "SQL",
+    "VBA",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks"
+  ],
+  "11-3031.01": [
+    "SQL",
+    "HTML/CSS",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "11-3031.03": [
+    "SQL",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "11-3051.00": [
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks",
+    "AutoCAD"
+  ],
+  "11-3051.01": [
+    "Java",
+    "SQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Jira"
+  ],
+  "11-3051.02": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "11-3051.03": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "11-3051.04": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "11-3051.06": [
+    "SQL",
+    "Microsoft SQL Server",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "11-3061.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "11-3071.00": [
+    "SQL",
+    "Microsoft SQL Server",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "11-3071.04": [
+    "SQL",
+    "Microsoft SQL Server",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "11-3111.00": [
+    "SQL",
+    "Microsoft SQL Server",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "11-3121.00": [
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "11-3131.00": [
+    "JavaScript",
+    "Cassandra",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "11-9013.00": [
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "11-9021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "11-9031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "11-9032.00": [
+    "MATLAB",
+    "Cassandra",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "11-9033.00": [
+    "HTML/CSS",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "11-9041.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "React",
+    "Node.js",
+    "Django",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Ansible",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Jira",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "11-9041.01": [
+    "Python",
+    "Java",
+    "Perl",
+    "SQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "11-9051.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "11-9071.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "11-9072.00": [
+    "VBA",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks"
+  ],
+  "11-9081.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "11-9111.00": [
+    "R",
+    "SQL",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Google Sheets",
+    "SAP",
+    "Salesforce",
+    "QuickBooks"
+  ],
+  "11-9121.00": [
+    "R",
+    "MATLAB",
+    "SQL",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "11-9121.01": [
+    "Python",
+    "R",
+    "MATLAB",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "11-9121.02": [
+    "SQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "11-9131.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "11-9141.00": [
+    "C",
+    "HTML/CSS",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "11-9151.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "11-9161.00": [
+    "SQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "11-9171.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "11-9179.01": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "11-9179.02": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "11-9199.01": [
+    "SQL",
+    "Data Analysis",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "11-9199.02": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "11-9199.08": [
+    "SQL",
+    "MySQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "11-9199.09": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "11-9199.10": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "11-9199.11": [
+    "Python",
+    "SQL",
+    "PostgreSQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Data Analysis",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "13-1011.00": [
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "13-1021.00": [
+    "Angular",
+    "AWS",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira"
+  ],
+  "13-1022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "13-1023.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "13-1031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "13-1032.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "13-1041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "13-1041.01": [
+    "R",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "AutoCAD"
+  ],
+  "13-1041.03": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "13-1041.04": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "13-1041.06": [
+    "SQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "13-1041.07": [
+    "SQL",
+    "Microsoft SQL Server",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "13-1041.08": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "13-1051.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks",
+    "AutoCAD"
+  ],
+  "13-1071.00": [
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks"
+  ],
+  "13-1074.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "QuickBooks"
+  ],
+  "13-1075.00": [
+    "Kubernetes",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "13-1081.00": [
+    "SQL",
+    "Microsoft SQL Server",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks",
+    "AutoCAD"
+  ],
+  "13-1081.01": [
+    "Python",
+    "Java",
+    "C",
+    "SQL",
+    "VBA",
+    "Microsoft SQL Server",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "13-1081.02": [
+    "MATLAB",
+    "SQL",
+    "VBA",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "13-1082.00": [
+    "VBA",
+    "Microsoft Azure",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks",
+    "Jira",
+    "AutoCAD"
+  ],
+  "13-1111.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "Angular",
+    "jQuery",
+    "Node.js",
+    "ASP.NET",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "AWS",
+    "Microsoft Azure",
+    "Ansible",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira"
+  ],
+  "13-1121.00": [
+    "HTML/CSS",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "13-1131.00": [
+    "SQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "13-1141.00": [
+    "SQL",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "13-1151.00": [
+    "JavaScript",
+    "PHP",
+    "SQL",
+    "HTML/CSS",
+    "Django",
+    "MySQL",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "13-1161.00": [
+    "JavaScript",
+    "PHP",
+    "R",
+    "MATLAB",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "MySQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "13-1161.01": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "PHP",
+    "SQL",
+    "HTML/CSS",
+    "ASP.NET",
+    "MySQL",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Data Analysis",
+    "Tableau",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "13-1199.04": [
+    "SQL",
+    "Microsoft SQL Server",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Jira"
+  ],
+  "13-1199.05": [
+    "JavaScript",
+    "SQL",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "13-1199.06": [
+    "JavaScript",
+    "Java",
+    "C",
+    "PHP",
+    "SQL",
+    "HTML/CSS",
+    "jQuery",
+    "MySQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Data Analysis",
+    "Power BI",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "13-1199.07": [
+    "JavaScript",
+    "Java",
+    "SQL",
+    "AWS",
+    "Microsoft Azure",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "13-2011.00": [
+    "Swift",
+    "R",
+    "SQL",
+    "VBA",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Google Sheets",
+    "SAP",
+    "Salesforce",
+    "QuickBooks"
+  ],
+  "13-2022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "13-2023.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "13-2031.00": [
+    "SQL",
+    "Data Analysis",
+    "Power BI",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "13-2041.00": [
+    "Python",
+    "SQL",
+    "VBA",
+    "Microsoft SQL Server",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "13-2051.00": [
+    "R",
+    "MATLAB",
+    "SQL",
+    "VBA",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Data Visualization",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks"
+  ],
+  "13-2052.00": [
+    "Swift",
+    "SQL",
+    "Microsoft SQL Server",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "13-2053.00": [
+    "C",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "13-2054.00": [
+    "Python",
+    "C",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "VBA",
+    "Microsoft SQL Server",
+    "AWS",
+    "Microsoft Azure",
+    "Linux Administration",
+    "Machine Learning",
+    "Deep Learning",
+    "Data Analysis",
+    "Data Visualization",
+    "PyTorch",
+    "TensorFlow",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks",
+    "Jira"
+  ],
+  "13-2061.00": [
+    "R",
+    "SQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "13-2071.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "13-2072.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "13-2081.00": [
+    "Data Analysis",
+    "Power BI",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "13-2082.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "QuickBooks"
+  ],
+  "13-2099.01": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "R",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "VBA",
+    "Microsoft SQL Server",
+    "AWS",
+    "Microsoft Azure",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft PowerPoint"
+  ],
+  "13-2099.04": [
+    "Python",
+    "R",
+    "SQL",
+    "Microsoft SQL Server",
+    "Data Analysis",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "15-1211.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "React",
+    "Angular",
+    "jQuery",
+    "Node.js",
+    "Django",
+    "Spring Boot",
+    "ASP.NET",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Ansible",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira"
+  ],
+  "15-1211.01": [
+    "Python",
+    "JavaScript",
+    "R",
+    "Perl",
+    "SQL",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "15-1212.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "Angular",
+    "Node.js",
+    "Django",
+    "ASP.NET",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Ansible",
+    "Linux Administration",
+    "Data Analysis",
+    "Tableau",
+    "Network Security",
+    "Penetration Testing",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira"
+  ],
+  "15-1221.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "VBA",
+    "Node.js",
+    "Django",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Redis",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "Terraform",
+    "Ansible",
+    "Linux Administration",
+    "Machine Learning",
+    "Deep Learning",
+    "Data Analysis",
+    "Data Visualization",
+    "PyTorch",
+    "TensorFlow",
+    "Scikit-learn",
+    "Pandas",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Video Editing",
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "15-1231.00": [
+    "Python",
+    "Java",
+    "Ruby",
+    "Perl",
+    "SQL",
+    "MySQL",
+    "Microsoft SQL Server",
+    "Microsoft Azure",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "15-1232.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "Angular",
+    "jQuery",
+    "Node.js",
+    "Django",
+    "Spring Boot",
+    "ASP.NET",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Ansible",
+    "Linux Administration",
+    "Data Analysis",
+    "Tableau",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "15-1241.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "HTML/CSS",
+    "Angular",
+    "jQuery",
+    "Node.js",
+    "Django",
+    "Spring Boot",
+    "ASP.NET",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Terraform",
+    "Ansible",
+    "Linux Administration",
+    "Data Analysis",
+    "Tableau",
+    "Penetration Testing",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Jira",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "15-1241.01": [
+    "Python",
+    "Java",
+    "Perl",
+    "SQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "15-1242.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "Angular",
+    "jQuery",
+    "Node.js",
+    "Django",
+    "Spring Boot",
+    "ASP.NET",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "Ansible",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira"
+  ],
+  "15-1243.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "React",
+    "Angular",
+    "jQuery",
+    "Node.js",
+    "Django",
+    "Spring Boot",
+    "ASP.NET",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Ansible",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira"
+  ],
+  "15-1243.01": [
+    "Python",
+    "Java",
+    "C",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Jira"
+  ],
+  "15-1244.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "Perl",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "jQuery",
+    "Node.js",
+    "Django",
+    "ASP.NET",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Ansible",
+    "Linux Administration",
+    "Data Analysis",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Jira"
+  ],
+  "15-1251.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "Haskell",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "React",
+    "Angular",
+    "jQuery",
+    "Node.js",
+    "Django",
+    "Spring Boot",
+    "ASP.NET",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Ansible",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira"
+  ],
+  "15-1252.00": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "C",
+    "Go",
+    "Kotlin",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "Haskell",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "React",
+    "Vue.js",
+    "Angular",
+    "Bootstrap",
+    "jQuery",
+    "Redux",
+    "Node.js",
+    "Django",
+    "Spring Boot",
+    "ASP.NET",
+    "Ruby on Rails",
+    "GraphQL",
+    "React Native",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Redis",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Google Cloud Platform",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "Terraform",
+    "Ansible",
+    "Linux Administration",
+    "Machine Learning",
+    "Deep Learning",
+    "Data Analysis",
+    "PyTorch",
+    "TensorFlow",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Figma",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Google Sheets",
+    "SAP",
+    "Salesforce",
+    "Jira",
+    "Embedded Systems"
+  ],
+  "15-1253.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "Haskell",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "React",
+    "Angular",
+    "jQuery",
+    "Node.js",
+    "Django",
+    "Spring Boot",
+    "ASP.NET",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Jenkins",
+    "Ansible",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Selenium",
+    "Postman",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Google Sheets",
+    "SAP",
+    "Salesforce",
+    "Jira",
+    "AutoCAD",
+    "Embedded Systems"
+  ],
+  "15-1254.00": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "React",
+    "Vue.js",
+    "Angular",
+    "Bootstrap",
+    "jQuery",
+    "Redux",
+    "Webpack",
+    "Node.js",
+    "Django",
+    "Spring Boot",
+    "ASP.NET",
+    "Ruby on Rails",
+    "GraphQL",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Redis",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Google Cloud Platform",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "Ansible",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Figma",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Selenium",
+    "Jest",
+    "Microsoft Excel",
+    "SAP",
+    "Salesforce",
+    "Jira"
+  ],
+  "15-1255.00": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "React",
+    "Vue.js",
+    "Angular",
+    "Bootstrap",
+    "jQuery",
+    "Node.js",
+    "Django",
+    "Spring Boot",
+    "ASP.NET",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Ansible",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Figma",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe XD",
+    "Selenium",
+    "Microsoft Excel",
+    "SAP",
+    "Salesforce",
+    "Jira"
+  ],
+  "15-1255.01": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "C",
+    "PHP",
+    "Ruby",
+    "Perl",
+    "Lua",
+    "SQL",
+    "HTML/CSS",
+    "Ruby on Rails",
+    "MySQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Graphic Design",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Jira"
+  ],
+  "15-1299.01": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "PHP",
+    "Perl",
+    "SQL",
+    "HTML/CSS",
+    "jQuery",
+    "MySQL",
+    "PostgreSQL",
+    "Microsoft SQL Server",
+    "AWS",
+    "Microsoft Azure",
+    "Linux Administration",
+    "Data Analysis",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "15-1299.02": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "C",
+    "Go",
+    "PHP",
+    "R",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "React",
+    "Angular",
+    "Bootstrap",
+    "jQuery",
+    "Node.js",
+    "ASP.NET",
+    "PostgreSQL",
+    "Microsoft SQL Server",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "Linux Administration",
+    "Data Analysis",
+    "Tableau",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Jira",
+    "AutoCAD"
+  ],
+  "15-1299.03": [
+    "Java",
+    "Perl",
+    "SQL",
+    "HTML/CSS",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "15-1299.04": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Rust",
+    "PHP",
+    "Ruby",
+    "Perl",
+    "SQL",
+    "Microsoft SQL Server",
+    "AWS",
+    "Microsoft Azure",
+    "Google Cloud Platform",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "Ansible",
+    "Linux Administration",
+    "Microsoft Excel"
+  ],
+  "15-1299.05": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "PHP",
+    "Ruby",
+    "R",
+    "Perl",
+    "SQL",
+    "React",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "AWS",
+    "Microsoft Azure",
+    "Google Cloud Platform",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "Terraform",
+    "Ansible",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "Jira"
+  ],
+  "15-1299.06": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "PHP",
+    "Ruby",
+    "R",
+    "Perl",
+    "SQL",
+    "HTML/CSS",
+    "AWS",
+    "Microsoft Azure",
+    "Kubernetes",
+    "Terraform",
+    "Ansible",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft PowerPoint"
+  ],
+  "15-1299.07": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "C",
+    "Go",
+    "Rust",
+    "Kotlin",
+    "SQL",
+    "React",
+    "Angular",
+    "Node.js",
+    "Spring Boot",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "Terraform",
+    "Ansible",
+    "Linux Administration",
+    "Jira"
+  ],
+  "15-1299.08": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "React",
+    "Angular",
+    "jQuery",
+    "Node.js",
+    "Django",
+    "Spring Boot",
+    "ASP.NET",
+    "Ruby on Rails",
+    "GraphQL",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Redis",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Google Cloud Platform",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "Terraform",
+    "Ansible",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Adobe Photoshop",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "15-1299.09": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "React",
+    "Angular",
+    "jQuery",
+    "Node.js",
+    "Django",
+    "Spring Boot",
+    "ASP.NET",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Ansible",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira",
+    "AutoCAD"
+  ],
+  "15-2011.00": [
+    "Python",
+    "Java",
+    "C",
+    "R",
+    "SQL",
+    "VBA",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "15-2021.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "PHP",
+    "R",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "HTML/CSS",
+    "MySQL",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Data Visualization",
+    "Tableau",
+    "Statistics",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce",
+    "Jira"
+  ],
+  "15-2031.00": [
+    "Python",
+    "Java",
+    "C",
+    "Swift",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "VBA",
+    "MySQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "15-2041.00": [
+    "Python",
+    "Java",
+    "C",
+    "R",
+    "MATLAB",
+    "SQL",
+    "VBA",
+    "Microsoft SQL Server",
+    "AWS",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "15-2041.01": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "PHP",
+    "R",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "MySQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Data Visualization",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "15-2051.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "Julia",
+    "SQL",
+    "Flask",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "AWS",
+    "Microsoft Azure",
+    "Google Cloud Platform",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "Linux Administration",
+    "Machine Learning",
+    "Deep Learning",
+    "Data Analysis",
+    "PyTorch",
+    "TensorFlow",
+    "Scikit-learn",
+    "Pandas",
+    "NumPy",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "Jira"
+  ],
+  "15-2051.01": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "jQuery",
+    "Django",
+    "ASP.NET",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira"
+  ],
+  "15-2051.02": [
+    "Java",
+    "C",
+    "Go",
+    "SQL",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "15-2099.01": [
+    "Python",
+    "Java",
+    "C",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "HTML/CSS",
+    "MySQL",
+    "Microsoft SQL Server",
+    "Jenkins",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Data Visualization",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "17-1011.00": [
+    "SQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Cassandra",
+    "AWS",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks",
+    "AutoCAD"
+  ],
+  "17-1012.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "17-1021.00": [
+    "Python",
+    "JavaScript",
+    "C",
+    "SQL",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "17-1022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "AutoCAD"
+  ],
+  "17-1022.01": [
+    "Java",
+    "C",
+    "SQL",
+    "HTML/CSS",
+    "AWS",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "17-2011.00": [
+    "Python",
+    "Java",
+    "C",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2021.00": [
+    "Java",
+    "Data Analysis",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2031.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "PHP",
+    "R",
+    "MATLAB",
+    "SQL",
+    "HTML/CSS",
+    "Microsoft Azure",
+    "Linux Administration",
+    "Data Analysis",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks",
+    "Embedded Systems"
+  ],
+  "17-2041.00": [
+    "C",
+    "R",
+    "MATLAB",
+    "SQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2051.00": [
+    "C",
+    "MATLAB",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2051.01": [
+    "Python",
+    "SQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "17-2051.02": [
+    "Python",
+    "Java",
+    "SQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "17-2061.00": [
+    "Python",
+    "Java",
+    "C",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "Linux Administration",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "17-2071.00": [
+    "Python",
+    "Java",
+    "C",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "VBA",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks",
+    "Embedded Systems"
+  ],
+  "17-2072.00": [
+    "Python",
+    "Java",
+    "C",
+    "MATLAB",
+    "SQL",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2072.01": [
+    "Python",
+    "Java",
+    "C",
+    "Ruby",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "SAP",
+    "SolidWorks"
+  ],
+  "17-2081.00": [
+    "Python",
+    "C",
+    "MATLAB",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "17-2111.00": [
+    "Python",
+    "C",
+    "MATLAB",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "17-2111.02": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "17-2112.00": [
+    "Python",
+    "Java",
+    "C",
+    "R",
+    "MATLAB",
+    "SQL",
+    "VBA",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2112.01": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "R",
+    "MATLAB",
+    "HTML/CSS",
+    "jQuery",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Jira",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2112.02": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "Node.js",
+    "Django",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "Terraform",
+    "Ansible",
+    "Linux Administration",
+    "Data Analysis",
+    "Power BI",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Jira",
+    "SolidWorks"
+  ],
+  "17-2112.03": [
+    "C",
+    "R",
+    "MATLAB",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2121.00": [
+    "MATLAB",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2131.00": [
+    "Python",
+    "C",
+    "MATLAB",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2141.00": [
+    "Python",
+    "C",
+    "R",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "VBA",
+    "Microsoft SQL Server",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2141.01": [
+    "Python",
+    "C",
+    "MATLAB",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "17-2141.02": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Swift",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "Node.js",
+    "Jenkins",
+    "Linux Administration",
+    "Adobe Photoshop",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2151.00": [
+    "SQL",
+    "MySQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "17-2161.00": [
+    "Python",
+    "Java",
+    "C",
+    "MATLAB",
+    "Linux Administration",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "17-2171.00": [
+    "Python",
+    "Java",
+    "C",
+    "R",
+    "MATLAB",
+    "SQL",
+    "Linux Administration",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "17-2199.03": [
+    "Python",
+    "C",
+    "R",
+    "MATLAB",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "17-2199.05": [
+    "Python",
+    "Java",
+    "C",
+    "MATLAB",
+    "SQL",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks",
+    "Embedded Systems"
+  ],
+  "17-2199.06": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "MATLAB",
+    "Perl",
+    "Linux Administration",
+    "Data Analysis",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2199.07": [
+    "Python",
+    "Java",
+    "C",
+    "Go",
+    "R",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "Linux Administration",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2199.08": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "MATLAB",
+    "Haskell",
+    "SQL",
+    "AWS",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Jira",
+    "AutoCAD",
+    "SolidWorks",
+    "Robotics"
+  ],
+  "17-2199.09": [
+    "Python",
+    "Java",
+    "SQL",
+    "AWS",
+    "Linux Administration",
+    "Data Analysis",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2199.10": [
+    "Python",
+    "Java",
+    "C",
+    "MATLAB",
+    "SQL",
+    "Microsoft SQL Server",
+    "AWS",
+    "Linux Administration",
+    "Data Analysis",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-2199.11": [
+    "Python",
+    "JavaScript",
+    "C",
+    "R",
+    "MATLAB",
+    "SQL",
+    "VBA",
+    "Linux Administration",
+    "Data Visualization",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-3011.00": [
+    "C",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-3012.00": [
+    "Python",
+    "C",
+    "MATLAB",
+    "Perl",
+    "Linux Administration",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-3013.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-3021.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "SQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Jira",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-3022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "17-3023.00": [
+    "Python",
+    "JavaScript",
+    "C",
+    "MATLAB",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-3024.00": [
+    "Python",
+    "C",
+    "MATLAB",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-3024.01": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "MATLAB",
+    "SQL",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks",
+    "Robotics"
+  ],
+  "17-3025.00": [
+    "Python",
+    "C",
+    "MATLAB",
+    "SQL",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "17-3026.00": [
+    "C",
+    "MATLAB",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-3026.01": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "17-3027.00": [
+    "C",
+    "MATLAB",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-3027.01": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD"
+  ],
+  "17-3028.00": [
+    "MATLAB",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-3029.01": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "17-3029.08": [
+    "MATLAB",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "17-3031.00": [
+    "Python",
+    "JavaScript",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "19-1011.00": [
+    "SQL",
+    "Data Analysis",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "19-1012.00": [
+    "R",
+    "SQL",
+    "HTML/CSS",
+    "Data Analysis",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "19-1013.00": [
+    "R",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "19-1021.00": [
+    "Python",
+    "R",
+    "MATLAB",
+    "Perl",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "19-1022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "19-1023.00": [
+    "Python",
+    "R",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "19-1029.01": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "VBA",
+    "HTML/CSS",
+    "jQuery",
+    "Django",
+    "MySQL",
+    "PostgreSQL",
+    "Microsoft SQL Server",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Data Visualization",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "19-1029.02": [
+    "Python",
+    "C",
+    "R",
+    "MATLAB",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-1029.03": [
+    "Python",
+    "Java",
+    "C",
+    "R",
+    "Perl",
+    "SQL",
+    "Linux Administration",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-1029.04": [
+    "Python",
+    "Java",
+    "C",
+    "R",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-1031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "19-1031.02": [
+    "Python",
+    "Java",
+    "R",
+    "MATLAB",
+    "Perl",
+    "Linux Administration",
+    "Data Analysis",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-1031.03": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-1032.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-1041.00": [
+    "Python",
+    "R",
+    "SQL",
+    "Machine Learning",
+    "Data Analysis",
+    "Data Visualization",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-1042.00": [
+    "Python",
+    "R",
+    "MATLAB",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-2011.00": [
+    "Python",
+    "Java",
+    "C",
+    "R",
+    "MATLAB",
+    "SQL",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-2012.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "MySQL",
+    "SQLite",
+    "AWS",
+    "Microsoft Azure",
+    "Ansible",
+    "Linux Administration",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "19-2021.00": [
+    "Python",
+    "C",
+    "R",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-2031.00": [
+    "Java",
+    "C",
+    "R",
+    "SQL",
+    "HTML/CSS",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "19-2032.00": [
+    "Python",
+    "R",
+    "MATLAB",
+    "HTML/CSS",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SolidWorks"
+  ],
+  "19-2041.00": [
+    "Java",
+    "C",
+    "SQL",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "19-2041.01": [
+    "Python",
+    "Java",
+    "C",
+    "R",
+    "MATLAB",
+    "Perl",
+    "Linux Administration",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-2041.02": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "19-2041.03": [
+    "Python",
+    "Java",
+    "C",
+    "MATLAB",
+    "SQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Data Analysis",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira",
+    "AutoCAD"
+  ],
+  "19-2042.00": [
+    "Python",
+    "MATLAB",
+    "MySQL",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "19-2043.00": [
+    "Python",
+    "C",
+    "Swift",
+    "R",
+    "MATLAB",
+    "SQL",
+    "Data Visualization",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "19-2099.01": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "R",
+    "MATLAB",
+    "Scala",
+    "Perl",
+    "SQL",
+    "Node.js",
+    "Ruby on Rails",
+    "MySQL",
+    "PostgreSQL",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Ansible",
+    "Linux Administration",
+    "Data Analysis",
+    "Tableau",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce",
+    "Jira"
+  ],
+  "19-3011.00": [
+    "Python",
+    "Java",
+    "C",
+    "R",
+    "MATLAB",
+    "SQL",
+    "VBA",
+    "MySQL",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-3011.01": [
+    "Python",
+    "C",
+    "MATLAB",
+    "SQL",
+    "VBA",
+    "MySQL",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-3022.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "R",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-3032.00": [
+    "HTML/CSS",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Google Sheets"
+  ],
+  "19-3033.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Google Sheets"
+  ],
+  "19-3034.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-3039.02": [
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-3039.03": [
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-3041.00": [
+    "R",
+    "Machine Learning",
+    "Data Analysis",
+    "Data Visualization",
+    "Statistics",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "19-3051.00": [
+    "Java",
+    "SQL",
+    "HTML/CSS",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "19-3091.00": [
+    "C",
+    "MATLAB",
+    "SQL",
+    "Machine Learning",
+    "Data Analysis",
+    "Data Visualization",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "19-3092.00": [
+    "Python",
+    "R",
+    "MATLAB",
+    "SQL",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "19-3093.00": [
+    "SQL",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-3094.00": [
+    "Python",
+    "R",
+    "SQL",
+    "Machine Learning",
+    "Data Analysis",
+    "Data Visualization",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "19-3099.01": [
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "Data Analysis",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "19-4012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "19-4012.01": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-4013.00": [
+    "SQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "19-4021.00": [
+    "Data Analysis",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-4031.00": [
+    "Python",
+    "Java",
+    "C",
+    "R",
+    "SQL",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "19-4042.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "19-4043.00": [
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "19-4044.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-4051.00": [
+    "SQL",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-4051.02": [
+    "Java",
+    "SQL",
+    "Microsoft Azure",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-4061.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "R",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-4071.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "19-4092.00": [
+    "Linux Administration",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "19-4099.01": [
+    "JavaScript",
+    "C",
+    "MATLAB",
+    "SQL",
+    "HTML/CSS",
+    "ASP.NET",
+    "Microsoft SQL Server",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Jira"
+  ],
+  "19-4099.03": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "PHP",
+    "R",
+    "MATLAB",
+    "Perl",
+    "SQL",
+    "HTML/CSS",
+    "React",
+    "jQuery",
+    "MySQL",
+    "Microsoft SQL Server",
+    "AWS",
+    "Microsoft Azure",
+    "Ansible",
+    "Linux Administration",
+    "Data Analysis",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira",
+    "AutoCAD"
+  ],
+  "19-5011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "19-5012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "21-1011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "21-1012.00": [
+    "SQL",
+    "Microsoft SQL Server",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "21-1013.00": [
+    "PHP",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "21-1014.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "21-1015.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "21-1021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "21-1022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "21-1023.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "21-1091.00": [
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "21-1092.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "21-1093.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "21-1094.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "21-2011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "21-2021.00": [
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "23-1011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "23-1012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "23-1021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "23-1022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "23-1023.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "23-2011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "23-2093.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "25-1011.00": [
+    "R",
+    "HTML/CSS",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1021.00": [
+    "Python",
+    "Java",
+    "C",
+    "PHP",
+    "HTML/CSS",
+    "Linux Administration",
+    "Adobe Photoshop",
+    "Adobe Premiere Pro",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1022.00": [
+    "SQL",
+    "VBA",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1031.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce",
+    "AutoCAD"
+  ],
+  "25-1032.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "MATLAB",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "25-1041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1042.00": [
+    "MATLAB",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1043.00": [
+    "JavaScript",
+    "Java",
+    "SQL",
+    "Angular",
+    "MySQL",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira"
+  ],
+  "25-1051.00": [
+    "MATLAB",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1052.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1053.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "25-1054.00": [
+    "C",
+    "MATLAB",
+    "Perl",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "25-1061.00": [
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1062.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1063.00": [
+    "Python",
+    "Java",
+    "R",
+    "MATLAB",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1064.00": [
+    "MATLAB",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1065.00": [
+    "C",
+    "R",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1066.00": [
+    "R",
+    "MATLAB",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1067.00": [
+    "R",
+    "MATLAB",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1071.00": [
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1072.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1081.00": [
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1082.00": [
+    "JavaScript",
+    "C",
+    "PHP",
+    "SQL",
+    "MySQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1111.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1112.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1113.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1121.00": [
+    "JavaScript",
+    "PHP",
+    "HTML/CSS",
+    "MySQL",
+    "Linux Administration",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1122.00": [
+    "Data Visualization",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Video Editing",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1123.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1124.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1125.00": [
+    "JavaScript",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1126.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1192.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1193.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-1194.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-2011.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "25-2012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-2021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-2022.00": [
+    "Video Editing",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-2023.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "Go",
+    "PHP",
+    "Ruby",
+    "Scala",
+    "Perl",
+    "SQL",
+    "HTML/CSS",
+    "React",
+    "Angular",
+    "jQuery",
+    "Node.js",
+    "Spring Boot",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Microsoft SQL Server",
+    "Elasticsearch",
+    "Cassandra",
+    "DynamoDB",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Jenkins",
+    "Ansible",
+    "Linux Administration",
+    "Data Analysis",
+    "Data Visualization",
+    "Tableau",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira"
+  ],
+  "25-2031.00": [
+    "Video Editing",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-2032.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "25-2051.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-2055.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-2056.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-2057.00": [
+    "Video Editing",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-2058.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Video Editing",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-2059.01": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-3011.00": [
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "25-3021.00": [
+    "HTML/CSS",
+    "Adobe Photoshop",
+    "Video Editing",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-3031.00": [
+    "Microsoft Excel"
+  ],
+  "25-3041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-4011.00": [
+    "HTML/CSS",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe Premiere Pro",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-4012.00": [
+    "Python",
+    "R",
+    "Perl",
+    "SQL",
+    "Linux Administration",
+    "Data Analysis",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "25-4013.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "25-4022.00": [
+    "JavaScript",
+    "Java",
+    "PHP",
+    "SQL",
+    "HTML/CSS",
+    "Data Visualization",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe Premiere Pro",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "25-4031.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-9021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "25-9031.00": [
+    "JavaScript",
+    "Java",
+    "SQL",
+    "HTML/CSS",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe Premiere Pro",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-9042.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-9043.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "25-9044.00": [
+    "SQL",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-1011.00": [
+    "JavaScript",
+    "PHP",
+    "HTML/CSS",
+    "jQuery",
+    "Data Visualization",
+    "Figma",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe Premiere Pro",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Jira"
+  ],
+  "27-1013.00": [
+    "Python",
+    "JavaScript",
+    "C",
+    "HTML/CSS",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks",
+    "AutoCAD"
+  ],
+  "27-1014.00": [
+    "Python",
+    "JavaScript",
+    "C",
+    "Swift",
+    "PHP",
+    "HTML/CSS",
+    "jQuery",
+    "Figma",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe Premiere Pro",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "27-1021.00": [
+    "Python",
+    "JavaScript",
+    "C",
+    "MATLAB",
+    "HTML/CSS",
+    "jQuery",
+    "Figma",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "27-1022.00": [
+    "JavaScript",
+    "C",
+    "Data Analysis",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "27-1023.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-1024.00": [
+    "JavaScript",
+    "PHP",
+    "SQL",
+    "HTML/CSS",
+    "jQuery",
+    "Figma",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe Premiere Pro",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks",
+    "AutoCAD"
+  ],
+  "27-1025.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "27-1026.00": [
+    "Data Analysis",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "27-1027.00": [
+    "SQL",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "27-2011.00": [
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-2012.00": [
+    "JavaScript",
+    "PHP",
+    "HTML/CSS",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe Premiere Pro",
+    "Video Editing",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Jira"
+  ],
+  "27-2012.03": [
+    "SQL",
+    "HTML/CSS",
+    "Microsoft SQL Server",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-2012.04": [
+    "Java",
+    "AWS",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "27-2012.05": [
+    "Python",
+    "C",
+    "Swift",
+    "Perl",
+    "SQL",
+    "Microsoft SQL Server",
+    "Linux Administration",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce",
+    "Jira"
+  ],
+  "27-2021.00": [
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-2022.00": [
+    "C",
+    "Video Editing",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-2023.00": [
+    "Video Editing",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-2031.00": [
+    "Adobe Photoshop"
+  ],
+  "27-2032.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "27-2041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-2042.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "27-2091.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "27-3011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-3023.00": [
+    "SQL",
+    "HTML/CSS",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Premiere Pro",
+    "Video Editing",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-3031.00": [
+    "JavaScript",
+    "HTML/CSS",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "27-3041.00": [
+    "HTML/CSS",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-3042.00": [
+    "JavaScript",
+    "Java",
+    "C",
+    "PHP",
+    "SQL",
+    "HTML/CSS",
+    "ASP.NET",
+    "Microsoft SQL Server",
+    "Data Analysis",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Jira",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "27-3043.00": [
+    "PHP",
+    "HTML/CSS",
+    "MySQL",
+    "Figma",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe Premiere Pro",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-3043.05": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-3091.00": [
+    "HTML/CSS",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-3092.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "27-4011.00": [
+    "Linux Administration",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-4012.00": [
+    "Linux Administration",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe Premiere Pro",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "27-4014.00": [
+    "Java",
+    "Linux Administration",
+    "Adobe Photoshop",
+    "Adobe Premiere Pro",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "27-4015.00": [
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "27-4021.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "QuickBooks"
+  ],
+  "27-4031.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe Premiere Pro",
+    "Video Editing",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "27-4032.00": [
+    "JavaScript",
+    "HTML/CSS",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe Premiere Pro",
+    "Video Editing",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1011.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-1021.00": [
+    "SQL",
+    "Microsoft Excel"
+  ],
+  "29-1031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1041.00": [
+    "SQL",
+    "Microsoft SQL Server",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "QuickBooks"
+  ],
+  "29-1051.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1071.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-1071.01": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1122.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-1122.01": [
+    "Python",
+    "Java",
+    "Ruby",
+    "AWS",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "29-1123.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-1124.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-1125.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1126.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1127.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-1128.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1129.01": [
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1131.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1141.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1141.01": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "29-1141.02": [
+    "C",
+    "R",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-1141.04": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1151.00": [
+    "Microsoft Word"
+  ],
+  "29-1161.00": [
+    "Microsoft Excel"
+  ],
+  "29-1171.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1181.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1211.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1213.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-1215.00": [
+    "Microsoft Excel"
+  ],
+  "29-1216.00": [
+    "Microsoft Excel"
+  ],
+  "29-1217.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1218.00": [
+    "Microsoft Excel"
+  ],
+  "29-1222.00": [
+    "R",
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "29-1223.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-1224.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-1229.01": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1229.02": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1229.03": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1229.04": [
+    "Microsoft Word"
+  ],
+  "29-1229.05": [
+    "R",
+    "MATLAB",
+    "Data Analysis",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-1229.06": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-1241.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-1291.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-1292.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-1299.01": [
+    "Microsoft Excel"
+  ],
+  "29-1299.02": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-2011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-2011.01": [
+    "Python",
+    "C",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-2011.02": [
+    "Ansible",
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-2011.04": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-2012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "29-2012.01": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-2031.00": [
+    "JavaScript",
+    "PHP",
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-2032.00": [
+    "Microsoft Excel"
+  ],
+  "29-2033.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-2034.00": [
+    "R",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-2035.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-2042.00": [
+    "R",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-2043.00": [
+    "R",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-2051.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-2052.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-2053.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-2055.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-2056.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-2057.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-2061.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "29-2072.00": [
+    "R",
+    "SQL",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "29-2081.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "QuickBooks"
+  ],
+  "29-2091.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks",
+    "AutoCAD"
+  ],
+  "29-2092.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-2099.01": [
+    "JavaScript",
+    "R",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-2099.05": [
+    "JavaScript",
+    "PHP",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD"
+  ],
+  "29-2099.08": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-9021.00": [
+    "R",
+    "SQL",
+    "Microsoft SQL Server",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "29-9091.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-9092.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "29-9093.00": [
+    "Microsoft Excel",
+    "Microsoft PowerPoint"
+  ],
+  "29-9099.01": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "31-1121.00": [
+    "Python",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "31-1131.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "31-1132.00": [
+    "Microsoft Excel"
+  ],
+  "31-1133.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "31-2011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "31-2012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "31-2021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "31-2022.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "31-9011.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "31-9091.00": [
+    "Microsoft Excel"
+  ],
+  "31-9092.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "31-9093.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "31-9094.00": [
+    "ASP.NET",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "31-9095.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "31-9096.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "31-9097.00": [
+    "JavaScript",
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "31-9099.01": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "31-9099.02": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-1011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-1012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-1021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-1091.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "33-2011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-2021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-2022.00": [
+    "SQL",
+    "Microsoft SQL Server",
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
+    "Kubernetes",
+    "Ansible",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "33-3011.00": [
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-3012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-3021.00": [
+    "SQL",
+    "Linux Administration",
+    "Data Analysis",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-3021.02": [
+    "Linux Administration",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-3021.06": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "R",
+    "SQL",
+    "HTML/CSS",
+    "Django",
+    "Microsoft SQL Server",
+    "AWS",
+    "Microsoft Azure",
+    "Google Cloud Platform",
+    "Linux Administration",
+    "Machine Learning",
+    "Deep Learning",
+    "Data Analysis",
+    "Data Visualization",
+    "TensorFlow",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "33-3031.00": [
+    "Swift",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-3041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-3051.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-3051.04": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "33-3052.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-9011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "33-9021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-9031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-9032.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "33-9091.00": [
+    "Microsoft Word"
+  ],
+  "33-9092.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "33-9093.00": [
+    "Java",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "33-9099.02": [
+    "SQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "35-1011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Google Sheets"
+  ],
+  "35-1012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "35-2011.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "35-2012.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "35-2013.00": [
+    "QuickBooks"
+  ],
+  "35-2014.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "35-2021.00": [
+    "Microsoft Excel"
+  ],
+  "35-3011.00": [
+    "QuickBooks"
+  ],
+  "35-3023.00": [
+    "Microsoft Excel",
+    "QuickBooks"
+  ],
+  "35-3023.01": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "35-3031.00": [
+    "QuickBooks"
+  ],
+  "35-9011.00": [
+    "Microsoft Excel"
+  ],
+  "35-9031.00": [
+    "Microsoft Excel"
+  ],
+  "37-1011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "37-1012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "37-2011.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "37-2012.00": [
+    "Microsoft Excel"
+  ],
+  "37-2021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "QuickBooks"
+  ],
+  "37-3011.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "37-3012.00": [
+    "Microsoft Excel"
+  ],
+  "37-3013.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "39-1013.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "39-1014.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "39-1022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "39-2011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Jira"
+  ],
+  "39-2021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "39-3011.00": [
+    "Microsoft Excel"
+  ],
+  "39-3012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "39-3021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "39-3031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "39-3091.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "39-3092.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "39-3093.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "39-4011.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "39-4012.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "39-4021.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "39-4031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "39-5011.00": [
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "39-5012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "QuickBooks"
+  ],
+  "39-5091.00": [
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "QuickBooks"
+  ],
+  "39-5092.00": [
+    "Microsoft Excel"
+  ],
+  "39-5094.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "39-6011.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "39-6012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "39-7011.00": [
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "39-7012.00": [
+    "SQL",
+    "Data Analysis",
+    "Data Visualization",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "39-9011.00": [
+    "Microsoft Word"
+  ],
+  "39-9011.01": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "39-9031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "39-9032.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "39-9041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "41-1011.00": [
+    "R",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks"
+  ],
+  "41-1012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "41-2011.00": [
+    "Microsoft Excel"
+  ],
+  "41-2012.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "41-2021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "41-2022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "41-2031.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks",
+    "AutoCAD"
+  ],
+  "41-3011.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "41-3021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "41-3031.00": [
+    "Python",
+    "Java",
+    "C",
+    "R",
+    "MATLAB",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "41-3041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "41-3091.00": [
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "41-4011.00": [
+    "R",
+    "SQL",
+    "AWS",
+    "Microsoft Azure",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks"
+  ],
+  "41-4011.07": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce",
+    "AutoCAD"
+  ],
+  "41-4012.00": [
+    "HTML/CSS",
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks",
+    "AutoCAD"
+  ],
+  "41-9011.00": [
+    "HTML/CSS",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "41-9012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "41-9021.00": [
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce",
+    "QuickBooks"
+  ],
+  "41-9022.00": [
+    "React",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "41-9031.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
+    "PHP",
+    "Ruby",
+    "R",
+    "Perl",
+    "SQL",
+    "HTML/CSS",
+    "React",
+    "Microsoft SQL Server",
+    "Cassandra",
+    "AWS",
+    "Microsoft Azure",
+    "Google Cloud Platform",
+    "Docker",
+    "Kubernetes",
+    "Ansible",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "Jira",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "41-9041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "41-9091.00": [
+    "Microsoft Excel"
+  ],
+  "43-1011.00": [
+    "Machine Learning",
+    "Data Analysis",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks"
+  ],
+  "43-2011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "43-2021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-3011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "43-3021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "43-3031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "43-3041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-3051.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "43-3061.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "43-3071.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-4011.00": [
+    "SQL",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "43-4021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "43-4031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-4041.00": [
+    "SQL",
+    "Data Analysis",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "43-4051.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks"
+  ],
+  "43-4061.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-4071.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "43-4081.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-4111.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "43-4121.00": [
+    "C",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-4131.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-4141.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-4151.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "43-4161.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "43-4171.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "43-4181.00": [
+    "Go",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-5011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "43-5011.01": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "43-5021.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "43-5031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "43-5032.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "43-5041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-5052.00": [
+    "Microsoft Word"
+  ],
+  "43-5053.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "43-5061.00": [
+    "SQL",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "43-5071.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "43-5111.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "43-6011.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "43-6012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "43-6013.00": [
+    "C",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "43-6014.00": [
+    "SQL",
+    "HTML/CSS",
+    "Microsoft SQL Server",
+    "Cassandra",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Google Sheets",
+    "SAP",
+    "Salesforce",
+    "QuickBooks",
+    "Jira"
+  ],
+  "43-9021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks"
+  ],
+  "43-9022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "43-9031.00": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "PHP",
+    "Perl",
+    "HTML/CSS",
+    "jQuery",
+    "MySQL",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "43-9041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-9051.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-9061.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks"
+  ],
+  "43-9071.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-9081.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "43-9111.00": [
+    "Python",
+    "Java",
+    "C",
+    "R",
+    "MATLAB",
+    "SQL",
+    "Machine Learning",
+    "Data Analysis",
+    "Data Visualization",
+    "Tableau",
+    "Statistics",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "45-1011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "45-2011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "45-2021.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "45-2041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "45-2091.00": [
+    "Microsoft Excel",
+    "Microsoft PowerPoint"
+  ],
+  "45-2092.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "45-2093.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "45-3031.00": [
+    "Microsoft Excel"
+  ],
+  "45-4011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "45-4021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "45-4022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "45-4023.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "47-1011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "47-1011.03": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "AutoCAD"
+  ],
+  "47-2011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD"
+  ],
+  "47-2021.00": [
+    "Microsoft Excel",
+    "QuickBooks"
+  ],
+  "47-2022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "QuickBooks"
+  ],
+  "47-2031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "QuickBooks"
+  ],
+  "47-2041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "AutoCAD"
+  ],
+  "47-2043.00": [
+    "Microsoft Excel"
+  ],
+  "47-2044.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce"
+  ],
+  "47-2053.00": [
+    "Microsoft Excel",
+    "QuickBooks"
+  ],
+  "47-2061.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "47-2071.00": [
+    "Microsoft Excel",
+    "AutoCAD"
+  ],
+  "47-2072.00": [
+    "Microsoft Excel"
+  ],
+  "47-2073.00": [
+    "Microsoft Excel"
+  ],
+  "47-2081.00": [
+    "Microsoft Word"
+  ],
+  "47-2082.00": [
+    "QuickBooks"
+  ],
+  "47-2111.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD"
+  ],
+  "47-2121.00": [
+    "Microsoft Excel"
+  ],
+  "47-2131.00": [
+    "Microsoft Excel"
+  ],
+  "47-2141.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "47-2142.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "47-2151.00": [
+    "Microsoft Excel"
+  ],
+  "47-2152.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "QuickBooks"
+  ],
+  "47-2152.04": [
+    "Java",
+    "VBA",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "47-2161.00": [
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Salesforce",
+    "Embedded Systems"
+  ],
+  "47-2181.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "47-2211.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "AutoCAD"
+  ],
+  "47-2231.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Salesforce"
+  ],
+  "47-3011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "47-3012.00": [
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "QuickBooks"
+  ],
+  "47-3013.00": [
+    "Microsoft Excel"
+  ],
+  "47-3014.00": [
+    "Microsoft Excel"
+  ],
+  "47-3015.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "47-4011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks",
+    "AutoCAD"
+  ],
+  "47-4011.01": [
+    "Python",
+    "C",
+    "R",
+    "MATLAB",
+    "SQL",
+    "Linux Administration",
+    "Machine Learning",
+    "Data Analysis",
+    "Statistics",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce",
+    "AutoCAD"
+  ],
+  "47-4021.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "47-4031.00": [
+    "Microsoft Excel",
+    "AutoCAD"
+  ],
+  "47-4041.00": [
+    "Jenkins",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "47-4051.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "47-4061.00": [
+    "Microsoft Excel"
+  ],
+  "47-4071.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "QuickBooks"
+  ],
+  "47-4091.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "47-4099.03": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "47-5011.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "47-5012.00": [
+    "Python",
+    "SQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "Salesforce"
+  ],
+  "47-5013.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "47-5022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "47-5023.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "47-5032.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "47-5041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "47-5044.00": [
+    "Microsoft Excel",
+    "Microsoft PowerPoint"
+  ],
+  "47-5051.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "47-5071.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "47-5081.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "49-1011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "49-2011.00": [
+    "JavaScript",
+    "SQL",
+    "HTML/CSS",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "49-2021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "49-2022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "49-2091.00": [
+    "Java",
+    "C",
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "49-2092.00": [
+    "Python",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "49-2093.00": [
+    "Linux Administration",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "49-2094.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD"
+  ],
+  "49-2095.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "AutoCAD"
+  ],
+  "49-2096.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "49-2097.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "49-2098.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "49-3011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "49-3021.00": [
+    "R",
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "49-3023.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "49-3031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "49-3041.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "49-3042.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "49-3043.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "49-3051.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "49-3052.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "49-3053.00": [
+    "Microsoft Excel"
+  ],
+  "49-3091.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "49-3092.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "49-3093.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "49-9011.00": [
+    "Microsoft Excel",
+    "Microsoft PowerPoint"
+  ],
+  "49-9012.00": [
+    "SQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "49-9021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "49-9031.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "49-9041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "49-9043.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "49-9044.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "49-9045.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "49-9051.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "49-9052.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "AutoCAD"
+  ],
+  "49-9061.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "49-9062.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "49-9064.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "QuickBooks"
+  ],
+  "49-9071.00": [
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "49-9081.00": [
+    "SQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "49-9091.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "49-9094.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "49-9095.00": [
+    "Microsoft Excel"
+  ],
+  "49-9096.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "AutoCAD"
+  ],
+  "49-9097.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "49-9098.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "49-9099.01": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD"
+  ],
+  "51-1011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "51-2011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "51-2022.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "51-2023.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD"
+  ],
+  "51-2031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "SolidWorks"
+  ],
+  "51-2041.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-2051.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-2092.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "51-3011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "51-3021.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-3022.00": [
+    "Microsoft Excel"
+  ],
+  "51-3023.00": [
+    "Microsoft Excel"
+  ],
+  "51-3091.00": [
+    "Microsoft Excel"
+  ],
+  "51-4021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-4031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD"
+  ],
+  "51-4032.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "51-4033.00": [
+    "Microsoft Excel",
+    "SAP",
+    "AutoCAD"
+  ],
+  "51-4035.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "51-4041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "51-4051.00": [
+    "Microsoft Excel"
+  ],
+  "51-4052.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "51-4061.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-4062.00": [
+    "Microsoft Excel",
+    "AutoCAD"
+  ],
+  "51-4071.00": [
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "51-4072.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "Robotics"
+  ],
+  "51-4081.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD"
+  ],
+  "51-4111.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "51-4121.00": [
+    "Microsoft Excel"
+  ],
+  "51-4122.00": [
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-4191.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "51-4192.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD"
+  ],
+  "51-4193.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "AutoCAD"
+  ],
+  "51-4194.00": [
+    "Microsoft Excel",
+    "SolidWorks"
+  ],
+  "51-5111.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "51-5112.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "51-5113.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-6011.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-6021.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-6031.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-6041.00": [
+    "Microsoft Excel"
+  ],
+  "51-6042.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "51-6051.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft PowerPoint"
+  ],
+  "51-6052.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-6061.00": [
+    "Linux Administration",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-6062.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD"
+  ],
+  "51-6063.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "51-6064.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-6091.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "51-6092.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "AutoCAD"
+  ],
+  "51-6093.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks",
+    "AutoCAD"
+  ],
+  "51-7011.00": [
+    "Microsoft Excel",
+    "AutoCAD"
+  ],
+  "51-7021.00": [
+    "QuickBooks"
+  ],
+  "51-7031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "51-7032.00": [
+    "Microsoft Excel",
+    "AutoCAD"
+  ],
+  "51-7041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "51-7042.00": [
+    "Java",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "51-8011.00": [
+    "SQL",
+    "Microsoft Azure",
+    "Data Analysis",
+    "Power BI",
+    "Microsoft Excel",
+    "Microsoft PowerPoint"
+  ],
+  "51-8012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-8013.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-8013.03": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-8013.04": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-8021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-8031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "51-8091.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-8092.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-8093.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-8099.01": [
+    "Python",
+    "R",
+    "Data Analysis",
+    "Data Visualization",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-9011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-9012.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-9021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "51-9022.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-9023.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "51-9031.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-9032.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "51-9041.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "51-9051.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-9061.00": [
+    "R",
+    "MATLAB",
+    "SQL",
+    "Selenium",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Jira",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "51-9071.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "QuickBooks"
+  ],
+  "51-9081.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "QuickBooks"
+  ],
+  "51-9082.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "AutoCAD"
+  ],
+  "51-9083.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-9111.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-9123.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel"
+  ],
+  "51-9124.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-9141.00": [
+    "Python",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-9151.00": [
+    "TypeScript",
+    "SQL",
+    "HTML/CSS",
+    "MySQL",
+    "MongoDB",
+    "AWS",
+    "Docker",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-9161.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "51-9162.00": [
+    "R",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD",
+    "SolidWorks"
+  ],
+  "51-9191.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-9192.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-9193.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "51-9194.00": [
+    "Adobe Illustrator"
+  ],
+  "51-9195.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SolidWorks"
+  ],
+  "51-9195.03": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-9195.04": [
+    "Microsoft Excel"
+  ],
+  "51-9195.05": [
+    "Microsoft Excel"
+  ],
+  "51-9196.00": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "51-9197.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "51-9198.00": [
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "AutoCAD"
+  ],
+  "53-1041.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "53-1042.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "53-1042.01": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "53-1043.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "53-1044.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "53-2011.00": [
+    "R",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "53-2021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "53-2022.00": [
+    "Linux Administration",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "QuickBooks"
+  ],
+  "53-2031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "53-3011.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "53-3031.00": [
+    "Microsoft Excel"
+  ],
+  "53-3032.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "53-3033.00": [
+    "Microsoft Excel"
+  ],
+  "53-3053.00": [
+    "Microsoft Excel"
+  ],
+  "53-3054.00": [
+    "Microsoft Excel"
+  ],
+  "53-4011.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "53-4022.00": [
+    "Microsoft Excel"
+  ],
+  "53-4031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "53-5011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "53-5021.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "53-5031.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP",
+    "Salesforce"
+  ],
+  "53-6011.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "53-6021.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "53-6031.00": [
+    "Microsoft Excel"
+  ],
+  "53-6032.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "53-6041.00": [
+    "Python",
+    "C",
+    "R",
+    "MATLAB",
+    "SQL",
+    "Data Analysis",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "Salesforce",
+    "AutoCAD"
+  ],
+  "53-6051.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "53-6051.01": [
+    "Data Analysis",
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint",
+    "SAP"
+  ],
+  "53-6051.07": [
+    "SQL",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Microsoft PowerPoint"
+  ],
+  "53-6061.00": [
+    "Microsoft Word"
+  ],
+  "53-7011.00": [
+    "Microsoft Excel",
+    "SAP"
+  ],
+  "53-7021.00": [
+    "Microsoft Excel"
+  ],
+  "53-7041.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "53-7051.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD"
+  ],
+  "53-7062.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD"
+  ],
+  "53-7062.04": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "53-7063.00": [
+    "Microsoft Excel"
+  ],
+  "53-7064.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP",
+    "AutoCAD"
+  ],
+  "53-7065.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "53-7071.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "53-7072.00": [
+    "Microsoft Excel",
+    "Microsoft Word"
+  ],
+  "53-7073.00": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "SAP"
+  ],
+  "53-7121.00": [
+    "Linux Administration",
+    "Microsoft Excel",
+    "SAP"
+  ]
+}

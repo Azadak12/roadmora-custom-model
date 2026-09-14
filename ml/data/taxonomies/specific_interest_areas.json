@@ -1,0 +1,140 @@
+{
+  "_source": "O*NET 31.0 Database, 'Specific Interest Areas to Career Interest Types' (National Center for O*NET Development, U.S. Dept. of Labor, public domain). Some specific interest areas load onto more than one RIASEC type.",
+  "areas": {
+    "Mechanics/Electronics": [
+      "Realistic"
+    ],
+    "Construction/Woodwork": [
+      "Realistic"
+    ],
+    "Transportation/Machine Operation": [
+      "Realistic"
+    ],
+    "Physical/Manual Labor": [
+      "Realistic"
+    ],
+    "Protective Service": [
+      "Realistic"
+    ],
+    "Agriculture": [
+      "Realistic"
+    ],
+    "Nature/Outdoors": [
+      "Realistic"
+    ],
+    "Animal Service": [
+      "Realistic",
+      "Social"
+    ],
+    "Athletics": [
+      "Realistic",
+      "Enterprising"
+    ],
+    "Engineering": [
+      "Realistic"
+    ],
+    "Physical Science": [
+      "Investigative"
+    ],
+    "Life Science": [
+      "Investigative"
+    ],
+    "Medical Science": [
+      "Investigative"
+    ],
+    "Social Science": [
+      "Investigative",
+      "Social"
+    ],
+    "Humanities": [
+      "Investigative",
+      "Artistic"
+    ],
+    "Mathematics/Statistics": [
+      "Investigative",
+      "Conventional"
+    ],
+    "Information Technology": [
+      "Conventional"
+    ],
+    "Visual Arts": [
+      "Artistic"
+    ],
+    "Applied Arts and Design": [
+      "Artistic"
+    ],
+    "Performing Arts": [
+      "Artistic"
+    ],
+    "Music": [
+      "Artistic"
+    ],
+    "Creative Writing": [
+      "Artistic"
+    ],
+    "Media": [
+      "Artistic"
+    ],
+    "Culinary Art": [
+      "Artistic",
+      "Social"
+    ],
+    "Teaching/Education": [
+      "Social"
+    ],
+    "Social Service": [
+      "Social"
+    ],
+    "Health Care Service": [
+      "Investigative",
+      "Social"
+    ],
+    "Religious Activities": [
+      "Social",
+      "Enterprising"
+    ],
+    "Personal Service": [
+      "Social"
+    ],
+    "Professional Advising": [
+      "Social",
+      "Enterprising"
+    ],
+    "Business Initiatives": [
+      "Enterprising"
+    ],
+    "Sales": [
+      "Enterprising"
+    ],
+    "Marketing/Advertising": [
+      "Artistic",
+      "Enterprising"
+    ],
+    "Finance": [
+      "Enterprising",
+      "Conventional"
+    ],
+    "Accounting": [
+      "Conventional"
+    ],
+    "Human Resources": [
+      "Social",
+      "Conventional"
+    ],
+    "Office Work": [
+      "Conventional"
+    ],
+    "Management/Administration": [
+      "Enterprising"
+    ],
+    "Public Speaking": [
+      "Enterprising"
+    ],
+    "Politics": [
+      "Enterprising"
+    ],
+    "Law": [
+      "Enterprising"
+    ]
+  }
+}

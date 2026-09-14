@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.env
+.env.local
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+
+# Stray leftover copy of the old n8n-based project, unused by current code
+backend/roadmora-ai/
+
+# Baseline models kept locally for comparison only; predict.py only loads
+# riasec_mlp.pt + riasec_mlp_input_dim.json + knowledge_base.json
+ml/models/baseline_random_forest.joblib
+ml/models/riasec_random_forest.joblib
+ml/models/baseline_confusion_matrix.npy

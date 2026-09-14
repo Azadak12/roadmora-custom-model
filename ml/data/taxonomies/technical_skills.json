@@ -1,0 +1,54 @@
+{
+  "Programming Languages": [
+    "Python", "JavaScript", "TypeScript", "Java", "C", "C++", "C#", "Go", "Rust",
+    "Kotlin", "Swift", "PHP", "Ruby", "R", "MATLAB", "Scala", "Perl", "Dart",
+    "Objective-C", "Lua", "Haskell", "Julia", "Shell/Bash", "SQL", "VBA"
+  ],
+  "Web Frontend": [
+    "HTML/CSS", "React", "Vue.js", "Angular", "Svelte", "Next.js", "Nuxt.js",
+    "Tailwind CSS", "Bootstrap", "jQuery", "Redux", "Webpack", "Vite"
+  ],
+  "Web Backend": [
+    "Node.js", "Express.js", "Django", "Flask", "FastAPI", "Spring Boot",
+    "ASP.NET", "Laravel", "Ruby on Rails", "NestJS", "GraphQL", "REST API Design"
+  ],
+  "Mobile Development": [
+    "Android (Kotlin/Java)", "iOS (Swift)", "React Native", "Flutter", "Xamarin", "Ionic"
+  ],
+  "Databases": [
+    "MySQL", "PostgreSQL", "MongoDB", "SQLite", "Microsoft SQL Server", "Oracle DB",
+    "Redis", "Firebase", "Supabase", "Elasticsearch", "Cassandra", "DynamoDB"
+  ],
+  "Cloud & DevOps": [
+    "AWS", "Microsoft Azure", "Google Cloud Platform", "Docker", "Kubernetes",
+    "CI/CD", "Jenkins", "GitHub Actions", "Terraform", "Ansible", "Linux Administration", "Nginx"
+  ],
+  "Data Science & AI/ML": [
+    "Machine Learning", "Deep Learning", "Natural Language Processing", "Computer Vision",
+    "Data Analysis", "Data Visualization", "PyTorch", "TensorFlow", "Scikit-learn",
+    "Pandas", "NumPy", "Power BI", "Tableau", "Statistics", "Big Data (Spark/Hadoop)"
+  ],
+  "Cybersecurity": [
+    "Network Security", "Penetration Testing", "Ethical Hacking", "Cryptography",
+    "SOC/Incident Response", "Cloud Security", "Application Security (OWASP)"
+  ],
+  "Design & Media": [
+    "UI/UX Design", "Figma", "Adobe Photoshop", "Adobe Illustrator", "Adobe XD",
+    "Adobe Premiere Pro", "3D Modeling (Blender)", "Video Editing", "Graphic Design"
+  ],
+  "Testing & QA": [
+    "Manual Testing", "Automated Testing", "Selenium", "Cypress", "Jest", "Postman"
+  ],
+  "Business & Productivity Tools": [
+    "Microsoft Excel", "Microsoft Word", "Microsoft PowerPoint", "Google Sheets",
+    "SAP", "Salesforce", "QuickBooks", "Jira", "Notion", "Project Management (Agile/Scrum)"
+  ],
+  "Engineering & Technical": [
+    "AutoCAD", "SolidWorks", "MATLAB/Simulink", "Circuit Design", "PLC Programming",
+    "Embedded Systems", "IoT Development", "Robotics"
+  ],
+  "Other Technical": [
+    "Blockchain Development", "Game Development (Unity/Unreal)", "GIS/Mapping Systems",
+    "Technical Writing", "System Administration", "Networking (CCNA-level)"
+  ]
+}
