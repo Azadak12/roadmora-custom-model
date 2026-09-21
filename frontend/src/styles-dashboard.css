@@ -1,31 +1,46 @@
 /* ═══════════════════════════════════════════════
    ROADMORA AI — DASHBOARD
+   Styles the logged-in Dashboard page AND the Admin pages
+   (pages/DashboardPage.jsx, pages/AdminDashboardPage.jsx, pages/AdminLoginPage.jsx).
+   This file is separate from styles-site.css (the public marketing page) —
+   changing a color here does NOT affect the homepage, and vice versa.
 ═══════════════════════════════════════════════ */
 
-:root {
-  --bg:        #0A0F1E;
-  --bg2:       #0F1628;
-  --surface:   #141C35;
-  --surface2:  #1A2340;
-  --border:    rgba(255,255,255,.07);
-  --border-hi: rgba(79,70,229,.3);
+/* ═══════════════════════════════════════════════
+   QUICK GUIDE — "I want to change ___, where do I look?"
+   Search this file for the text in [brackets] (Cmd+F / Ctrl+F).
 
-  --indigo:    #4F46E5;
-  --indigo-lt: #6366F1;
-  --cyan:      #06B6D4;
-  --green:     #10B981;
-  --amber:     #F59E0B;
-  --red:       #EF4444;
+   - Any color anywhere on the dashboard          -> [COLOR VARIABLES] below
+   - The saved-result cards on the dashboard        -> [── RESULT CARD ──]
+   - Stat numbers at the top of the dashboard       -> [── STATS ──]
+   - Dashboard buttons                              -> [── BUTTONS ──]
+   - Admin login page                               -> [── ADMIN LOGIN PAGE ──]
+═══════════════════════════════════════════════ */
 
-  --text:      #F0F4F8;
-  --text-2:    #C8D5E4;
-  --text-3:    #8FA3B8;
-  --text-4:    #506070;
+:root { /* [COLOR VARIABLES] */
+  --bg:        #0A0F1E;  /* page background */
+  --bg2:       #0F1628;  /* slightly lighter background */
+  --surface:   #141C35;  /* card background */
+  --surface2:  #1A2340;  /* lighter card background (hover) */
+  --border:    rgba(255,255,255,.07);  /* faint white border */
+  --border-hi: rgba(79,70,229,.3);     /* highlighted purple border */
 
-  --radius-sm: 8px;
-  --radius:    12px;
-  --radius-lg: 18px;
-  --radius-xl: 24px;
+  --indigo:    #4F46E5;  /* main brand blue/purple */
+  --indigo-lt: #6366F1;  /* lighter brand blue, used in gradients/hover */
+  --cyan:      #06B6D4;  /* accent teal */
+  --green:     #10B981;  /* success color */
+  --amber:     #F59E0B;  /* warning color */
+  --red:       #EF4444;  /* error/danger color */
+
+  --text:      #F0F4F8;  /* brightest text (headings) */
+  --text-2:    #C8D5E4;  /* body text */
+  --text-3:    #8FA3B8;  /* muted/secondary text */
+  --text-4:    #506070;  /* faintest text */
+
+  --radius-sm: 8px;   /* small rounded corners */
+  --radius:    12px;  /* default rounded corners */
+  --radius-lg: 18px;  /* large rounded corners (cards) */
+  --radius-xl: 24px;  /* extra-large rounded corners */
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -117,18 +132,32 @@ h1,h2,h3,h4 { font-family: 'Inter', sans-serif; line-height: 1.2; }
   transition: all .2s;
   white-space: nowrap;
 }
-.tb-btn--primary {
+/* One class per button, same reasoning as styles-site.css — each button's
+   color is independent, changing one can't accidentally change another. */
+.db-topbar-new-assessment-btn {
   background: linear-gradient(135deg, var(--indigo), var(--indigo-lt));
   color: #fff;
   box-shadow: 0 2px 12px rgba(79,70,229,.35);
 }
-.tb-btn--primary:hover { opacity: .9; transform: translateY(-1px); }
-.tb-btn--ghost {
+.db-topbar-new-assessment-btn:hover { opacity: .9; transform: translateY(-1px); }
+.db-topbar-logout-btn {
   background: transparent;
   color: var(--text-3);
   border: 1px solid var(--border);
 }
-.tb-btn--ghost:hover { background: var(--surface2); color: var(--text); }
+.db-topbar-logout-btn:hover { background: var(--surface2); color: var(--text); }
+.db-empty-state-assessment-btn {
+  background: linear-gradient(135deg, var(--indigo), var(--indigo-lt));
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(79,70,229,.35);
+}
+.db-empty-state-assessment-btn:hover { opacity: .9; transform: translateY(-1px); }
+.db-modal-new-assessment-btn {
+  background: transparent;
+  color: var(--text-3);
+  border: 1px solid var(--border);
+}
+.db-modal-new-assessment-btn:hover { background: var(--surface2); color: var(--text); }
 
 /* ═══════════════════════════════════════════════
    MAIN LAYOUT
@@ -794,5 +823,5 @@ h1,h2,h3,h4 { font-family: 'Inter', sans-serif; line-height: 1.2; }
 @media (max-width: 480px) {
   .db-stats { grid-template-columns: 1fr; }
   .rm-market { grid-template-columns: 1fr; }
-  .tb-btn--ghost { display: none; }
+  .db-topbar-logout-btn { display: none; }
 }

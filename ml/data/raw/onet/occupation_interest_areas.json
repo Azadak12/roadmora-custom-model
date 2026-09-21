@@ -1,0 +1,4510 @@
+{
+  "11-1011.00": [
+    "Management/Administration",
+    "Business Initiatives",
+    "Finance",
+    "Public Speaking",
+    "Accounting"
+  ],
+  "11-1021.00": [
+    "Management/Administration",
+    "Business Initiatives",
+    "Human Resources"
+  ],
+  "11-1031.00": [
+    "Politics",
+    "Public Speaking",
+    "Law",
+    "Management/Administration"
+  ],
+  "11-2011.00": [
+    "Marketing/Advertising",
+    "Management/Administration",
+    "Business Initiatives",
+    "Media",
+    "Sales"
+  ],
+  "11-2021.00": [
+    "Marketing/Advertising",
+    "Management/Administration",
+    "Business Initiatives",
+    "Sales",
+    "Public Speaking"
+  ],
+  "11-2022.00": [
+    "Sales",
+    "Management/Administration",
+    "Business Initiatives",
+    "Public Speaking",
+    "Marketing/Advertising"
+  ],
+  "11-2032.00": [
+    "Marketing/Advertising",
+    "Management/Administration",
+    "Public Speaking",
+    "Business Initiatives",
+    "Media",
+    "Politics"
+  ],
+  "11-2033.00": [
+    "Management/Administration",
+    "Public Speaking",
+    "Business Initiatives",
+    "Sales",
+    "Marketing/Advertising"
+  ],
+  "11-3012.00": [
+    "Management/Administration",
+    "Office Work",
+    "Human Resources"
+  ],
+  "11-3013.00": [
+    "Management/Administration",
+    "Engineering",
+    "Mechanics/Electronics"
+  ],
+  "11-3013.01": [
+    "Management/Administration",
+    "Protective Service",
+    "Law"
+  ],
+  "11-3021.00": [
+    "Management/Administration",
+    "Information Technology",
+    "Business Initiatives"
+  ],
+  "11-3031.00": [
+    "Finance",
+    "Management/Administration",
+    "Business Initiatives",
+    "Accounting",
+    "Office Work"
+  ],
+  "11-3031.01": [
+    "Finance",
+    "Management/Administration",
+    "Accounting",
+    "Business Initiatives",
+    "Mathematics/Statistics",
+    "Office Work"
+  ],
+  "11-3031.03": [
+    "Finance",
+    "Management/Administration",
+    "Business Initiatives",
+    "Mathematics/Statistics"
+  ],
+  "11-3051.00": [
+    "Management/Administration",
+    "Business Initiatives",
+    "Engineering"
+  ],
+  "11-3051.01": [
+    "Management/Administration",
+    "Mathematics/Statistics",
+    "Engineering"
+  ],
+  "11-3061.00": [
+    "Management/Administration",
+    "Business Initiatives",
+    "Office Work"
+  ],
+  "11-3071.00": [
+    "Management/Administration",
+    "Business Initiatives",
+    "Accounting"
+  ],
+  "11-3071.04": [
+    "Management/Administration",
+    "Business Initiatives",
+    "Accounting"
+  ],
+  "11-3111.00": [
+    "Human Resources",
+    "Management/Administration",
+    "Accounting"
+  ],
+  "11-3121.00": [
+    "Human Resources",
+    "Management/Administration",
+    "Office Work",
+    "Business Initiatives",
+    "Professional Advising"
+  ],
+  "11-3131.00": [
+    "Management/Administration",
+    "Human Resources",
+    "Public Speaking",
+    "Professional Advising",
+    "Teaching/Education"
+  ],
+  "11-9013.00": [
+    "Agriculture",
+    "Management/Administration",
+    "Nature/Outdoors",
+    "Business Initiatives"
+  ],
+  "11-9021.00": [
+    "Management/Administration",
+    "Construction/Woodwork",
+    "Engineering"
+  ],
+  "11-9031.00": [
+    "Management/Administration",
+    "Social Service",
+    "Teaching/Education",
+    "Human Resources",
+    "Professional Advising"
+  ],
+  "11-9032.00": [
+    "Management/Administration",
+    "Social Service",
+    "Professional Advising",
+    "Public Speaking",
+    "Teaching/Education",
+    "Human Resources"
+  ],
+  "11-9033.00": [
+    "Management/Administration",
+    "Professional Advising",
+    "Human Resources",
+    "Public Speaking",
+    "Business Initiatives"
+  ],
+  "11-9041.00": [
+    "Management/Administration",
+    "Business Initiatives",
+    "Engineering"
+  ],
+  "11-9051.00": [
+    "Management/Administration",
+    "Culinary Art",
+    "Human Resources"
+  ],
+  "11-9071.00": [
+    "Management/Administration",
+    "Business Initiatives",
+    "Accounting"
+  ],
+  "11-9072.00": [
+    "Management/Administration",
+    "Personal Service",
+    "Athletics"
+  ],
+  "11-9081.00": [
+    "Management/Administration",
+    "Personal Service",
+    "Business Initiatives",
+    "Human Resources"
+  ],
+  "11-9111.00": [
+    "Management/Administration",
+    "Health Care Service",
+    "Business Initiatives",
+    "Human Resources",
+    "Accounting"
+  ],
+  "11-9121.00": [
+    "Management/Administration",
+    "Life Science",
+    "Physical Science",
+    "Medical Science",
+    "Public Speaking",
+    "Business Initiatives"
+  ],
+  "11-9121.01": [
+    "Medical Science",
+    "Health Care Service",
+    "Life Science",
+    "Management/Administration"
+  ],
+  "11-9131.00": [
+    "Management/Administration",
+    "Office Work",
+    "Human Resources"
+  ],
+  "11-9141.00": [
+    "Management/Administration",
+    "Business Initiatives",
+    "Finance",
+    "Accounting",
+    "Sales"
+  ],
+  "11-9151.00": [
+    "Management/Administration",
+    "Social Service",
+    "Human Resources",
+    "Public Speaking",
+    "Professional Advising"
+  ],
+  "11-9161.00": [
+    "Management/Administration",
+    "Public Speaking",
+    "Protective Service"
+  ],
+  "11-9171.00": [
+    "Management/Administration",
+    "Personal Service",
+    "Sales",
+    "Business Initiatives"
+  ],
+  "11-9179.01": [
+    "Athletics",
+    "Management/Administration",
+    "Personal Service",
+    "Teaching/Education",
+    "Public Speaking",
+    "Professional Advising"
+  ],
+  "11-9179.02": [
+    "Management/Administration",
+    "Personal Service",
+    "Business Initiatives",
+    "Human Resources",
+    "Sales"
+  ],
+  "11-9199.01": [
+    "Management/Administration",
+    "Law",
+    "Office Work"
+  ],
+  "11-9199.08": [
+    "Management/Administration",
+    "Protective Service",
+    "Law"
+  ],
+  "13-1011.00": [
+    "Professional Advising",
+    "Business Initiatives",
+    "Sales",
+    "Management/Administration",
+    "Marketing/Advertising"
+  ],
+  "13-1021.00": [
+    "Agriculture",
+    "Management/Administration",
+    "Accounting"
+  ],
+  "13-1022.00": [
+    "Business Initiatives",
+    "Management/Administration",
+    "Sales"
+  ],
+  "13-1023.00": [
+    "Management/Administration",
+    "Business Initiatives",
+    "Accounting"
+  ],
+  "13-1031.00": [
+    "Office Work",
+    "Law",
+    "Accounting"
+  ],
+  "13-1032.00": [
+    "Mechanics/Electronics",
+    "Finance"
+  ],
+  "13-1041.00": [
+    "Office Work",
+    "Law"
+  ],
+  "13-1041.04": [
+    "Law",
+    "Office Work"
+  ],
+  "13-1041.06": [
+    "Protective Service",
+    "Management/Administration",
+    "Medical Science"
+  ],
+  "13-1041.07": [
+    "Office Work",
+    "Law",
+    "Management/Administration"
+  ],
+  "13-1041.08": [
+    "Office Work",
+    "Law",
+    "Accounting"
+  ],
+  "13-1051.00": [
+    "Office Work",
+    "Accounting",
+    "Finance"
+  ],
+  "13-1071.00": [
+    "Human Resources",
+    "Office Work",
+    "Management/Administration"
+  ],
+  "13-1074.00": [
+    "Management/Administration",
+    "Human Resources",
+    "Agriculture"
+  ],
+  "13-1075.00": [
+    "Law",
+    "Management/Administration",
+    "Human Resources",
+    "Public Speaking"
+  ],
+  "13-1081.00": [
+    "Management/Administration",
+    "Office Work",
+    "Business Initiatives"
+  ],
+  "13-1081.01": [
+    "Mathematics/Statistics",
+    "Engineering",
+    "Information Technology"
+  ],
+  "13-1081.02": [
+    "Office Work",
+    "Mathematics/Statistics",
+    "Management/Administration"
+  ],
+  "13-1082.00": [
+    "Management/Administration",
+    "Business Initiatives",
+    "Office Work"
+  ],
+  "13-1111.00": [
+    "Management/Administration",
+    "Business Initiatives",
+    "Office Work"
+  ],
+  "13-1121.00": [
+    "Management/Administration",
+    "Personal Service",
+    "Office Work"
+  ],
+  "13-1131.00": [
+    "Public Speaking",
+    "Sales",
+    "Management/Administration",
+    "Marketing/Advertising",
+    "Business Initiatives"
+  ],
+  "13-1141.00": [
+    "Human Resources",
+    "Office Work",
+    "Management/Administration"
+  ],
+  "13-1151.00": [
+    "Professional Advising",
+    "Teaching/Education",
+    "Human Resources",
+    "Public Speaking"
+  ],
+  "13-1161.00": [
+    "Marketing/Advertising",
+    "Business Initiatives",
+    "Mathematics/Statistics"
+  ],
+  "13-1161.01": [
+    "Marketing/Advertising",
+    "Business Initiatives",
+    "Information Technology"
+  ],
+  "13-1199.04": [
+    "Management/Administration",
+    "Information Technology",
+    "Office Work"
+  ],
+  "13-1199.06": [
+    "Business Initiatives",
+    "Office Work",
+    "Management/Administration",
+    "Accounting"
+  ],
+  "13-1199.07": [
+    "Protective Service",
+    "Information Technology",
+    "Management/Administration"
+  ],
+  "13-2011.00": [
+    "Accounting",
+    "Finance",
+    "Office Work"
+  ],
+  "13-2022.00": [
+    "Office Work",
+    "Finance"
+  ],
+  "13-2023.00": [
+    "Finance",
+    "Office Work",
+    "Accounting"
+  ],
+  "13-2031.00": [
+    "Accounting",
+    "Office Work",
+    "Finance",
+    "Management/Administration"
+  ],
+  "13-2041.00": [
+    "Finance",
+    "Office Work",
+    "Accounting"
+  ],
+  "13-2051.00": [
+    "Finance",
+    "Mathematics/Statistics",
+    "Business Initiatives",
+    "Accounting"
+  ],
+  "13-2052.00": [
+    "Finance",
+    "Sales",
+    "Professional Advising",
+    "Accounting"
+  ],
+  "13-2053.00": [
+    "Office Work",
+    "Finance",
+    "Accounting"
+  ],
+  "13-2054.00": [
+    "Finance",
+    "Mathematics/Statistics",
+    "Accounting"
+  ],
+  "13-2061.00": [
+    "Finance",
+    "Accounting",
+    "Management/Administration",
+    "Law",
+    "Office Work"
+  ],
+  "13-2071.00": [
+    "Professional Advising",
+    "Office Work",
+    "Finance",
+    "Social Service",
+    "Accounting"
+  ],
+  "13-2072.00": [
+    "Finance",
+    "Office Work",
+    "Accounting",
+    "Sales"
+  ],
+  "13-2081.00": [
+    "Accounting",
+    "Office Work",
+    "Finance"
+  ],
+  "13-2082.00": [
+    "Accounting",
+    "Office Work",
+    "Finance"
+  ],
+  "13-2099.01": [
+    "Mathematics/Statistics",
+    "Finance",
+    "Accounting"
+  ],
+  "13-2099.04": [
+    "Accounting",
+    "Finance",
+    "Office Work"
+  ],
+  "15-1211.00": [
+    "Information Technology",
+    "Mathematics/Statistics"
+  ],
+  "15-1211.01": [
+    "Information Technology",
+    "Health Care Service",
+    "Life Science"
+  ],
+  "15-1212.00": [
+    "Information Technology",
+    "Protective Service"
+  ],
+  "15-1221.00": [
+    "Information Technology",
+    "Mathematics/Statistics",
+    "Engineering"
+  ],
+  "15-1231.00": [
+    "Information Technology",
+    "Engineering",
+    "Mechanics/Electronics"
+  ],
+  "15-1232.00": [
+    "Information Technology",
+    "Mechanics/Electronics",
+    "Office Work"
+  ],
+  "15-1241.00": [
+    "Information Technology",
+    "Engineering",
+    "Mathematics/Statistics"
+  ],
+  "15-1241.01": [
+    "Information Technology",
+    "Engineering",
+    "Mechanics/Electronics"
+  ],
+  "15-1242.00": [
+    "Information Technology",
+    "Management/Administration",
+    "Mathematics/Statistics"
+  ],
+  "15-1243.00": [
+    "Information Technology",
+    "Mathematics/Statistics"
+  ],
+  "15-1243.01": [
+    "Information Technology",
+    "Mathematics/Statistics"
+  ],
+  "15-1244.00": [
+    "Information Technology",
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "15-1251.00": [
+    "Information Technology",
+    "Mathematics/Statistics"
+  ],
+  "15-1252.00": [
+    "Information Technology",
+    "Mathematics/Statistics",
+    "Engineering"
+  ],
+  "15-1253.00": [
+    "Information Technology",
+    "Engineering",
+    "Mathematics/Statistics"
+  ],
+  "15-1254.00": [
+    "Information Technology",
+    "Mathematics/Statistics"
+  ],
+  "15-1255.00": [
+    "Information Technology",
+    "Applied Arts and Design",
+    "Visual Arts"
+  ],
+  "15-1255.01": [
+    "Creative Writing",
+    "Applied Arts and Design",
+    "Visual Arts",
+    "Media",
+    "Information Technology"
+  ],
+  "15-1299.01": [
+    "Information Technology",
+    "Management/Administration"
+  ],
+  "15-1299.02": [
+    "Information Technology",
+    "Mathematics/Statistics",
+    "Engineering"
+  ],
+  "15-1299.03": [
+    "Office Work",
+    "Information Technology",
+    "Management/Administration"
+  ],
+  "15-1299.04": [
+    "Information Technology",
+    "Engineering"
+  ],
+  "15-1299.05": [
+    "Information Technology",
+    "Engineering",
+    "Mechanics/Electronics"
+  ],
+  "15-1299.06": [
+    "Information Technology",
+    "Protective Service",
+    "Mathematics/Statistics"
+  ],
+  "15-1299.07": [
+    "Information Technology",
+    "Mathematics/Statistics",
+    "Engineering"
+  ],
+  "15-1299.08": [
+    "Information Technology",
+    "Engineering",
+    "Mechanics/Electronics"
+  ],
+  "15-1299.09": [
+    "Management/Administration",
+    "Business Initiatives",
+    "Information Technology"
+  ],
+  "15-2011.00": [
+    "Mathematics/Statistics",
+    "Finance",
+    "Accounting"
+  ],
+  "15-2021.00": [
+    "Mathematics/Statistics",
+    "Information Technology",
+    "Physical Science"
+  ],
+  "15-2031.00": [
+    "Mathematics/Statistics",
+    "Information Technology"
+  ],
+  "15-2041.00": [
+    "Mathematics/Statistics",
+    "Information Technology",
+    "Medical Science"
+  ],
+  "15-2041.01": [
+    "Mathematics/Statistics",
+    "Medical Science",
+    "Life Science",
+    "Information Technology"
+  ],
+  "15-2051.00": [
+    "Mathematics/Statistics",
+    "Information Technology"
+  ],
+  "15-2051.01": [
+    "Information Technology",
+    "Mathematics/Statistics",
+    "Finance",
+    "Accounting",
+    "Office Work"
+  ],
+  "15-2051.02": [
+    "Office Work",
+    "Mathematics/Statistics",
+    "Information Technology"
+  ],
+  "15-2099.01": [
+    "Information Technology",
+    "Mathematics/Statistics",
+    "Life Science",
+    "Medical Science"
+  ],
+  "17-1011.00": [
+    "Applied Arts and Design",
+    "Engineering",
+    "Visual Arts"
+  ],
+  "17-1012.00": [
+    "Nature/Outdoors",
+    "Applied Arts and Design",
+    "Visual Arts"
+  ],
+  "17-1021.00": [
+    "Mathematics/Statistics",
+    "Information Technology"
+  ],
+  "17-1022.00": [
+    "Mathematics/Statistics",
+    "Engineering",
+    "Nature/Outdoors"
+  ],
+  "17-1022.01": [
+    "Mathematics/Statistics",
+    "Engineering",
+    "Physical Science"
+  ],
+  "17-2011.00": [
+    "Engineering",
+    "Mathematics/Statistics",
+    "Physical Science",
+    "Mechanics/Electronics"
+  ],
+  "17-2021.00": [
+    "Engineering",
+    "Agriculture",
+    "Nature/Outdoors",
+    "Mechanics/Electronics",
+    "Physical Science"
+  ],
+  "17-2031.00": [
+    "Medical Science",
+    "Engineering",
+    "Life Science",
+    "Mathematics/Statistics",
+    "Physical Science",
+    "Information Technology",
+    "Health Care Service"
+  ],
+  "17-2041.00": [
+    "Engineering",
+    "Physical Science",
+    "Mathematics/Statistics"
+  ],
+  "17-2051.00": [
+    "Engineering",
+    "Mathematics/Statistics",
+    "Construction/Woodwork"
+  ],
+  "17-2051.01": [
+    "Engineering",
+    "Mathematics/Statistics"
+  ],
+  "17-2061.00": [
+    "Engineering",
+    "Information Technology",
+    "Mechanics/Electronics"
+  ],
+  "17-2071.00": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Mathematics/Statistics"
+  ],
+  "17-2072.00": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Information Technology"
+  ],
+  "17-2072.01": [
+    "Information Technology",
+    "Engineering",
+    "Mechanics/Electronics"
+  ],
+  "17-2081.00": [
+    "Engineering",
+    "Physical Science",
+    "Mathematics/Statistics"
+  ],
+  "17-2111.00": [
+    "Engineering",
+    "Physical Science",
+    "Mechanics/Electronics"
+  ],
+  "17-2111.02": [
+    "Engineering",
+    "Physical Science",
+    "Protective Service"
+  ],
+  "17-2112.00": [
+    "Engineering",
+    "Mathematics/Statistics",
+    "Mechanics/Electronics"
+  ],
+  "17-2112.01": [
+    "Engineering",
+    "Mathematics/Statistics",
+    "Social Science"
+  ],
+  "17-2112.02": [
+    "Engineering",
+    "Mathematics/Statistics",
+    "Mechanics/Electronics"
+  ],
+  "17-2112.03": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Mathematics/Statistics"
+  ],
+  "17-2121.00": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Mathematics/Statistics"
+  ],
+  "17-2131.00": [
+    "Engineering",
+    "Physical Science",
+    "Mathematics/Statistics"
+  ],
+  "17-2141.00": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Mathematics/Statistics"
+  ],
+  "17-2141.01": [
+    "Engineering",
+    "Physical Science",
+    "Mechanics/Electronics",
+    "Mathematics/Statistics"
+  ],
+  "17-2141.02": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Mathematics/Statistics"
+  ],
+  "17-2151.00": [
+    "Engineering",
+    "Physical Science",
+    "Mathematics/Statistics"
+  ],
+  "17-2161.00": [
+    "Engineering",
+    "Physical Science",
+    "Mathematics/Statistics",
+    "Mechanics/Electronics"
+  ],
+  "17-2171.00": [
+    "Engineering",
+    "Physical Science",
+    "Mathematics/Statistics"
+  ],
+  "17-2199.03": [
+    "Engineering",
+    "Mathematics/Statistics",
+    "Mechanics/Electronics"
+  ],
+  "17-2199.05": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Information Technology"
+  ],
+  "17-2199.06": [
+    "Engineering",
+    "Mathematics/Statistics",
+    "Physical Science",
+    "Mechanics/Electronics",
+    "Information Technology"
+  ],
+  "17-2199.07": [
+    "Engineering",
+    "Physical Science",
+    "Mechanics/Electronics",
+    "Mathematics/Statistics"
+  ],
+  "17-2199.08": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Information Technology",
+    "Mathematics/Statistics"
+  ],
+  "17-2199.09": [
+    "Engineering",
+    "Physical Science",
+    "Mathematics/Statistics",
+    "Mechanics/Electronics"
+  ],
+  "17-3011.00": [
+    "Engineering",
+    "Applied Arts and Design",
+    "Information Technology"
+  ],
+  "17-3012.00": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Information Technology"
+  ],
+  "17-3013.00": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Information Technology"
+  ],
+  "17-3021.00": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Information Technology"
+  ],
+  "17-3022.00": [
+    "Engineering",
+    "Mathematics/Statistics",
+    "Construction/Woodwork"
+  ],
+  "17-3023.00": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Information Technology"
+  ],
+  "17-3024.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Information Technology"
+  ],
+  "17-3024.01": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Information Technology"
+  ],
+  "17-3025.00": [
+    "Engineering",
+    "Physical Science",
+    "Mechanics/Electronics"
+  ],
+  "17-3026.00": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Mathematics/Statistics"
+  ],
+  "17-3026.01": [
+    "Engineering",
+    "Physical Science",
+    "Mechanics/Electronics"
+  ],
+  "17-3027.00": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Mathematics/Statistics"
+  ],
+  "17-3027.01": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Physical Science"
+  ],
+  "17-3028.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical Science"
+  ],
+  "17-3029.01": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Physical Science"
+  ],
+  "17-3029.08": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Physical Science"
+  ],
+  "17-3031.00": [
+    "Engineering",
+    "Mathematics/Statistics",
+    "Information Technology"
+  ],
+  "19-1011.00": [
+    "Life Science",
+    "Agriculture",
+    "Mathematics/Statistics"
+  ],
+  "19-1012.00": [
+    "Life Science",
+    "Physical Science",
+    "Engineering"
+  ],
+  "19-1013.00": [
+    "Life Science",
+    "Physical Science",
+    "Agriculture",
+    "Nature/Outdoors",
+    "Mathematics/Statistics"
+  ],
+  "19-1021.00": [
+    "Life Science",
+    "Medical Science",
+    "Physical Science",
+    "Mathematics/Statistics"
+  ],
+  "19-1022.00": [
+    "Life Science",
+    "Medical Science",
+    "Health Care Service"
+  ],
+  "19-1023.00": [
+    "Life Science",
+    "Nature/Outdoors",
+    "Mathematics/Statistics"
+  ],
+  "19-1029.01": [
+    "Mathematics/Statistics",
+    "Information Technology",
+    "Life Science",
+    "Medical Science"
+  ],
+  "19-1029.02": [
+    "Life Science",
+    "Medical Science",
+    "Mathematics/Statistics"
+  ],
+  "19-1029.03": [
+    "Life Science",
+    "Medical Science",
+    "Mathematics/Statistics",
+    "Physical Science"
+  ],
+  "19-1029.04": [
+    "Life Science",
+    "Nature/Outdoors",
+    "Medical Science",
+    "Mathematics/Statistics"
+  ],
+  "19-1031.00": [
+    "Nature/Outdoors",
+    "Agriculture",
+    "Life Science"
+  ],
+  "19-1031.02": [
+    "Agriculture",
+    "Nature/Outdoors",
+    "Life Science"
+  ],
+  "19-1031.03": [
+    "Nature/Outdoors",
+    "Teaching/Education",
+    "Public Speaking",
+    "Personal Service"
+  ],
+  "19-1032.00": [
+    "Nature/Outdoors",
+    "Agriculture",
+    "Management/Administration"
+  ],
+  "19-1041.00": [
+    "Medical Science",
+    "Life Science",
+    "Mathematics/Statistics",
+    "Social Science",
+    "Public Speaking"
+  ],
+  "19-1042.00": [
+    "Medical Science",
+    "Life Science",
+    "Mathematics/Statistics",
+    "Physical Science",
+    "Health Care Service"
+  ],
+  "19-2011.00": [
+    "Physical Science",
+    "Mathematics/Statistics",
+    "Engineering"
+  ],
+  "19-2012.00": [
+    "Physical Science",
+    "Mathematics/Statistics",
+    "Engineering"
+  ],
+  "19-2021.00": [
+    "Physical Science",
+    "Mathematics/Statistics",
+    "Information Technology"
+  ],
+  "19-2031.00": [
+    "Physical Science",
+    "Mathematics/Statistics",
+    "Medical Science"
+  ],
+  "19-2032.00": [
+    "Physical Science",
+    "Engineering",
+    "Mathematics/Statistics"
+  ],
+  "19-2041.00": [
+    "Physical Science",
+    "Life Science",
+    "Nature/Outdoors",
+    "Mathematics/Statistics"
+  ],
+  "19-2042.00": [
+    "Physical Science",
+    "Mathematics/Statistics",
+    "Nature/Outdoors",
+    "Engineering"
+  ],
+  "19-2043.00": [
+    "Physical Science",
+    "Mathematics/Statistics",
+    "Nature/Outdoors"
+  ],
+  "19-2099.01": [
+    "Mathematics/Statistics",
+    "Physical Science",
+    "Information Technology",
+    "Engineering"
+  ],
+  "19-3011.00": [
+    "Social Science",
+    "Mathematics/Statistics",
+    "Politics"
+  ],
+  "19-3022.00": [
+    "Social Science",
+    "Mathematics/Statistics",
+    "Office Work"
+  ],
+  "19-3032.00": [
+    "Social Science",
+    "Human Resources",
+    "Professional Advising",
+    "Management/Administration",
+    "Public Speaking",
+    "Mathematics/Statistics"
+  ],
+  "19-3033.00": [
+    "Social Science",
+    "Social Service",
+    "Professional Advising",
+    "Health Care Service",
+    "Teaching/Education"
+  ],
+  "19-3034.00": [
+    "Social Service",
+    "Social Science",
+    "Professional Advising"
+  ],
+  "19-3039.02": [
+    "Social Science",
+    "Health Care Service",
+    "Medical Science",
+    "Life Science",
+    "Social Service"
+  ],
+  "19-3039.03": [
+    "Social Science",
+    "Health Care Service",
+    "Medical Science",
+    "Social Service",
+    "Life Science"
+  ],
+  "19-3041.00": [
+    "Social Science",
+    "Humanities",
+    "Public Speaking"
+  ],
+  "19-3051.00": [
+    "Management/Administration",
+    "Public Speaking",
+    "Social Science"
+  ],
+  "19-3091.00": [
+    "Humanities",
+    "Social Science",
+    "Public Speaking"
+  ],
+  "19-3092.00": [
+    "Social Science",
+    "Physical Science",
+    "Mathematics/Statistics"
+  ],
+  "19-3093.00": [
+    "Humanities",
+    "Social Science",
+    "Creative Writing"
+  ],
+  "19-3094.00": [
+    "Social Science",
+    "Politics",
+    "Humanities"
+  ],
+  "19-3099.01": [
+    "Mathematics/Statistics",
+    "Engineering",
+    "Public Speaking"
+  ],
+  "19-4012.00": [
+    "Agriculture",
+    "Physical/Manual Labor",
+    "Life Science",
+    "Nature/Outdoors",
+    "Transportation/Machine Operation"
+  ],
+  "19-4012.01": [
+    "Agriculture",
+    "Mathematics/Statistics",
+    "Engineering",
+    "Information Technology"
+  ],
+  "19-4013.00": [
+    "Life Science",
+    "Physical Science",
+    "Mathematics/Statistics"
+  ],
+  "19-4021.00": [
+    "Life Science",
+    "Medical Science",
+    "Mechanics/Electronics"
+  ],
+  "19-4031.00": [
+    "Physical Science",
+    "Life Science",
+    "Engineering"
+  ],
+  "19-4042.00": [
+    "Physical Science",
+    "Nature/Outdoors",
+    "Life Science"
+  ],
+  "19-4043.00": [
+    "Physical Science",
+    "Engineering",
+    "Mechanics/Electronics"
+  ],
+  "19-4044.00": [
+    "Physical Science",
+    "Nature/Outdoors",
+    "Mathematics/Statistics"
+  ],
+  "19-4051.00": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Physical Science"
+  ],
+  "19-4051.02": [
+    "Physical Science",
+    "Engineering",
+    "Mathematics/Statistics"
+  ],
+  "19-4061.00": [
+    "Mathematics/Statistics",
+    "Social Science",
+    "Office Work"
+  ],
+  "19-4071.00": [
+    "Nature/Outdoors",
+    "Physical/Manual Labor",
+    "Agriculture"
+  ],
+  "19-4092.00": [
+    "Physical Science",
+    "Life Science",
+    "Protective Service"
+  ],
+  "19-4099.01": [
+    "Physical Science",
+    "Mathematics/Statistics",
+    "Medical Science"
+  ],
+  "19-4099.03": [
+    "Engineering",
+    "Information Technology",
+    "Physical Science"
+  ],
+  "19-5011.00": [
+    "Medical Science",
+    "Physical Science",
+    "Health Care Service"
+  ],
+  "19-5012.00": [
+    "Professional Advising",
+    "Medical Science",
+    "Engineering"
+  ],
+  "21-1011.00": [
+    "Social Service",
+    "Professional Advising",
+    "Social Science",
+    "Health Care Service",
+    "Teaching/Education"
+  ],
+  "21-1012.00": [
+    "Professional Advising",
+    "Social Service",
+    "Teaching/Education",
+    "Public Speaking",
+    "Personal Service"
+  ],
+  "21-1013.00": [
+    "Social Service",
+    "Social Science",
+    "Professional Advising",
+    "Health Care Service"
+  ],
+  "21-1014.00": [
+    "Social Service",
+    "Health Care Service",
+    "Professional Advising",
+    "Social Science"
+  ],
+  "21-1015.00": [
+    "Social Service",
+    "Professional Advising",
+    "Health Care Service"
+  ],
+  "21-1021.00": [
+    "Social Service",
+    "Social Science",
+    "Professional Advising"
+  ],
+  "21-1022.00": [
+    "Social Service",
+    "Professional Advising",
+    "Social Science",
+    "Health Care Service"
+  ],
+  "21-1023.00": [
+    "Social Service",
+    "Social Science",
+    "Health Care Service",
+    "Professional Advising"
+  ],
+  "21-1091.00": [
+    "Social Service",
+    "Professional Advising",
+    "Teaching/Education",
+    "Health Care Service",
+    "Public Speaking",
+    "Social Science"
+  ],
+  "21-1092.00": [
+    "Social Service",
+    "Professional Advising",
+    "Protective Service",
+    "Social Science"
+  ],
+  "21-1093.00": [
+    "Social Service",
+    "Professional Advising",
+    "Social Science"
+  ],
+  "21-1094.00": [
+    "Social Service",
+    "Health Care Service",
+    "Teaching/Education",
+    "Professional Advising",
+    "Public Speaking"
+  ],
+  "21-2011.00": [
+    "Religious Activities",
+    "Social Service",
+    "Public Speaking",
+    "Teaching/Education",
+    "Professional Advising",
+    "Personal Service",
+    "Management/Administration"
+  ],
+  "21-2021.00": [
+    "Religious Activities",
+    "Social Service",
+    "Professional Advising",
+    "Teaching/Education",
+    "Management/Administration",
+    "Public Speaking",
+    "Personal Service",
+    "Humanities"
+  ],
+  "23-1011.00": [
+    "Law",
+    "Public Speaking",
+    "Management/Administration",
+    "Politics"
+  ],
+  "23-1012.00": [
+    "Law",
+    "Office Work"
+  ],
+  "23-1021.00": [
+    "Law",
+    "Management/Administration",
+    "Public Speaking"
+  ],
+  "23-1022.00": [
+    "Law",
+    "Professional Advising",
+    "Management/Administration"
+  ],
+  "23-1023.00": [
+    "Law",
+    "Public Speaking",
+    "Management/Administration"
+  ],
+  "23-2011.00": [
+    "Law",
+    "Office Work"
+  ],
+  "23-2093.00": [
+    "Office Work",
+    "Law"
+  ],
+  "25-1011.00": [
+    "Teaching/Education",
+    "Public Speaking",
+    "Professional Advising",
+    "Social Science"
+  ],
+  "25-1021.00": [
+    "Teaching/Education",
+    "Public Speaking",
+    "Mathematics/Statistics",
+    "Information Technology",
+    "Professional Advising"
+  ],
+  "25-1022.00": [
+    "Teaching/Education",
+    "Mathematics/Statistics",
+    "Public Speaking",
+    "Professional Advising"
+  ],
+  "25-1031.00": [
+    "Teaching/Education",
+    "Public Speaking",
+    "Professional Advising",
+    "Applied Arts and Design"
+  ],
+  "25-1032.00": [
+    "Teaching/Education",
+    "Engineering",
+    "Mathematics/Statistics",
+    "Physical Science",
+    "Public Speaking",
+    "Professional Advising"
+  ],
+  "25-1041.00": [
+    "Teaching/Education",
+    "Life Science",
+    "Public Speaking",
+    "Professional Advising"
+  ],
+  "25-1042.00": [
+    "Teaching/Education",
+    "Life Science",
+    "Public Speaking",
+    "Medical Science",
+    "Professional Advising"
+  ],
+  "25-1043.00": [
+    "Teaching/Education",
+    "Life Science",
+    "Public Speaking",
+    "Professional Advising"
+  ],
+  "25-1051.00": [
+    "Teaching/Education",
+    "Physical Science",
+    "Public Speaking",
+    "Mathematics/Statistics",
+    "Professional Advising"
+  ],
+  "25-1052.00": [
+    "Teaching/Education",
+    "Physical Science",
+    "Public Speaking",
+    "Life Science"
+  ],
+  "25-1053.00": [
+    "Teaching/Education",
+    "Life Science",
+    "Public Speaking",
+    "Professional Advising",
+    "Physical Science",
+    "Mathematics/Statistics",
+    "Social Science"
+  ],
+  "25-1054.00": [
+    "Teaching/Education",
+    "Physical Science",
+    "Public Speaking",
+    "Mathematics/Statistics",
+    "Professional Advising"
+  ],
+  "25-1061.00": [
+    "Teaching/Education",
+    "Social Science",
+    "Humanities",
+    "Public Speaking",
+    "Professional Advising"
+  ],
+  "25-1062.00": [
+    "Humanities",
+    "Teaching/Education",
+    "Social Science",
+    "Public Speaking",
+    "Professional Advising"
+  ],
+  "25-1063.00": [
+    "Teaching/Education",
+    "Social Science",
+    "Public Speaking",
+    "Mathematics/Statistics",
+    "Professional Advising"
+  ],
+  "25-1064.00": [
+    "Teaching/Education",
+    "Social Science",
+    "Public Speaking",
+    "Humanities",
+    "Professional Advising"
+  ],
+  "25-1065.00": [
+    "Teaching/Education",
+    "Social Science",
+    "Public Speaking",
+    "Humanities",
+    "Professional Advising",
+    "Politics"
+  ],
+  "25-1066.00": [
+    "Teaching/Education",
+    "Social Science",
+    "Public Speaking",
+    "Social Service",
+    "Professional Advising"
+  ],
+  "25-1067.00": [
+    "Teaching/Education",
+    "Social Science",
+    "Public Speaking",
+    "Humanities",
+    "Professional Advising"
+  ],
+  "25-1071.00": [
+    "Teaching/Education",
+    "Public Speaking",
+    "Medical Science",
+    "Life Science",
+    "Professional Advising",
+    "Health Care Service",
+    "Social Science"
+  ],
+  "25-1072.00": [
+    "Teaching/Education",
+    "Public Speaking",
+    "Social Service",
+    "Health Care Service",
+    "Professional Advising",
+    "Medical Science",
+    "Life Science"
+  ],
+  "25-1081.00": [
+    "Teaching/Education",
+    "Social Science",
+    "Public Speaking",
+    "Professional Advising",
+    "Social Service"
+  ],
+  "25-1082.00": [
+    "Teaching/Education",
+    "Public Speaking",
+    "Social Science",
+    "Humanities"
+  ],
+  "25-1111.00": [
+    "Teaching/Education",
+    "Social Science",
+    "Public Speaking",
+    "Law",
+    "Professional Advising"
+  ],
+  "25-1112.00": [
+    "Teaching/Education",
+    "Law",
+    "Public Speaking",
+    "Social Science",
+    "Professional Advising",
+    "Humanities"
+  ],
+  "25-1113.00": [
+    "Teaching/Education",
+    "Social Science",
+    "Public Speaking",
+    "Social Service",
+    "Professional Advising"
+  ],
+  "25-1121.00": [
+    "Teaching/Education",
+    "Public Speaking",
+    "Humanities",
+    "Music",
+    "Applied Arts and Design",
+    "Performing Arts",
+    "Visual Arts",
+    "Professional Advising"
+  ],
+  "25-1122.00": [
+    "Teaching/Education",
+    "Public Speaking",
+    "Social Science",
+    "Professional Advising",
+    "Media"
+  ],
+  "25-1123.00": [
+    "Teaching/Education",
+    "Humanities",
+    "Public Speaking",
+    "Creative Writing",
+    "Professional Advising"
+  ],
+  "25-1124.00": [
+    "Teaching/Education",
+    "Humanities",
+    "Public Speaking",
+    "Professional Advising",
+    "Social Science"
+  ],
+  "25-1125.00": [
+    "Teaching/Education",
+    "Humanities",
+    "Public Speaking",
+    "Social Science",
+    "Professional Advising"
+  ],
+  "25-1126.00": [
+    "Teaching/Education",
+    "Humanities",
+    "Religious Activities",
+    "Public Speaking",
+    "Social Science",
+    "Professional Advising"
+  ],
+  "25-1192.00": [
+    "Teaching/Education",
+    "Social Science",
+    "Public Speaking",
+    "Professional Advising",
+    "Social Service"
+  ],
+  "25-1193.00": [
+    "Teaching/Education",
+    "Public Speaking",
+    "Professional Advising",
+    "Social Science"
+  ],
+  "25-1194.00": [
+    "Teaching/Education",
+    "Public Speaking",
+    "Professional Advising"
+  ],
+  "25-2011.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Personal Service"
+  ],
+  "25-2012.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Professional Advising"
+  ],
+  "25-2021.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Public Speaking",
+    "Professional Advising"
+  ],
+  "25-2022.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Professional Advising",
+    "Public Speaking"
+  ],
+  "25-2023.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Professional Advising",
+    "Public Speaking"
+  ],
+  "25-2031.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Public Speaking",
+    "Professional Advising",
+    "Humanities"
+  ],
+  "25-2032.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Professional Advising",
+    "Public Speaking"
+  ],
+  "25-2051.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Social Science",
+    "Professional Advising"
+  ],
+  "25-2055.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Professional Advising"
+  ],
+  "25-2056.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Professional Advising",
+    "Social Science"
+  ],
+  "25-2057.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Professional Advising"
+  ],
+  "25-2058.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Professional Advising",
+    "Social Science"
+  ],
+  "25-2059.01": [
+    "Teaching/Education",
+    "Social Service",
+    "Athletics"
+  ],
+  "25-3011.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Public Speaking",
+    "Professional Advising"
+  ],
+  "25-3021.00": [
+    "Teaching/Education",
+    "Public Speaking",
+    "Social Service"
+  ],
+  "25-3031.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Public Speaking"
+  ],
+  "25-3041.00": [
+    "Teaching/Education",
+    "Social Service",
+    "Professional Advising"
+  ],
+  "25-4011.00": [
+    "Humanities",
+    "Office Work"
+  ],
+  "25-4012.00": [
+    "Humanities",
+    "Management/Administration",
+    "Public Speaking"
+  ],
+  "25-4013.00": [
+    "Humanities",
+    "Physical/Manual Labor"
+  ],
+  "25-4022.00": [
+    "Office Work",
+    "Teaching/Education",
+    "Humanities"
+  ],
+  "25-4031.00": [
+    "Office Work",
+    "Personal Service"
+  ],
+  "25-9021.00": [
+    "Teaching/Education",
+    "Professional Advising",
+    "Public Speaking",
+    "Social Service",
+    "Agriculture"
+  ],
+  "25-9031.00": [
+    "Professional Advising",
+    "Teaching/Education",
+    "Management/Administration",
+    "Public Speaking"
+  ],
+  "25-9042.00": [
+    "Teaching/Education",
+    "Social Service"
+  ],
+  "25-9043.00": [
+    "Social Service",
+    "Teaching/Education"
+  ],
+  "25-9044.00": [
+    "Teaching/Education",
+    "Public Speaking",
+    "Professional Advising"
+  ],
+  "27-1011.00": [
+    "Visual Arts",
+    "Applied Arts and Design",
+    "Marketing/Advertising",
+    "Media",
+    "Management/Administration"
+  ],
+  "27-1012.00": [
+    "Applied Arts and Design",
+    "Visual Arts",
+    "Physical/Manual Labor"
+  ],
+  "27-1013.00": [
+    "Visual Arts",
+    "Applied Arts and Design"
+  ],
+  "27-1014.00": [
+    "Visual Arts",
+    "Applied Arts and Design",
+    "Media",
+    "Information Technology"
+  ],
+  "27-1021.00": [
+    "Applied Arts and Design",
+    "Visual Arts",
+    "Engineering"
+  ],
+  "27-1022.00": [
+    "Applied Arts and Design",
+    "Visual Arts",
+    "Marketing/Advertising"
+  ],
+  "27-1023.00": [
+    "Applied Arts and Design",
+    "Visual Arts",
+    "Personal Service"
+  ],
+  "27-1024.00": [
+    "Visual Arts",
+    "Applied Arts and Design",
+    "Media"
+  ],
+  "27-1025.00": [
+    "Applied Arts and Design",
+    "Visual Arts"
+  ],
+  "27-1026.00": [
+    "Applied Arts and Design",
+    "Visual Arts",
+    "Marketing/Advertising"
+  ],
+  "27-1027.00": [
+    "Applied Arts and Design",
+    "Visual Arts",
+    "Media",
+    "Performing Arts"
+  ],
+  "27-2011.00": [
+    "Performing Arts",
+    "Media",
+    "Public Speaking"
+  ],
+  "27-2012.00": [
+    "Media",
+    "Performing Arts",
+    "Applied Arts and Design",
+    "Management/Administration",
+    "Visual Arts"
+  ],
+  "27-2012.03": [
+    "Media",
+    "Management/Administration",
+    "Marketing/Advertising"
+  ],
+  "27-2012.04": [
+    "Media",
+    "Performing Arts",
+    "Management/Administration"
+  ],
+  "27-2012.05": [
+    "Media",
+    "Management/Administration",
+    "Mechanics/Electronics"
+  ],
+  "27-2021.00": [
+    "Athletics",
+    "Physical/Manual Labor",
+    "Public Speaking"
+  ],
+  "27-2022.00": [
+    "Athletics",
+    "Teaching/Education",
+    "Professional Advising",
+    "Management/Administration",
+    "Public Speaking"
+  ],
+  "27-2023.00": [
+    "Athletics",
+    "Public Speaking"
+  ],
+  "27-2031.00": [
+    "Performing Arts",
+    "Music",
+    "Athletics"
+  ],
+  "27-2032.00": [
+    "Performing Arts",
+    "Music",
+    "Applied Arts and Design",
+    "Teaching/Education"
+  ],
+  "27-2041.00": [
+    "Music",
+    "Performing Arts",
+    "Applied Arts and Design",
+    "Public Speaking",
+    "Media",
+    "Management/Administration"
+  ],
+  "27-2042.00": [
+    "Music",
+    "Performing Arts",
+    "Media",
+    "Public Speaking"
+  ],
+  "27-2091.00": [
+    "Music",
+    "Public Speaking",
+    "Media"
+  ],
+  "27-3011.00": [
+    "Media",
+    "Public Speaking",
+    "Performing Arts"
+  ],
+  "27-3023.00": [
+    "Media",
+    "Public Speaking",
+    "Creative Writing",
+    "Politics"
+  ],
+  "27-3031.00": [
+    "Marketing/Advertising",
+    "Public Speaking",
+    "Media",
+    "Politics",
+    "Management/Administration",
+    "Creative Writing"
+  ],
+  "27-3041.00": [
+    "Media",
+    "Creative Writing",
+    "Management/Administration"
+  ],
+  "27-3042.00": [
+    "Office Work",
+    "Information Technology",
+    "Media"
+  ],
+  "27-3043.00": [
+    "Creative Writing",
+    "Marketing/Advertising",
+    "Media",
+    "Humanities"
+  ],
+  "27-3043.05": [
+    "Creative Writing",
+    "Humanities",
+    "Media"
+  ],
+  "27-3091.00": [
+    "Humanities",
+    "Health Care Service",
+    "Law"
+  ],
+  "27-3092.00": [
+    "Law",
+    "Office Work"
+  ],
+  "27-4011.00": [
+    "Mechanics/Electronics",
+    "Media",
+    "Music"
+  ],
+  "27-4012.00": [
+    "Mechanics/Electronics",
+    "Media",
+    "Engineering"
+  ],
+  "27-4014.00": [
+    "Media",
+    "Mechanics/Electronics",
+    "Performing Arts"
+  ],
+  "27-4015.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Media"
+  ],
+  "27-4021.00": [
+    "Visual Arts",
+    "Applied Arts and Design",
+    "Media"
+  ],
+  "27-4031.00": [
+    "Media",
+    "Applied Arts and Design",
+    "Visual Arts"
+  ],
+  "27-4032.00": [
+    "Media",
+    "Visual Arts",
+    "Applied Arts and Design"
+  ],
+  "29-1011.00": [
+    "Health Care Service",
+    "Social Service",
+    "Medical Science"
+  ],
+  "29-1021.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1022.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1023.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Engineering"
+  ],
+  "29-1024.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1031.00": [
+    "Health Care Service",
+    "Professional Advising",
+    "Medical Science",
+    "Teaching/Education",
+    "Personal Service"
+  ],
+  "29-1041.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1051.00": [
+    "Health Care Service",
+    "Life Science",
+    "Medical Science"
+  ],
+  "29-1071.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Social Service",
+    "Life Science"
+  ],
+  "29-1071.01": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1081.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1122.00": [
+    "Health Care Service",
+    "Social Service",
+    "Teaching/Education",
+    "Professional Advising",
+    "Social Science"
+  ],
+  "29-1122.01": [
+    "Social Service",
+    "Teaching/Education",
+    "Health Care Service",
+    "Professional Advising",
+    "Personal Service"
+  ],
+  "29-1123.00": [
+    "Health Care Service",
+    "Social Service",
+    "Teaching/Education"
+  ],
+  "29-1124.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Mechanics/Electronics"
+  ],
+  "29-1125.00": [
+    "Social Service",
+    "Health Care Service",
+    "Teaching/Education",
+    "Personal Service",
+    "Social Science",
+    "Professional Advising"
+  ],
+  "29-1126.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Social Service"
+  ],
+  "29-1127.00": [
+    "Health Care Service",
+    "Social Service",
+    "Teaching/Education",
+    "Professional Advising"
+  ],
+  "29-1128.00": [
+    "Health Care Service",
+    "Athletics",
+    "Teaching/Education",
+    "Life Science"
+  ],
+  "29-1129.01": [
+    "Social Service",
+    "Health Care Service",
+    "Applied Arts and Design",
+    "Visual Arts",
+    "Social Science",
+    "Teaching/Education",
+    "Professional Advising"
+  ],
+  "29-1129.02": [
+    "Social Service",
+    "Music",
+    "Health Care Service",
+    "Social Science"
+  ],
+  "29-1131.00": [
+    "Animal Service",
+    "Life Science",
+    "Medical Science",
+    "Health Care Service"
+  ],
+  "29-1141.00": [
+    "Health Care Service",
+    "Social Service",
+    "Teaching/Education",
+    "Medical Science"
+  ],
+  "29-1141.01": [
+    "Health Care Service",
+    "Social Service",
+    "Medical Science"
+  ],
+  "29-1141.02": [
+    "Health Care Service",
+    "Social Service",
+    "Social Science",
+    "Medical Science"
+  ],
+  "29-1141.03": [
+    "Health Care Service",
+    "Social Service",
+    "Medical Science"
+  ],
+  "29-1141.04": [
+    "Health Care Service",
+    "Social Service",
+    "Teaching/Education",
+    "Management/Administration",
+    "Medical Science",
+    "Professional Advising"
+  ],
+  "29-1151.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1161.00": [
+    "Health Care Service",
+    "Social Service",
+    "Medical Science",
+    "Teaching/Education"
+  ],
+  "29-1171.00": [
+    "Health Care Service",
+    "Social Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1181.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Social Service",
+    "Teaching/Education"
+  ],
+  "29-1211.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1212.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science",
+    "Mathematics/Statistics"
+  ],
+  "29-1213.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1214.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Social Service"
+  ],
+  "29-1215.00": [
+    "Health Care Service",
+    "Social Service",
+    "Medical Science",
+    "Life Science",
+    "Teaching/Education",
+    "Professional Advising"
+  ],
+  "29-1216.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science",
+    "Social Service"
+  ],
+  "29-1217.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1218.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science",
+    "Social Service"
+  ],
+  "29-1221.00": [
+    "Medical Science",
+    "Health Care Service",
+    "Social Service",
+    "Life Science",
+    "Teaching/Education"
+  ],
+  "29-1222.00": [
+    "Medical Science",
+    "Life Science",
+    "Health Care Service",
+    "Physical Science"
+  ],
+  "29-1223.00": [
+    "Health Care Service",
+    "Social Science",
+    "Social Service",
+    "Medical Science",
+    "Professional Advising"
+  ],
+  "29-1224.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Physical Science",
+    "Life Science"
+  ],
+  "29-1229.01": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1229.02": [
+    "Health Care Service",
+    "Medical Science",
+    "Social Service"
+  ],
+  "29-1229.03": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1229.04": [
+    "Health Care Service",
+    "Medical Science",
+    "Social Service",
+    "Life Science"
+  ],
+  "29-1229.05": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science",
+    "Social Science",
+    "Social Service",
+    "Teaching/Education"
+  ],
+  "29-1229.06": [
+    "Health Care Service",
+    "Athletics",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1241.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1242.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1243.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-1291.00": [
+    "Health Care Service",
+    "Personal Service",
+    "Social Service"
+  ],
+  "29-1292.00": [
+    "Health Care Service",
+    "Personal Service",
+    "Teaching/Education"
+  ],
+  "29-1299.01": [
+    "Health Care Service",
+    "Life Science",
+    "Medical Science",
+    "Social Service"
+  ],
+  "29-1299.02": [
+    "Health Care Service",
+    "Medical Science",
+    "Teaching/Education"
+  ],
+  "29-2011.00": [
+    "Life Science",
+    "Medical Science",
+    "Health Care Service",
+    "Physical Science"
+  ],
+  "29-2011.01": [
+    "Life Science",
+    "Medical Science",
+    "Health Care Service"
+  ],
+  "29-2011.02": [
+    "Life Science",
+    "Medical Science",
+    "Health Care Service"
+  ],
+  "29-2011.04": [
+    "Life Science",
+    "Medical Science",
+    "Health Care Service"
+  ],
+  "29-2012.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-2012.01": [
+    "Life Science",
+    "Medical Science",
+    "Health Care Service"
+  ],
+  "29-2031.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Mechanics/Electronics"
+  ],
+  "29-2032.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Mechanics/Electronics"
+  ],
+  "29-2033.00": [
+    "Health Care Service",
+    "Physical Science",
+    "Medical Science"
+  ],
+  "29-2034.00": [
+    "Health Care Service",
+    "Medical Science"
+  ],
+  "29-2035.00": [
+    "Health Care Service",
+    "Mechanics/Electronics",
+    "Medical Science"
+  ],
+  "29-2036.00": [
+    "Mathematics/Statistics",
+    "Medical Science",
+    "Health Care Service",
+    "Physical Science",
+    "Engineering",
+    "Information Technology"
+  ],
+  "29-2042.00": [
+    "Health Care Service",
+    "Social Service",
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "29-2043.00": [
+    "Health Care Service",
+    "Social Service",
+    "Physical/Manual Labor"
+  ],
+  "29-2051.00": [
+    "Health Care Service",
+    "Social Service",
+    "Personal Service"
+  ],
+  "29-2052.00": [
+    "Health Care Service",
+    "Office Work"
+  ],
+  "29-2053.00": [
+    "Social Service",
+    "Health Care Service",
+    "Social Science"
+  ],
+  "29-2055.00": [
+    "Health Care Service",
+    "Physical/Manual Labor"
+  ],
+  "29-2056.00": [
+    "Animal Service",
+    "Health Care Service",
+    "Life Science",
+    "Medical Science"
+  ],
+  "29-2057.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-2061.00": [
+    "Health Care Service",
+    "Social Service",
+    "Personal Service"
+  ],
+  "29-2072.00": [
+    "Office Work",
+    "Health Care Service"
+  ],
+  "29-2081.00": [
+    "Personal Service",
+    "Health Care Service"
+  ],
+  "29-2091.00": [
+    "Health Care Service",
+    "Engineering",
+    "Mechanics/Electronics"
+  ],
+  "29-2092.00": [
+    "Health Care Service",
+    "Personal Service",
+    "Social Service",
+    "Professional Advising"
+  ],
+  "29-2099.01": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-2099.05": [
+    "Health Care Service",
+    "Medical Science",
+    "Life Science"
+  ],
+  "29-2099.08": [
+    "Social Service",
+    "Health Care Service",
+    "Professional Advising",
+    "Personal Service"
+  ],
+  "29-9021.00": [
+    "Information Technology",
+    "Office Work",
+    "Health Care Service"
+  ],
+  "29-9091.00": [
+    "Athletics",
+    "Health Care Service",
+    "Teaching/Education"
+  ],
+  "29-9092.00": [
+    "Health Care Service",
+    "Life Science",
+    "Medical Science",
+    "Professional Advising",
+    "Social Service",
+    "Teaching/Education"
+  ],
+  "29-9093.00": [
+    "Health Care Service",
+    "Medical Science",
+    "Physical/Manual Labor"
+  ],
+  "29-9099.01": [
+    "Health Care Service",
+    "Social Service",
+    "Life Science",
+    "Medical Science",
+    "Professional Advising"
+  ],
+  "31-1121.00": [
+    "Social Service",
+    "Health Care Service",
+    "Personal Service"
+  ],
+  "31-1122.00": [
+    "Social Service",
+    "Personal Service",
+    "Health Care Service"
+  ],
+  "31-1131.00": [
+    "Health Care Service",
+    "Social Service",
+    "Personal Service"
+  ],
+  "31-1132.00": [
+    "Physical/Manual Labor",
+    "Health Care Service"
+  ],
+  "31-1133.00": [
+    "Social Service",
+    "Health Care Service",
+    "Social Science"
+  ],
+  "31-2011.00": [
+    "Health Care Service",
+    "Social Service",
+    "Teaching/Education"
+  ],
+  "31-2012.00": [
+    "Health Care Service",
+    "Social Service",
+    "Teaching/Education"
+  ],
+  "31-2021.00": [
+    "Health Care Service",
+    "Social Service",
+    "Teaching/Education"
+  ],
+  "31-2022.00": [
+    "Health Care Service",
+    "Social Service",
+    "Personal Service"
+  ],
+  "31-9011.00": [
+    "Health Care Service",
+    "Personal Service",
+    "Social Service"
+  ],
+  "31-9091.00": [
+    "Health Care Service",
+    "Office Work"
+  ],
+  "31-9092.00": [
+    "Health Care Service",
+    "Office Work",
+    "Social Service"
+  ],
+  "31-9093.00": [
+    "Mechanics/Electronics",
+    "Health Care Service"
+  ],
+  "31-9094.00": [
+    "Office Work",
+    "Health Care Service"
+  ],
+  "31-9095.00": [
+    "Office Work",
+    "Health Care Service"
+  ],
+  "31-9096.00": [
+    "Animal Service",
+    "Health Care Service",
+    "Life Science"
+  ],
+  "31-9097.00": [
+    "Health Care Service",
+    "Medical Science"
+  ],
+  "31-9099.01": [
+    "Health Care Service",
+    "Social Service",
+    "Teaching/Education"
+  ],
+  "31-9099.02": [
+    "Health Care Service",
+    "Mechanics/Electronics",
+    "Medical Science"
+  ],
+  "33-1011.00": [
+    "Protective Service",
+    "Management/Administration",
+    "Human Resources"
+  ],
+  "33-1012.00": [
+    "Management/Administration",
+    "Protective Service",
+    "Law",
+    "Public Speaking",
+    "Human Resources"
+  ],
+  "33-1021.00": [
+    "Protective Service",
+    "Management/Administration",
+    "Physical/Manual Labor"
+  ],
+  "33-1091.00": [
+    "Protective Service",
+    "Management/Administration",
+    "Human Resources"
+  ],
+  "33-2011.00": [
+    "Physical/Manual Labor",
+    "Protective Service",
+    "Transportation/Machine Operation"
+  ],
+  "33-2021.00": [
+    "Protective Service",
+    "Public Speaking",
+    "Law"
+  ],
+  "33-2022.00": [
+    "Nature/Outdoors",
+    "Protective Service",
+    "Physical/Manual Labor"
+  ],
+  "33-3011.00": [
+    "Protective Service",
+    "Law"
+  ],
+  "33-3012.00": [
+    "Protective Service",
+    "Law"
+  ],
+  "33-3021.00": [
+    "Protective Service",
+    "Law",
+    "Social Science"
+  ],
+  "33-3021.02": [
+    "Protective Service",
+    "Law"
+  ],
+  "33-3021.06": [
+    "Protective Service",
+    "Mathematics/Statistics",
+    "Information Technology"
+  ],
+  "33-3031.00": [
+    "Nature/Outdoors",
+    "Protective Service",
+    "Transportation/Machine Operation"
+  ],
+  "33-3041.00": [
+    "Protective Service",
+    "Transportation/Machine Operation"
+  ],
+  "33-3051.00": [
+    "Protective Service",
+    "Law",
+    "Transportation/Machine Operation"
+  ],
+  "33-3051.04": [
+    "Protective Service",
+    "Law"
+  ],
+  "33-3052.00": [
+    "Protective Service",
+    "Law"
+  ],
+  "33-9011.00": [
+    "Animal Service",
+    "Protective Service",
+    "Physical/Manual Labor"
+  ],
+  "33-9021.00": [
+    "Protective Service",
+    "Law",
+    "Office Work"
+  ],
+  "33-9031.00": [
+    "Protective Service",
+    "Law"
+  ],
+  "33-9032.00": [
+    "Protective Service",
+    "Physical/Manual Labor"
+  ],
+  "33-9091.00": [
+    "Protective Service",
+    "Transportation/Machine Operation"
+  ],
+  "33-9092.00": [
+    "Protective Service",
+    "Athletics",
+    "Physical/Manual Labor"
+  ],
+  "33-9093.00": [
+    "Protective Service",
+    "Physical/Manual Labor"
+  ],
+  "33-9094.00": [
+    "Social Service",
+    "Protective Service"
+  ],
+  "33-9099.02": [
+    "Protective Service",
+    "Management/Administration",
+    "Law"
+  ],
+  "35-1011.00": [
+    "Culinary Art",
+    "Management/Administration",
+    "Physical/Manual Labor"
+  ],
+  "35-1012.00": [
+    "Management/Administration",
+    "Culinary Art",
+    "Personal Service"
+  ],
+  "35-2011.00": [
+    "Physical/Manual Labor",
+    "Culinary Art"
+  ],
+  "35-2012.00": [
+    "Physical/Manual Labor",
+    "Culinary Art"
+  ],
+  "35-2013.00": [
+    "Culinary Art",
+    "Personal Service"
+  ],
+  "35-2014.00": [
+    "Culinary Art",
+    "Physical/Manual Labor"
+  ],
+  "35-2015.00": [
+    "Culinary Art",
+    "Physical/Manual Labor"
+  ],
+  "35-2021.00": [
+    "Physical/Manual Labor",
+    "Culinary Art"
+  ],
+  "35-3011.00": [
+    "Personal Service",
+    "Sales",
+    "Culinary Art"
+  ],
+  "35-3023.00": [
+    "Physical/Manual Labor",
+    "Personal Service"
+  ],
+  "35-3023.01": [
+    "Personal Service",
+    "Culinary Art"
+  ],
+  "35-3031.00": [
+    "Personal Service",
+    "Sales"
+  ],
+  "35-3041.00": [
+    "Personal Service",
+    "Physical/Manual Labor"
+  ],
+  "35-9011.00": [
+    "Physical/Manual Labor",
+    "Personal Service"
+  ],
+  "35-9021.00": [
+    "Physical/Manual Labor",
+    "Culinary Art"
+  ],
+  "35-9031.00": [
+    "Personal Service",
+    "Management/Administration"
+  ],
+  "37-1011.00": [
+    "Management/Administration",
+    "Human Resources"
+  ],
+  "37-1012.00": [
+    "Management/Administration",
+    "Nature/Outdoors",
+    "Agriculture"
+  ],
+  "37-2011.00": [
+    "Physical/Manual Labor",
+    "Protective Service"
+  ],
+  "37-2012.00": [
+    "Physical/Manual Labor",
+    "Personal Service"
+  ],
+  "37-2021.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "37-3011.00": [
+    "Physical/Manual Labor",
+    "Nature/Outdoors",
+    "Agriculture"
+  ],
+  "37-3012.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation",
+    "Agriculture"
+  ],
+  "37-3013.00": [
+    "Physical/Manual Labor",
+    "Nature/Outdoors",
+    "Transportation/Machine Operation"
+  ],
+  "39-1013.00": [
+    "Management/Administration",
+    "Personal Service",
+    "Protective Service"
+  ],
+  "39-1014.00": [
+    "Management/Administration",
+    "Human Resources",
+    "Personal Service"
+  ],
+  "39-1022.00": [
+    "Management/Administration",
+    "Personal Service",
+    "Human Resources"
+  ],
+  "39-2011.00": [
+    "Animal Service",
+    "Teaching/Education",
+    "Physical/Manual Labor"
+  ],
+  "39-2021.00": [
+    "Animal Service",
+    "Physical/Manual Labor",
+    "Health Care Service"
+  ],
+  "39-3011.00": [
+    "Personal Service",
+    "Accounting"
+  ],
+  "39-3012.00": [
+    "Accounting",
+    "Personal Service"
+  ],
+  "39-3021.00": [
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "39-3031.00": [
+    "Personal Service",
+    "Sales"
+  ],
+  "39-3091.00": [
+    "Personal Service",
+    "Sales"
+  ],
+  "39-3092.00": [
+    "Applied Arts and Design",
+    "Visual Arts",
+    "Media"
+  ],
+  "39-3093.00": [
+    "Personal Service",
+    "Physical/Manual Labor"
+  ],
+  "39-4011.00": [
+    "Physical/Manual Labor",
+    "Personal Service"
+  ],
+  "39-4012.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "39-4021.00": [
+    "Personal Service",
+    "Physical/Manual Labor"
+  ],
+  "39-4031.00": [
+    "Personal Service",
+    "Management/Administration",
+    "Social Service"
+  ],
+  "39-5011.00": [
+    "Personal Service",
+    "Management/Administration"
+  ],
+  "39-5012.00": [
+    "Personal Service",
+    "Applied Arts and Design"
+  ],
+  "39-5091.00": [
+    "Applied Arts and Design",
+    "Visual Arts",
+    "Performing Arts",
+    "Media"
+  ],
+  "39-5092.00": [
+    "Personal Service",
+    "Applied Arts and Design"
+  ],
+  "39-5093.00": [
+    "Personal Service",
+    "Physical/Manual Labor"
+  ],
+  "39-5094.00": [
+    "Personal Service",
+    "Health Care Service"
+  ],
+  "39-6011.00": [
+    "Personal Service",
+    "Physical/Manual Labor"
+  ],
+  "39-6012.00": [
+    "Personal Service",
+    "Management/Administration"
+  ],
+  "39-7011.00": [
+    "Personal Service",
+    "Public Speaking",
+    "Teaching/Education",
+    "Humanities"
+  ],
+  "39-7012.00": [
+    "Personal Service",
+    "Public Speaking",
+    "Sales"
+  ],
+  "39-9011.00": [
+    "Social Service",
+    "Teaching/Education",
+    "Personal Service"
+  ],
+  "39-9011.01": [
+    "Social Service",
+    "Personal Service",
+    "Teaching/Education"
+  ],
+  "39-9031.00": [
+    "Athletics",
+    "Teaching/Education",
+    "Personal Service",
+    "Public Speaking"
+  ],
+  "39-9032.00": [
+    "Personal Service",
+    "Athletics",
+    "Social Service",
+    "Management/Administration"
+  ],
+  "39-9041.00": [
+    "Social Service",
+    "Personal Service",
+    "Professional Advising"
+  ],
+  "41-1011.00": [
+    "Management/Administration",
+    "Sales",
+    "Business Initiatives"
+  ],
+  "41-1012.00": [
+    "Management/Administration",
+    "Sales",
+    "Business Initiatives",
+    "Office Work"
+  ],
+  "41-2011.00": [
+    "Sales",
+    "Personal Service"
+  ],
+  "41-2012.00": [
+    "Accounting",
+    "Office Work"
+  ],
+  "41-2021.00": [
+    "Personal Service",
+    "Sales",
+    "Office Work"
+  ],
+  "41-2022.00": [
+    "Sales",
+    "Mechanics/Electronics"
+  ],
+  "41-2031.00": [
+    "Sales",
+    "Personal Service"
+  ],
+  "41-3011.00": [
+    "Sales",
+    "Marketing/Advertising",
+    "Business Initiatives",
+    "Public Speaking"
+  ],
+  "41-3021.00": [
+    "Sales",
+    "Business Initiatives",
+    "Finance"
+  ],
+  "41-3031.00": [
+    "Sales",
+    "Finance",
+    "Business Initiatives",
+    "Accounting"
+  ],
+  "41-3041.00": [
+    "Personal Service",
+    "Sales",
+    "Office Work"
+  ],
+  "41-3091.00": [
+    "Sales",
+    "Business Initiatives",
+    "Public Speaking"
+  ],
+  "41-4011.00": [
+    "Sales",
+    "Public Speaking",
+    "Business Initiatives"
+  ],
+  "41-4012.00": [
+    "Sales",
+    "Business Initiatives",
+    "Public Speaking"
+  ],
+  "41-9011.00": [
+    "Sales",
+    "Marketing/Advertising",
+    "Public Speaking"
+  ],
+  "41-9012.00": [
+    "Applied Arts and Design",
+    "Visual Arts",
+    "Marketing/Advertising"
+  ],
+  "41-9021.00": [
+    "Sales",
+    "Management/Administration",
+    "Business Initiatives",
+    "Public Speaking"
+  ],
+  "41-9022.00": [
+    "Sales",
+    "Marketing/Advertising",
+    "Business Initiatives"
+  ],
+  "41-9031.00": [
+    "Sales",
+    "Business Initiatives",
+    "Public Speaking"
+  ],
+  "41-9041.00": [
+    "Sales",
+    "Office Work",
+    "Marketing/Advertising"
+  ],
+  "41-9091.00": [
+    "Sales",
+    "Marketing/Advertising"
+  ],
+  "43-1011.00": [
+    "Management/Administration",
+    "Office Work",
+    "Human Resources"
+  ],
+  "43-2011.00": [
+    "Office Work",
+    "Personal Service"
+  ],
+  "43-2021.00": [
+    "Office Work",
+    "Personal Service"
+  ],
+  "43-3011.00": [
+    "Office Work",
+    "Accounting",
+    "Finance"
+  ],
+  "43-3021.00": [
+    "Accounting",
+    "Office Work"
+  ],
+  "43-3031.00": [
+    "Accounting",
+    "Office Work",
+    "Finance"
+  ],
+  "43-3041.00": [
+    "Accounting",
+    "Office Work",
+    "Finance"
+  ],
+  "43-3051.00": [
+    "Accounting",
+    "Office Work",
+    "Human Resources"
+  ],
+  "43-3061.00": [
+    "Office Work",
+    "Accounting"
+  ],
+  "43-3071.00": [
+    "Office Work",
+    "Accounting",
+    "Finance"
+  ],
+  "43-4011.00": [
+    "Office Work",
+    "Finance",
+    "Accounting"
+  ],
+  "43-4021.00": [
+    "Office Work",
+    "Accounting"
+  ],
+  "43-4031.00": [
+    "Office Work",
+    "Law",
+    "Accounting"
+  ],
+  "43-4041.00": [
+    "Office Work",
+    "Accounting",
+    "Finance"
+  ],
+  "43-4051.00": [
+    "Office Work",
+    "Personal Service"
+  ],
+  "43-4061.00": [
+    "Office Work",
+    "Accounting",
+    "Social Service"
+  ],
+  "43-4071.00": [
+    "Office Work",
+    "Law"
+  ],
+  "43-4081.00": [
+    "Personal Service",
+    "Office Work",
+    "Accounting"
+  ],
+  "43-4111.00": [
+    "Office Work",
+    "Health Care Service"
+  ],
+  "43-4121.00": [
+    "Office Work",
+    "Personal Service"
+  ],
+  "43-4131.00": [
+    "Office Work",
+    "Accounting",
+    "Finance"
+  ],
+  "43-4141.00": [
+    "Office Work",
+    "Accounting",
+    "Sales"
+  ],
+  "43-4151.00": [
+    "Office Work",
+    "Sales"
+  ],
+  "43-4161.00": [
+    "Human Resources",
+    "Office Work",
+    "Management/Administration"
+  ],
+  "43-4171.00": [
+    "Office Work",
+    "Personal Service"
+  ],
+  "43-4181.00": [
+    "Personal Service",
+    "Office Work",
+    "Sales"
+  ],
+  "43-5011.00": [
+    "Office Work",
+    "Accounting"
+  ],
+  "43-5011.01": [
+    "Office Work",
+    "Management/Administration"
+  ],
+  "43-5021.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor"
+  ],
+  "43-5031.00": [
+    "Protective Service",
+    "Office Work"
+  ],
+  "43-5032.00": [
+    "Office Work",
+    "Transportation/Machine Operation"
+  ],
+  "43-5041.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor"
+  ],
+  "43-5051.00": [
+    "Office Work",
+    "Physical/Manual Labor"
+  ],
+  "43-5052.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "43-5053.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "43-5061.00": [
+    "Office Work",
+    "Management/Administration"
+  ],
+  "43-5071.00": [
+    "Office Work",
+    "Physical/Manual Labor"
+  ],
+  "43-5111.00": [
+    "Office Work",
+    "Accounting"
+  ],
+  "43-6011.00": [
+    "Office Work",
+    "Management/Administration",
+    "Accounting"
+  ],
+  "43-6012.00": [
+    "Office Work",
+    "Law"
+  ],
+  "43-6013.00": [
+    "Office Work",
+    "Health Care Service",
+    "Accounting"
+  ],
+  "43-6014.00": [
+    "Office Work",
+    "Personal Service"
+  ],
+  "43-9021.00": [
+    "Office Work",
+    "Accounting"
+  ],
+  "43-9022.00": [
+    "Office Work",
+    "Information Technology"
+  ],
+  "43-9031.00": [
+    "Applied Arts and Design",
+    "Visual Arts",
+    "Media"
+  ],
+  "43-9041.00": [
+    "Office Work",
+    "Accounting",
+    "Finance"
+  ],
+  "43-9051.00": [
+    "Office Work",
+    "Physical/Manual Labor"
+  ],
+  "43-9061.00": [
+    "Office Work",
+    "Accounting"
+  ],
+  "43-9071.00": [
+    "Office Work",
+    "Mechanics/Electronics"
+  ],
+  "43-9081.00": [
+    "Office Work",
+    "Creative Writing"
+  ],
+  "43-9111.00": [
+    "Mathematics/Statistics",
+    "Office Work",
+    "Accounting"
+  ],
+  "45-1011.00": [
+    "Agriculture",
+    "Nature/Outdoors",
+    "Management/Administration",
+    "Physical/Manual Labor"
+  ],
+  "45-2011.00": [
+    "Agriculture",
+    "Law",
+    "Protective Service"
+  ],
+  "45-2021.00": [
+    "Animal Service",
+    "Agriculture",
+    "Physical/Manual Labor"
+  ],
+  "45-2041.00": [
+    "Physical/Manual Labor",
+    "Agriculture"
+  ],
+  "45-2091.00": [
+    "Agriculture",
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "45-2092.00": [
+    "Agriculture",
+    "Physical/Manual Labor",
+    "Nature/Outdoors",
+    "Transportation/Machine Operation"
+  ],
+  "45-2093.00": [
+    "Agriculture",
+    "Physical/Manual Labor",
+    "Animal Service",
+    "Nature/Outdoors"
+  ],
+  "45-3031.00": [
+    "Physical/Manual Labor",
+    "Nature/Outdoors",
+    "Transportation/Machine Operation"
+  ],
+  "45-4011.00": [
+    "Nature/Outdoors",
+    "Physical/Manual Labor",
+    "Agriculture"
+  ],
+  "45-4021.00": [
+    "Physical/Manual Labor",
+    "Nature/Outdoors"
+  ],
+  "45-4022.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor",
+    "Nature/Outdoors"
+  ],
+  "45-4023.00": [
+    "Physical/Manual Labor",
+    "Nature/Outdoors"
+  ],
+  "47-1011.00": [
+    "Management/Administration",
+    "Construction/Woodwork",
+    "Engineering"
+  ],
+  "47-2011.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "47-2021.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-2022.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-2031.00": [
+    "Construction/Woodwork",
+    "Physical/Manual Labor"
+  ],
+  "47-2041.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-2042.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-2043.00": [
+    "Construction/Woodwork",
+    "Physical/Manual Labor"
+  ],
+  "47-2044.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-2051.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-2053.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-2061.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork",
+    "Transportation/Machine Operation"
+  ],
+  "47-2071.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "47-2072.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "47-2073.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "47-2081.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-2082.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-2111.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "47-2121.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "47-2131.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-2132.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "47-2141.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-2142.00": [
+    "Physical/Manual Labor",
+    "Applied Arts and Design"
+  ],
+  "47-2151.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "47-2152.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "47-2161.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-2171.00": [
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "47-2181.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-2211.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "47-2221.00": [
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "47-2231.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "47-3011.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-3012.00": [
+    "Construction/Woodwork",
+    "Physical/Manual Labor"
+  ],
+  "47-3013.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "47-3014.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-3015.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "47-3016.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-4011.00": [
+    "Engineering",
+    "Construction/Woodwork",
+    "Mechanics/Electronics"
+  ],
+  "47-4021.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "47-4031.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-4041.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "47-4051.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "47-4061.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics"
+  ],
+  "47-4071.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "47-4091.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-5011.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "47-5012.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "47-5013.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics",
+    "Transportation/Machine Operation"
+  ],
+  "47-5022.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "47-5023.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics"
+  ],
+  "47-5032.00": [
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "47-5041.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics"
+  ],
+  "47-5043.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics",
+    "Transportation/Machine Operation"
+  ],
+  "47-5044.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics"
+  ],
+  "47-5051.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "47-5071.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "47-5081.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics"
+  ],
+  "49-1011.00": [
+    "Management/Administration",
+    "Mechanics/Electronics",
+    "Human Resources"
+  ],
+  "49-2011.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Information Technology"
+  ],
+  "49-2021.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-2022.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-2091.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical/Manual Labor"
+  ],
+  "49-2092.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-2093.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical/Manual Labor"
+  ],
+  "49-2094.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Information Technology"
+  ],
+  "49-2095.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical/Manual Labor"
+  ],
+  "49-2096.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical/Manual Labor"
+  ],
+  "49-2097.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical/Manual Labor"
+  ],
+  "49-2098.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-3011.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical/Manual Labor"
+  ],
+  "49-3021.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "49-3022.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "49-3023.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-3031.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-3041.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-3042.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-3043.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-3051.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-3052.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-3053.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-3091.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-3092.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-3093.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "49-9011.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "49-9012.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-9021.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-9031.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-9041.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-9043.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-9044.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "49-9045.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "49-9051.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation",
+    "Engineering"
+  ],
+  "49-9052.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-9061.00": [
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "49-9062.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Health Care Service"
+  ],
+  "49-9063.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Music"
+  ],
+  "49-9064.00": [
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "49-9071.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Construction/Woodwork",
+    "Engineering"
+  ],
+  "49-9081.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical/Manual Labor"
+  ],
+  "49-9091.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor"
+  ],
+  "49-9092.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "49-9094.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor"
+  ],
+  "49-9095.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork",
+    "Mechanics/Electronics"
+  ],
+  "49-9096.00": [
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-9097.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "49-9098.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-1011.00": [
+    "Management/Administration",
+    "Mechanics/Electronics",
+    "Human Resources"
+  ],
+  "51-2011.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "51-2021.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-2022.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical/Manual Labor"
+  ],
+  "51-2023.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical/Manual Labor"
+  ],
+  "51-2031.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-2041.00": [
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-2051.00": [
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-2061.00": [
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "51-2092.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-3011.00": [
+    "Culinary Art",
+    "Physical/Manual Labor"
+  ],
+  "51-3021.00": [
+    "Physical/Manual Labor",
+    "Culinary Art"
+  ],
+  "51-3022.00": [
+    "Physical/Manual Labor",
+    "Culinary Art"
+  ],
+  "51-3023.00": [
+    "Physical/Manual Labor",
+    "Agriculture"
+  ],
+  "51-3091.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-3092.00": [
+    "Physical/Manual Labor",
+    "Culinary Art"
+  ],
+  "51-3093.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-4021.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-4022.00": [
+    "Physical/Manual Labor",
+    "Engineering",
+    "Mechanics/Electronics"
+  ],
+  "51-4023.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-4031.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-4032.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-4033.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-4034.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-4035.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-4041.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical/Manual Labor"
+  ],
+  "51-4051.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-4052.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "51-4061.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical/Manual Labor"
+  ],
+  "51-4062.00": [
+    "Physical/Manual Labor",
+    "Engineering",
+    "Mechanics/Electronics"
+  ],
+  "51-4071.00": [
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-4072.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-4081.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-4111.00": [
+    "Engineering",
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-4121.00": [
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-4122.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-4191.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "51-4192.00": [
+    "Engineering",
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-4193.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-4194.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-5111.00": [
+    "Information Technology",
+    "Mechanics/Electronics"
+  ],
+  "51-5112.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-5113.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-6011.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-6021.00": [
+    "Physical/Manual Labor",
+    "Applied Arts and Design"
+  ],
+  "51-6031.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-6041.00": [
+    "Physical/Manual Labor",
+    "Visual Arts",
+    "Applied Arts and Design"
+  ],
+  "51-6042.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-6051.00": [
+    "Applied Arts and Design",
+    "Visual Arts"
+  ],
+  "51-6052.00": [
+    "Applied Arts and Design",
+    "Personal Service",
+    "Visual Arts"
+  ],
+  "51-6061.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-6062.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor"
+  ],
+  "51-6063.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-6064.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-6091.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor"
+  ],
+  "51-6092.00": [
+    "Applied Arts and Design",
+    "Visual Arts"
+  ],
+  "51-6093.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork",
+    "Visual Arts"
+  ],
+  "51-7011.00": [
+    "Construction/Woodwork",
+    "Physical/Manual Labor"
+  ],
+  "51-7021.00": [
+    "Construction/Woodwork",
+    "Physical/Manual Labor",
+    "Applied Arts and Design"
+  ],
+  "51-7031.00": [
+    "Construction/Woodwork",
+    "Physical/Manual Labor",
+    "Applied Arts and Design"
+  ],
+  "51-7032.00": [
+    "Construction/Woodwork",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-7041.00": [
+    "Construction/Woodwork",
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-7042.00": [
+    "Construction/Woodwork",
+    "Physical/Manual Labor"
+  ],
+  "51-8011.00": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Physical Science"
+  ],
+  "51-8012.00": [
+    "Engineering",
+    "Mechanics/Electronics"
+  ],
+  "51-8013.00": [
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "51-8021.00": [
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "51-8031.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical/Manual Labor"
+  ],
+  "51-8091.00": [
+    "Physical Science",
+    "Engineering",
+    "Mechanics/Electronics"
+  ],
+  "51-8092.00": [
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "51-8093.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Transportation/Machine Operation"
+  ],
+  "51-9011.00": [
+    "Physical Science",
+    "Engineering",
+    "Physical/Manual Labor"
+  ],
+  "51-9012.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-9021.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-9022.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "51-9023.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "51-9031.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "51-9032.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-9041.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-9051.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-9061.00": [
+    "Engineering",
+    "Mechanics/Electronics"
+  ],
+  "51-9071.00": [
+    "Applied Arts and Design",
+    "Visual Arts",
+    "Physical/Manual Labor"
+  ],
+  "51-9071.06": [
+    "Physical Science",
+    "Engineering"
+  ],
+  "51-9081.00": [
+    "Engineering",
+    "Health Care Service"
+  ],
+  "51-9082.00": [
+    "Engineering",
+    "Mechanics/Electronics",
+    "Health Care Service"
+  ],
+  "51-9083.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor"
+  ],
+  "51-9111.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-9123.00": [
+    "Physical/Manual Labor",
+    "Applied Arts and Design",
+    "Construction/Woodwork"
+  ],
+  "51-9124.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "51-9141.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical Science"
+  ],
+  "51-9151.00": [
+    "Mechanics/Electronics",
+    "Visual Arts"
+  ],
+  "51-9161.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Physical/Manual Labor"
+  ],
+  "51-9162.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Information Technology"
+  ],
+  "51-9191.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "51-9192.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "51-9193.00": [
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "51-9194.00": [
+    "Applied Arts and Design",
+    "Visual Arts",
+    "Physical/Manual Labor"
+  ],
+  "51-9195.00": [
+    "Physical/Manual Labor",
+    "Construction/Woodwork"
+  ],
+  "51-9195.03": [
+    "Physical/Manual Labor",
+    "Visual Arts",
+    "Applied Arts and Design"
+  ],
+  "51-9195.04": [
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "51-9195.05": [
+    "Physical/Manual Labor",
+    "Applied Arts and Design"
+  ],
+  "51-9196.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor"
+  ],
+  "51-9197.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "51-9198.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "53-1041.00": [
+    "Management/Administration",
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor"
+  ],
+  "53-1042.00": [
+    "Management/Administration",
+    "Human Resources",
+    "Physical/Manual Labor"
+  ],
+  "53-1043.00": [
+    "Management/Administration",
+    "Transportation/Machine Operation",
+    "Human Resources"
+  ],
+  "53-1044.00": [
+    "Management/Administration",
+    "Personal Service",
+    "Human Resources"
+  ],
+  "53-2011.00": [
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "53-2012.00": [
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "53-2021.00": [
+    "Protective Service",
+    "Management/Administration"
+  ],
+  "53-2022.00": [
+    "Management/Administration",
+    "Protective Service"
+  ],
+  "53-2031.00": [
+    "Personal Service",
+    "Public Speaking",
+    "Protective Service"
+  ],
+  "53-3011.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor",
+    "Health Care Service"
+  ],
+  "53-3031.00": [
+    "Transportation/Machine Operation",
+    "Sales",
+    "Physical/Manual Labor"
+  ],
+  "53-3032.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor"
+  ],
+  "53-3033.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor"
+  ],
+  "53-3051.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor"
+  ],
+  "53-3052.00": [
+    "Transportation/Machine Operation",
+    "Personal Service"
+  ],
+  "53-3053.00": [
+    "Transportation/Machine Operation",
+    "Personal Service"
+  ],
+  "53-3054.00": [
+    "Transportation/Machine Operation",
+    "Personal Service"
+  ],
+  "53-4011.00": [
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "53-4013.00": [
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics",
+    "Physical/Manual Labor"
+  ],
+  "53-4022.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "53-4031.00": [
+    "Transportation/Machine Operation",
+    "Management/Administration"
+  ],
+  "53-4041.00": [
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics"
+  ],
+  "53-5011.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics"
+  ],
+  "53-5021.00": [
+    "Transportation/Machine Operation",
+    "Management/Administration",
+    "Nature/Outdoors"
+  ],
+  "53-5022.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "53-5031.00": [
+    "Mechanics/Electronics",
+    "Engineering",
+    "Transportation/Machine Operation"
+  ],
+  "53-6011.00": [
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics"
+  ],
+  "53-6021.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor"
+  ],
+  "53-6031.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "53-6032.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics"
+  ],
+  "53-6041.00": [
+    "Engineering",
+    "Mathematics/Statistics"
+  ],
+  "53-6051.00": [
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics"
+  ],
+  "53-6051.01": [
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "53-6051.07": [
+    "Mechanics/Electronics",
+    "Transportation/Machine Operation",
+    "Engineering"
+  ],
+  "53-6061.00": [
+    "Personal Service",
+    "Transportation/Machine Operation"
+  ],
+  "53-7011.00": [
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "53-7021.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "53-7031.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor",
+    "Mechanics/Electronics"
+  ],
+  "53-7041.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation",
+    "Mechanics/Electronics"
+  ],
+  "53-7051.00": [
+    "Transportation/Machine Operation",
+    "Physical/Manual Labor"
+  ],
+  "53-7061.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "53-7062.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "53-7063.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "53-7064.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "53-7065.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "53-7071.00": [
+    "Mechanics/Electronics",
+    "Engineering"
+  ],
+  "53-7072.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Engineering"
+  ],
+  "53-7073.00": [
+    "Mechanics/Electronics",
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "53-7081.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ],
+  "53-7121.00": [
+    "Physical/Manual Labor",
+    "Transportation/Machine Operation"
+  ]
+}

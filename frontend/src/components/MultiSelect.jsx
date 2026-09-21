@@ -1,10 +1,12 @@
+/* Reusable searchable multi-select dropdown (used for Technical Skills, Industries, Career Interests, etc. in AssessmentForm.jsx). Generic component — not tied to any one field. */
 import { useEffect, useRef, useState } from 'react';
 
-export default function MultiSelect({ name, placeholder, options, value, onChange, searchable = false }) {
+export default function MultiSelect({ name, placeholder, options, value, onChange, searchable = false, error = false }) {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState('');
   const rootRef = useRef(null);
 
+  // Close only when a click lands outside this dropdown; remove the listener on unmount.
   useEffect(() => {
     function handleOutsideClick(e) {
       if (rootRef.current && !rootRef.current.contains(e.target)) {
@@ -20,6 +22,7 @@ export default function MultiSelect({ name, placeholder, options, value, onChang
     setOpen((v) => !v);
   }
 
+  // The parent owns the selected values; this component only proposes the next array.
   function toggleOption(opt) {
     const next = value.includes(opt) ? value.filter((v) => v !== opt) : [...value, opt];
     onChange(next);
@@ -29,7 +32,7 @@ export default function MultiSelect({ name, placeholder, options, value, onChang
 
   return (
     <div className="multi-select" data-name={name} ref={rootRef}>
-      <div className={`ms-trigger${open ? ' open' : ''}`} onClick={toggleOpen}>
+      <div className={`ms-trigger${open ? ' open' : ''}${error ? ' error' : ''}`} onClick={toggleOpen} aria-invalid={error}>
         <div className="ms-display">
           {value.length === 0 ? (
             <span className="ms-placeholder">{placeholder}</span>

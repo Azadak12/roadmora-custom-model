@@ -1,3 +1,4 @@
+/* The full public landing page — just stacks all the sections/ components in order (Nav, Hero, HowItWorks, ... Assessment, Footer). To reorder sections on the homepage, reorder the list below. To edit a section's content, go to the matching file in sections/. */
 import Nav from '../components/Nav.jsx';
 import Footer from '../components/Footer.jsx';
 import Hero from '../sections/Hero.jsx';

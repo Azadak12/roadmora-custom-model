@@ -1,3 +1,4 @@
+/* The actual 5-step assessment form (Personal -> Education -> Skills -> Experience -> Interests). Used inside: sections/AssessmentSection.jsx. The dropdown OPTIONS (skills, industries, interests, etc.) come from data/taxonomies.js, which is auto-generated from the ML model's own taxonomy files — don't hand-edit those option lists here. */
 import { useState } from 'react';
 import MultiSelect from './MultiSelect.jsx';
 import {
@@ -9,15 +10,17 @@ const STEPS = [
   { label: 'Education' },
   { label: 'Skills' },
   { label: 'Experience' },
-  { label: 'Goals' },
+  { label: 'Interests' },
 ];
 
+// Step numbers are 1-based to match the progress indicator. Only these fields
+// block navigation; every other answer is optional for the model.
 const REQUIRED_FIELDS_BY_STEP = {
   1: [],
   2: ['education', 'status'],
   3: [],
   4: [],
-  5: ['goals'],
+  5: ['careerInterests'],
 };
 
 const initialFormData = {
@@ -25,7 +28,7 @@ const initialFormData = {
   education: '', status: '',
   technicalSkills: [], softSkills: [], languages: [],
   internships: [], jobExperience: [],
-  careerInterests: [], preferredIndustries: [], goals: '',
+  careerInterests: [], preferredIndustries: [],
 };
 
 export default function AssessmentForm({ onSubmit, submitting, errorMsg }) {
@@ -33,10 +36,18 @@ export default function AssessmentForm({ onSubmit, submitting, errorMsg }) {
   const [formData, setFormData] = useState(initialFormData);
   const [errors, setErrors] = useState({});
 
+  // Keep all five steps in one payload and clear an error as soon as its field changes.
   function setField(name, val) {
     setFormData((f) => ({ ...f, [name]: val }));
+    setErrors((current) => {
+      if (!current[name]) return current;
+      const next = { ...current };
+      delete next[name];
+      return next;
+    });
   }
 
+  // Validate the current step when moving forward; going back keeps the answers.
   function goToStep(dir) {
     if (dir === 1) {
       const required = REQUIRED_FIELDS_BY_STEP[step];
@@ -50,6 +61,7 @@ export default function AssessmentForm({ onSubmit, submitting, errorMsg }) {
     setStep((s) => s + dir);
   }
 
+  // Recheck the final step before passing the complete assessment to its parent.
   function handleSubmit(e) {
     e.preventDefault();
     const required = REQUIRED_FIELDS_BY_STEP[step];
@@ -249,11 +261,11 @@ export default function AssessmentForm({ onSubmit, submitting, errorMsg }) {
           <div className="assess-step">
             <div className="assess-step-header">
               <div className="assess-step-icon">🎯</div>
-              <div><h3>Interests &amp; Goals</h3><p>Tell us where you want to go — this shapes your entire roadmap.</p></div>
+              <div><h3>Career Interests</h3><p>Select the fields and industries that interest you most.</p></div>
             </div>
             <div className="assess-fields">
               <div className="form-group">
-                <label className="form-label">Career Interests</label>
+                <label className="form-label">Career Interests <span className="req">*</span></label>
                 <MultiSelect
                   name="careerInterests"
                   placeholder="Select career interests..."
@@ -261,6 +273,7 @@ export default function AssessmentForm({ onSubmit, submitting, errorMsg }) {
                   options={INTEREST_AREAS}
                   value={formData.careerInterests}
                   onChange={(v) => setField('careerInterests', v)}
+                  error={errors.careerInterests}
                 />
               </div>
               <div className="form-group">
@@ -274,23 +287,17 @@ export default function AssessmentForm({ onSubmit, submitting, errorMsg }) {
                   onChange={(v) => setField('preferredIndustries', v)}
                 />
               </div>
-              <div className="form-group">
-                <label className="form-label">Goals <span className="req">*</span></label>
-                <textarea className="form-input form-textarea" rows="5" required style={borderStyle('goals')}
-                  placeholder="Describe your career goals, what you want to achieve, your ideal timeline, and any specific direction you're considering…"
-                  value={formData.goals} onChange={(e) => setField('goals', e.target.value)}></textarea>
-              </div>
             </div>
           </div>
         )}
 
         <div className="assess-nav">
-          <button type="button" className="btn btn--ghost" onClick={() => goToStep(-1)} disabled={step === 1}>← Previous</button>
+          <button type="button" className="btn assess-form-prev-btn" onClick={() => goToStep(-1)} disabled={step === 1}>← Previous</button>
           <span className="assess-counter">Step {step} of {STEPS.length}</span>
           {step < STEPS.length ? (
-            <button type="button" className="btn btn--primary" onClick={() => goToStep(1)}>Next Step →</button>
+            <button type="button" className="btn assess-form-next-btn" onClick={() => goToStep(1)}>Next Step →</button>
           ) : (
-            <button type="submit" className="btn btn--primary" disabled={submitting}>
+            <button type="submit" className="btn assess-form-submit-btn" disabled={submitting}>
               {submitting ? 'Generating your roadmap…' : (
                 <>
                   Get My Career Roadmap

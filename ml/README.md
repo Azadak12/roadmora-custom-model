@@ -41,23 +41,92 @@ ml/
 3. **Candidate ranking**: that vector is compared (cosine similarity) against all
    923 real O*NET occupations' real RIASEC profiles, producing a broad candidate
    pool (top 40).
-4. **Coherence re-ranking**: RIASEC alone can't finely separate ~900 occupations —
-   many unrelated jobs land at near-identical similarity (a Python/ML profile's
-   top RIASEC matches included things like "Telecommunications Engineering
-   Specialists" mixed with "Occupational Health and Safety Specialists"). To fix
-   this, the top-120 candidates by RIASEC similarity are re-ranked using a second
-   real signal: overlap between the user's selected technical skills and that
-   occupation's real O*NET technology tags (`extract_onet_skills.py`, sourced
-   from the "Software Skills" table — actual tool names like "Python", "React",
-   "Docker" tagged per occupation), using the *overlap coefficient*
-   (intersection / smaller-set size) rather than Jaccard — Jaccard drowns a
-   perfect match under an occupation's full 60+ tool tag list (3/66 ≈ 0.05),
-   while the overlap coefficient correctly scores "all 3 of your skills are
-   used here" close to 1.0 regardless of how many other tools that occupation
-   also uses. Final score = `0.35 * RIASEC similarity + 0.65 * skill overlap`
-   when the user selected any technical skills, falling back to RIASEC alone
-   otherwise (see `predict.py`'s `top_occupations()`). This is what makes the
-   final top-3 thematically coherent instead of scattered.
+4. **Multi-signal re-ranking**: RIASEC alone can't finely separate ~900
+   occupations — many unrelated jobs land at near-identical similarity (a
+   Python/ML profile's top RIASEC matches included things like
+   "Telecommunications Engineering Specialists" mixed with "Occupational
+   Health and Safety Specialists"), and it can occasionally mispredict a
+   profile's dominant trait outright. To fix this, candidates are re-ranked
+   using three further real signals, each only contributing when the user
+   actually filled in that field:
+   - **Interest overlap** — the user's selected career interests against that
+     occupation's real, O*NET-curated top interest areas
+     (`extract_onet_interest_areas.py`, the "Specific Interest Areas" table's
+     "Summary Display Rank" scale — O*NET's own top handful of areas per
+     occupation, the same 41-area taxonomy the assessment form uses).
+   - **Skill overlap** — the user's selected technical skills against that
+     occupation's real O*NET technology tags (`extract_onet_skills.py`,
+     sourced from the "Software Skills" table — actual tool names like
+     "Python", "React", "Docker" tagged per occupation).
+   - **Core-skill relevance** — broad O*NET technology lists can make nearby
+     IT careers look identical, so selected skills stated directly in an
+     occupation's official title or description receive additional weight.
+     Only rare description matches activate this signal; for example,
+     "machine learning" directly identifies Data Scientists without letting
+     generic tool names dominate the ranking.
+   - **Previous-role relevance** — structured `jobExperience` selections are
+     resolved against O*NET occupation titles and common aliases. This keeps a
+     directly relevant role such as Accountant from being drowned out by a
+     generic Excel match or a noisy RIASEC prediction.
+   - **Industry relevance** — the user's selected preferred industries against
+     the subset of industries plausible for that occupation's real BLS/O*NET
+     Standard Occupational Classification (SOC) major group. O*NET
+     deliberately does not tag occupations by industry (most occupations span
+     many industries), so this is a structural approximation grounded in an
+     official classification (`SOC_MAJOR_GROUP_TO_INDUSTRIES` in
+     `predict.py`), not a real per-occupation industry dataset — documented
+     here so it is never mistaken for one.
+   - **Legacy career-goal intent** — the current web form no longer asks for
+     free-text goals, but older clients and saved payloads remain supported.
+     When such a payload clearly names an O*NET occupation or documented alias
+     such as "software engineer", it can contribute; vague text does not.
+
+   Skill overlap uses the *overlap coefficient* (intersection / smaller-set
+   size) because an occupation can have 60+ tool tags; this correctly scores
+   "all 3 of your skills are used here" without drowning the match in a huge
+   union. Interest overlap measures coverage of the user's selected interests;
+   a clear single selection such as Finance receives full credit when it is an
+   official interest area for the occupation.
+
+   The signals are combined as a weighted average
+   (`RIASEC 0.15 / interest 0.30 / skill 0.35 / industry 0.20`, plus
+   core-skill relevance at `0.60` when detected and legacy goal intent at
+   `0.40` when supplied, plus previous-role relevance at `0.55` when a
+   structured job title can be resolved), renormalized
+   over whichever signals the user actually provided so leaving an optional
+   field blank never dilutes a genuinely strong match by averaging in a
+   forced zero — but the renormalization denominator is floored at
+   `RIASEC_WEIGHT + max(the other three)` (currently 0.15 + 0.35 = 0.50) so
+   a profile that fills in RIASEC alone can't have a possibly-noisy
+   similarity inflated into a falsely "confident" score, while a profile
+   that fills in even just one strong optional signal (skills or interests)
+   still gets full, unsuppressed renormalization when that signal is a
+   genuinely excellent match — a perfect skill overlap reads as a strong
+   match on its own, without needing interests or industries filled in too.
+   RIASEC gets the smallest weight of the four deliberately: unlike the other
+   three, it is a model prediction that can simply be wrong for a given
+   profile, and an earlier, more RIASEC-heavy weighting let a merely mediocre
+   RIASEC prediction cap an occupation with a *perfect* concrete interest
+   match well below 60% — a real profile with Finance + Information
+   Technology interests saw its best real match (Business Intelligence
+   Analysts, 100% interest overlap, 100% industry match) held down by RIASEC
+   alone. The industry-match signal is also an any-match, not a fraction of
+   the user's selections: an occupation can't simultaneously belong to every
+   industry a user expressed interest in, so picking several industries to
+   widen the search must never score worse than cautiously picking one.
+   The RIASEC-only candidate pool (top 120 by similarity) is also widened to
+   include every occupation with at least one concrete overlapping skill or
+   interest tag, regardless of its RIASEC rank, so a real match a mispredicted
+   RIASEC vector would have excluded is never silently dropped before
+   re-ranking gets a chance to surface it. Only occupations scoring 0.75 or
+   higher (`strong_match`) are returned — up to `k`, but genuinely fewer if
+   fewer clear the bar, never padded out with weaker filler results just to
+   hit a count. A profile with real skills or interests filled in reliably
+   clears 0.75 on at least its top occupation or two; the sole exception is
+   the single best-available fallback returned when literally nothing clears
+   the bar (e.g. only an industry was picked, no skills or interests), so the
+   API never returns a hard empty list (see `predict.py`'s
+   `top_occupations()`).
 5. **Knowledge base**: real education/experience/training requirements (O*NET
    Job Zones) and real day-to-day tasks (O*NET Task Statements) per occupation —
    no fabricated content.
@@ -133,11 +202,18 @@ Cosine similarity in 6-dimensional RIASEC space clusters extremely tightly —
 the top ~15 candidates for a given prediction often sit within a 0.98-0.996
 similarity band. Relying on RIASEC similarity alone produces a scattered,
 hard-to-defend top-3 (e.g. mixing "Web Administrators" with "Coroners"). The
-skill-overlap re-ranking step (see Architecture §4) fixes this for users who
-select technical skills; for profiles with no technical skills (e.g. a
-healthcare-leaning respondent), RIASEC similarity alone still drives the
-ranking, which is appropriate since interest-only careers don't have an
-analogous "tool" signal to check against.
+multi-signal re-ranking step (see Architecture §4) fixes this for any user who
+fills in at least one of technical skills, career interests, or preferred
+industries — a healthcare-leaning respondent with no technical skills is
+still re-ranked using real interest-area and industry overlap instead of
+falling back to RIASEC alone, since that combination previously produced
+poorly-calibrated match scores (as low as ~35% for a strong genuine match) by
+forcing a 0.65-weighted skill-overlap term to zero regardless of how well
+everything else fit. A profile that fills in *none* of the three optional
+fields still has nothing but RIASEC to rank on, and its score is deliberately
+capped low (see `MIN_EVIDENCE_WEIGHT` in `predict.py`) rather than let a
+possibly-mispredicted RIASEC vector's incidental correlation with some
+occupation be reported as a confident match.
 
 ## Running the pipeline
 

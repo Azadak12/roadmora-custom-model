@@ -1,3 +1,4 @@
+/* About Us section on the homepage — plain text/mission blurb. Used on: HomePage. Edit the text directly below; styling comes from styles-site.css. */
 export default function AboutSection() {
   return (
     <section className="about-hero" id="about">
@@ -12,7 +13,7 @@ export default function AboutSection() {
           <div className="about-block reveal">
             <div className="ab-icon">❓</div>
             <h3>The Problem</h3>
-            <p>Most career guidance online is generic. It doesn't account for who you are — your education, your personality, your goals, or your starting point. Students often don't know which questions to even ask a general chatbot, and end up with advice that doesn't apply to their situation.</p>
+            <p>Most career guidance online is generic. It doesn't account for who you are — your education, skills, experience, interests, or starting point. Students often don't know which questions to even ask a general chatbot, and end up with advice that doesn't apply to their situation.</p>
           </div>
           <div className="about-block reveal">
             <div className="ab-icon">💡</div>

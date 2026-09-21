@@ -1,3 +1,4 @@
+/* The top navigation bar, fixed at the top of every page. Contains the logo, nav links, and Login/Get Started buttons. */
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
@@ -20,6 +21,7 @@ export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
   const navRef = useRef(null);
 
+  // Track the section nearest the top so the current navigation link is marked.
   useEffect(() => {
     const onScroll = () => {
       setScrolled(window.scrollY > 40);
@@ -35,6 +37,7 @@ export default function Nav() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  // Offset the destination by the fixed navigation height.
   function smoothScrollTo(hash) {
     const target = document.querySelector(hash);
     if (!target || !navRef.current) return;
@@ -43,6 +46,7 @@ export default function Nav() {
     window.scrollTo({ top, behavior: 'smooth' });
   }
 
+  // The assessment link opens login for guests; other links scroll in-page.
   function handleLinkClick(e, href) {
     if (href === '#assessment' && !user) {
       e.preventDefault();
@@ -91,15 +95,15 @@ export default function Nav() {
         <div className="nav__actions">
           {!user ? (
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <button className="btn btn--ghost" onClick={() => openAuth('login')}>Login</button>
-              <button className="btn btn--primary" onClick={() => openAuth('signup')}>Get Started</button>
+              <button className="btn nav-login-btn" onClick={() => openAuth('login')}>Login</button>
+              <button className="btn nav-getstarted-btn" onClick={() => openAuth('signup')}>Get Started</button>
             </div>
           ) : (
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
               <span className="nav-user-badge">
                 {(user.user_metadata?.full_name || user.email).split(/[@\s]/)[0]}
               </span>
-              <button className="btn btn--ghost" onClick={() => signOut()}>Logout</button>
+              <button className="btn nav-logout-btn" onClick={() => signOut()}>Logout</button>
             </div>
           )}
         </div>

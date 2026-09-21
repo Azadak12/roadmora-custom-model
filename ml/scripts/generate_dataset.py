@@ -38,7 +38,7 @@ RAW_DIR = Path(__file__).resolve().parent.parent / "data" / "raw"
 OUTPUT_PATH = RAW_DIR / "synthetic_assessments.jsonl"
 OCCUPATIONS_PATH = RAW_DIR / "onet" / "occupation_riasec.json"
 
-N_PER_OCCUPATION = 60           # synthetic respondents generated per real occupation
+N_PER_OCCUPATION = 150          # synthetic respondents generated per real occupation
 INTEREST_NOISE_PROB = 0.35      # chance of an extra interest area unrelated to the occupation's RIASEC profile
 INDUSTRY_RANDOM_PROB = 0.5
 SKILL_RANDOM_PROB = 0.2         # lowered: technical skills are a cleaner RIASEC signal than O*NET's dated

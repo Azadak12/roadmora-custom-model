@@ -1,3 +1,4 @@
+/* Mission statement section on the homepage. Used on: HomePage. */
 export default function Mission() {
   return (
     <section className="mission">

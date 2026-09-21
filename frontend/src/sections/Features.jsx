@@ -1,3 +1,4 @@
+/* The features list/grid section on the homepage. Used on: HomePage. */
 export default function Features() {
   return (
     <section className="features" id="features">
@@ -11,7 +12,7 @@ export default function Features() {
           <div className="feature-card feature-card--large reveal">
             <div className="fc-icon">🧠</div>
             <h3 className="fc-title">AI Career Recommendation</h3>
-            <p className="fc-desc">Our AI doesn't just name a career. It explains precisely why the recommendation fits your unique profile — your strengths, learning style, interests, and goals.</p>
+            <p className="fc-desc">Our AI doesn't just name a career. It explains precisely why the recommendation fits your unique profile — your education, skills, experience, and interests.</p>
             <ul className="fc-list">
               <li>Primary career with match score</li>
               <li>Detailed fit explanation</li>

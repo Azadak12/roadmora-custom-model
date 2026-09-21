@@ -1,3 +1,4 @@
+/* Site footer, shown at the bottom of every homepage section stack. Used on: HomePage (via App.jsx layout). */
 export default function Footer() {
   return (
     <footer className="footer">

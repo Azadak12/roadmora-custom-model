@@ -1,3 +1,4 @@
+/* The login/signup popup. Its open/closed state is controlled globally by context/AuthModalContext.jsx, so it can be triggered from any page (e.g. the 'Login' button in Nav, or the assessment gate). */
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabaseClient';
@@ -21,16 +22,19 @@ export default function AuthModal() {
 
   if (!isOpen) return null;
 
+  // Switching modes clears messages from the previous login or signup attempt.
   function switchTab(next) {
     setTab(next);
     setLoginMsg({ text: '', type: '' });
     setSignupMsg({ text: '', type: '' });
   }
 
+  // A click inside the dialog must not close it.
   function handleOverlayClick(e) {
     if (e.target === e.currentTarget) closeAuth();
   }
 
+  // Supabase updates AuthContext through its auth-state listener after sign-in.
   async function handleLogin(e) {
     e.preventDefault();
     setLoginBusy(true);
@@ -48,6 +52,7 @@ export default function AuthModal() {
     }
   }
 
+  // Store the display name in Supabase user metadata for the dashboards.
   async function handleSignup(e) {
     e.preventDefault();
     setSignupBusy(true);
@@ -90,7 +95,7 @@ export default function AuthModal() {
                 value={loginPassword} onChange={(e) => setLoginPassword(e.target.value)} />
             </div>
             {loginMsg.text && <div className={`auth-msg ${loginMsg.type}`}>{loginMsg.text}</div>}
-            <button type="submit" className="btn btn--primary btn--full" disabled={loginBusy}>
+            <button type="submit" className="btn authmodal-login-btn btn--full" disabled={loginBusy}>
               {loginBusy ? 'Logging in…' : 'Login'}
             </button>
             <p className="auth-switch">No account? <span onClick={() => switchTab('signup')}>Sign up free →</span></p>
@@ -113,7 +118,7 @@ export default function AuthModal() {
                 value={signupPassword} onChange={(e) => setSignupPassword(e.target.value)} />
             </div>
             {signupMsg.text && <div className={`auth-msg ${signupMsg.type}`}>{signupMsg.text}</div>}
-            <button type="submit" className="btn btn--primary btn--full" disabled={signupBusy}>
+            <button type="submit" className="btn authmodal-signup-btn btn--full" disabled={signupBusy}>
               {signupBusy ? 'Creating account…' : 'Create Account'}
             </button>
             <p className="auth-switch">Have an account? <span onClick={() => switchTab('login')}>Login →</span></p>

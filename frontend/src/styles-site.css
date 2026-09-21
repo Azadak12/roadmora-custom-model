@@ -4,32 +4,50 @@
    Type: Syne (display) + Inter (body)
 ═══════════════════════════════════════════════ */
 
-:root {
-  --bg:        #0A0F1E;
-  --bg2:       #0F1628;
-  --bg3:       #141C35;
-  --surface:   #1A2340;
-  --surface2:  #1F2A4A;
-  --border:    rgba(79,70,229,.25);
-  --border2:   rgba(255,255,255,.06);
+/* ═══════════════════════════════════════════════
+   QUICK GUIDE — "I want to change ___, where do I look?"
+   Search this file for the text in [brackets] (Cmd+F / Ctrl+F).
 
-  --indigo:    #4F46E5;
-  --indigo-lt: #6366F1;
-  --cyan:      #06B6D4;
-  --cyan-lt:   #22D3EE;
-  --green:     #10B981;
-  --amber:     #F59E0B;
-  --red:       #EF4444;
+   - Any color anywhere on the site        -> [COLOR VARIABLES] below
+   - The blue "Discover Your Career Path"
+     button background                      -> [BUTTON COLORS]
+   - Page background color                  -> --bg in [COLOR VARIABLES]
+   - Nav bar (top menu)                     -> [── NAV ──]
+   - Hero section (big title + buttons)      -> [── HERO ──]
+   - Rounded corners on cards/buttons        -> --radius in [COLOR VARIABLES]
+   - Text color / body text                  -> --text in [COLOR VARIABLES]
 
-  --text:      #F0F4F8;
-  --text-2:    #C8D5E4;
-  --text-3:    #8FA3B8;
-  --text-4:    #506070;
+   Rule of thumb: colors are almost never hardcoded per element — they're
+   set ONCE as a --variable up top, then reused everywhere with var(--name).
+   Change the variable, and every element using it updates together.
+═══════════════════════════════════════════════ */
 
-  --radius-sm: 8px;
-  --radius:    14px;
-  --radius-lg: 22px;
-  --radius-xl: 32px;
+:root { /* [COLOR VARIABLES] */
+  --bg:        #0A0F1E;  /* page background (very dark navy) */
+  --bg2:       #0F1628;  /* slightly lighter background, used for alternating sections */
+  --bg3:       #141C35;  /* even lighter background */
+  --surface:   #1A2340;  /* card / panel background */
+  --surface2:  #1F2A4A;  /* lighter card background (hover states, nested panels) */
+  --border:    rgba(79,70,229,.25);  /* faint purple-tinted border */
+  --border2:   rgba(255,255,255,.06); /* faint white border, used on dark cards */
+
+  --indigo:    #4F46E5;  /* main brand blue/purple — the primary button color */
+  --indigo-lt: #6366F1;  /* lighter version of the brand blue, used for gradients/hover */
+  --cyan:      #06B6D4;  /* accent teal, used in gradients and highlights */
+  --cyan-lt:   #22D3EE;  /* lighter accent teal */
+  --green:     #10B981;  /* success / "have this skill" color */
+  --amber:     #F59E0B;  /* warning color */
+  --red:       #EF4444;  /* error / "missing this skill" color */
+
+  --text:      #F0F4F8;  /* brightest text (headings) */
+  --text-2:    #C8D5E4;  /* body text */
+  --text-3:    #8FA3B8;  /* muted/secondary text */
+  --text-4:    #506070;  /* faintest text (disabled, captions) */
+
+  --radius-sm: 8px;   /* small rounded corners (chips, tags) */
+  --radius:    14px;  /* default rounded corners (buttons, inputs) */
+  --radius-lg: 22px;  /* large rounded corners (cards) */
+  --radius-xl: 32px;  /* extra-large rounded corners (big panels) */
 
   --shadow-card: 0 1px 3px rgba(0,0,0,.4), 0 8px 32px rgba(0,0,0,.3);
   --shadow-glow: 0 0 40px rgba(79,70,229,.18);
@@ -117,27 +135,145 @@ section { padding: 100px 0; }
   border: none;
   white-space: nowrap;
 }
-.btn--primary {
+/* [BUTTON COLORS]
+   Every button on the site has ONE class that belongs to it and nothing
+   else — changing one button's background/color here can NEVER accidentally
+   change a different button. .btn / .btn--lg / .btn--xl / .btn--full above
+   are still shared (shape, size, padding only — no color), that's safe to
+   share since it never causes a visual conflict.
+
+   Each block below is named after where that button is and what it says,
+   so Cmd+F "hero" or "nav" etc. to jump straight to it. */
+
+/* Hero section — "Discover Your Career Path" (sections/Hero.jsx) */
+.hero-cta-btn {
   background: linear-gradient(135deg, var(--indigo) 0%, var(--indigo-lt) 100%);
   color: #fff;
   box-shadow: 0 4px 20px rgba(79,70,229,.35);
 }
-.btn--primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 32px rgba(79,70,229,.5);
-}
-.btn--ghost {
-  background: transparent;
-  color: var(--text-2);
-  border: 1px solid var(--border2);
-}
-.btn--ghost:hover { background: var(--surface); color: var(--text); }
-.btn--outline {
+.hero-cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(79,70,229,.5); }
+
+/* Hero section — "See How It Works" (sections/Hero.jsx) */
+.hero-secondary-btn {
   background: transparent;
   color: var(--text-2);
   border: 1px solid rgba(255,255,255,.15);
 }
-.btn--outline:hover { border-color: var(--indigo-lt); color: var(--text); }
+.hero-secondary-btn:hover { border-color: var(--indigo-lt); color: var(--text); }
+
+/* Nav bar — "Login" (components/Nav.jsx) */
+.nav-login-btn {
+  background: transparent;
+  color: var(--text-2);
+  border: 1px solid var(--border2);
+}
+.nav-login-btn:hover { background: var(--surface); color: var(--text); }
+
+/* Nav bar — "Get Started" (components/Nav.jsx) */
+.nav-getstarted-btn {
+  background: linear-gradient(135deg, var(--indigo) 0%, var(--indigo-lt) 100%);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(79,70,229,.35);
+}
+.nav-getstarted-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(79,70,229,.5); }
+
+/* Nav bar — "Logout" (components/Nav.jsx, shown only when logged in) */
+.nav-logout-btn {
+  background: transparent;
+  color: var(--text-2);
+  border: 1px solid var(--border2);
+}
+.nav-logout-btn:hover { background: var(--surface); color: var(--text); }
+
+/* Assessment sign-in gate — "Create Free Account" (sections/AssessmentSection.jsx) */
+.assess-gate-signup-btn {
+  background: linear-gradient(135deg, var(--indigo) 0%, var(--indigo-lt) 100%);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(79,70,229,.35);
+}
+.assess-gate-signup-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(79,70,229,.5); }
+
+/* Assessment sign-in gate — "Log In" (sections/AssessmentSection.jsx) */
+.assess-gate-login-btn {
+  background: transparent;
+  color: var(--text-2);
+  border: 1px solid var(--border2);
+}
+.assess-gate-login-btn:hover { background: var(--surface); color: var(--text); }
+
+/* Assessment form — "← Previous" (components/AssessmentForm.jsx) */
+.assess-form-prev-btn {
+  background: transparent;
+  color: var(--text-2);
+  border: 1px solid var(--border2);
+}
+.assess-form-prev-btn:hover { background: var(--surface); color: var(--text); }
+
+/* Assessment form — "Next Step →" (components/AssessmentForm.jsx) */
+.assess-form-next-btn {
+  background: linear-gradient(135deg, var(--indigo) 0%, var(--indigo-lt) 100%);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(79,70,229,.35);
+}
+.assess-form-next-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(79,70,229,.5); }
+
+/* Assessment form — final "Get My Career Roadmap" submit (components/AssessmentForm.jsx) */
+.assess-form-submit-btn {
+  background: linear-gradient(135deg, var(--indigo) 0%, var(--indigo-lt) 100%);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(79,70,229,.35);
+}
+.assess-form-submit-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(79,70,229,.5); }
+
+/* Results section — "← Retake Assessment" (components/ResultsSection.jsx) */
+.results-retake-btn {
+  background: transparent;
+  color: var(--text-2);
+  border: 1px solid var(--border2);
+}
+.results-retake-btn:hover { background: var(--surface); color: var(--text); }
+
+/* CTA section — main call-to-action button (sections/CtaSection.jsx) */
+.cta-section-btn {
+  background: linear-gradient(135deg, var(--indigo) 0%, var(--indigo-lt) 100%);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(79,70,229,.35);
+}
+.cta-section-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(79,70,229,.5); }
+
+/* Contact section — form submit button (sections/Contact.jsx) */
+.contact-submit-btn {
+  background: linear-gradient(135deg, var(--indigo) 0%, var(--indigo-lt) 100%);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(79,70,229,.35);
+}
+.contact-submit-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(79,70,229,.5); }
+
+/* Login/signup popup — login submit button (components/AuthModal.jsx) */
+.authmodal-login-btn {
+  background: linear-gradient(135deg, var(--indigo) 0%, var(--indigo-lt) 100%);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(79,70,229,.35);
+}
+.authmodal-login-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(79,70,229,.5); }
+
+/* Login/signup popup — signup submit button (components/AuthModal.jsx) */
+.authmodal-signup-btn {
+  background: linear-gradient(135deg, var(--indigo) 0%, var(--indigo-lt) 100%);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(79,70,229,.35);
+}
+.authmodal-signup-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(79,70,229,.5); }
+
+/* Admin login page — submit button (pages/AdminLoginPage.jsx) */
+.admin-login-submit-btn {
+  background: linear-gradient(135deg, var(--indigo) 0%, var(--indigo-lt) 100%);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(79,70,229,.35);
+}
+.admin-login-submit-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(79,70,229,.5); }
+
+/* Size modifiers — shared on purpose, these never touch color */
 .btn--lg { padding: 16px 32px; font-size: 1rem; }
 .btn--xl { padding: 18px 40px; font-size: 1.05rem; border-radius: var(--radius-lg); }
 .btn--full { width: 100%; justify-content: center; }
@@ -1113,6 +1249,7 @@ section { padding: 100px 0; }
   transition: border-color .2s, box-shadow .2s;
 }
 .ms-trigger:hover { border-color: rgba(255,255,255,.12); }
+.ms-trigger.error { border-color: var(--red); }
 .ms-trigger.open {
   border-color: var(--indigo-lt);
   box-shadow: 0 0 0 3px rgba(99,102,241,.12);
@@ -1327,6 +1464,17 @@ section { padding: 100px 0; }
   font-size: .75rem;
   font-weight: 600;
   color: var(--cyan);
+}
+/* Shown only on the rare fallback case: no occupation cleared the 75%
+   strong-match bar, so the single closest result is shown honestly
+   labeled instead of looking like every other >=75% match. */
+.res-match-score--weak { color: var(--amber); }
+.res-match-weak-label {
+  display: block;
+  margin-top: 4px;
+  font-size: .72rem;
+  font-weight: 500;
+  color: var(--amber);
 }
 .res-match-chevron {
   color: var(--text-4);

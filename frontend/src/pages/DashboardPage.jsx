@@ -1,3 +1,4 @@
+/* Logged-in user's dashboard: lists their saved past assessment results, opens RoadmapModal for details. Route: /dashboard. */
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
@@ -11,6 +12,7 @@ export default function DashboardPage() {
   const [error, setError] = useState('');
   const [openIdx, setOpenIdx] = useState(null);
 
+  // Wait for session restoration before redirecting or loading private results.
   useEffect(() => {
     if (loading) return;
     if (!session) {
@@ -22,6 +24,7 @@ export default function DashboardPage() {
       .catch((err) => setError(err.message || 'Failed to load results'));
   }, [loading, session, navigate]);
 
+  // Escape closes the full-roadmap dialog from anywhere on the dashboard.
   useEffect(() => {
     function onKeyDown(e) {
       if (e.key === 'Escape') setOpenIdx(null);
@@ -42,6 +45,7 @@ export default function DashboardPage() {
   const displayName = (user.user_metadata?.full_name || user.email).split(/[@\s]/)[0];
   const name = user.user_metadata?.full_name?.split(' ')[0] || displayName;
 
+  // The backend sorts newest first, so index zero drives the summary cards.
   const latest = results && results.length > 0 ? results[0] : null;
 
   return (
@@ -52,8 +56,8 @@ export default function DashboardPage() {
         </Link>
         <div className="topbar__right" style={{ display: 'flex' }}>
           <span className="topbar__user">{displayName}</span>
-          <Link to="/#assessment" className="tb-btn tb-btn--primary">+ New Assessment</Link>
-          <button className="tb-btn tb-btn--ghost" onClick={() => { signOut(); navigate('/'); }}>Logout</button>
+          <Link to="/#assessment" className="tb-btn db-topbar-new-assessment-btn">+ New Assessment</Link>
+          <button className="tb-btn db-topbar-logout-btn" onClick={() => { signOut(); navigate('/'); }}>Logout</button>
         </div>
       </header>
 
@@ -101,13 +105,14 @@ export default function DashboardPage() {
                   <div className="db-empty-icon">🗺️</div>
                   <p className="db-empty-title">No assessments yet</p>
                   <p className="db-empty-sub">Complete your first career assessment to see your personalized roadmap here.</p>
-                  <Link to="/#assessment" className="tb-btn tb-btn--primary">Take Assessment →</Link>
+                  <Link to="/#assessment" className="tb-btn db-empty-state-assessment-btn">Take Assessment →</Link>
                 </div>
               ) : (
                 <div className="db-grid">
                   {results.map((r, i) => {
                     const date = new Date(r.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
                     const ma = r.market_analysis || {};
+                    // Normalize older object-shaped roadmaps before showing a short preview.
                     const roadmap = Array.isArray(r.learning_roadmap) ? r.learning_roadmap : Object.values(r.learning_roadmap || {});
                     const preview = roadmap.slice(0, 3);
                     const extra = roadmap.length - 3;

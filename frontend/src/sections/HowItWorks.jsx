@@ -1,8 +1,9 @@
+/* The homepage's four-step explainer. Edit STEPS to change the displayed process. */
 const STEPS = [
-  { num: '01', icon: '📋', title: 'Complete the Assessment', desc: 'Answer structured questions about your education, skills, interests, personality, work preferences, and career goals.' },
-  { num: '02', icon: '⚙️', title: 'AI Analyzes Your Profile', desc: 'Your data is sent securely to our AI engine via n8n. The model evaluates your complete profile against career requirements.' },
-  { num: '03', icon: '🎯', title: 'Get Your Career Match', desc: 'Receive a primary career recommendation with match score, skill-gap analysis, alternative paths, and a market outlook.' },
-  { num: '04', icon: '🗺️', title: 'Follow Your Roadmap', desc: "Get a step-by-step learning plan, recommended projects, job roles to target, and resume improvement tips — all personalized to you." },
+  { num: '01', icon: '📋', title: 'Complete the Assessment', desc: 'Answer structured questions about your education, skills, experience, interests, and preferred industries.' },
+  { num: '02', icon: '⚙️', title: 'AI Analyzes Your Profile', desc: 'Our PyTorch model estimates your career interests, then compares your profile with real O*NET occupations.' },
+  { num: '03', icon: '🎯', title: 'Get Your Career Matches', desc: 'Explore ranked occupations with match scores, salary data, and growth outlooks.' },
+  { num: '04', icon: '🗺️', title: 'Follow Your Roadmap', desc: 'Review learning steps based on each occupation’s real tasks and training requirements.' },
 ];
 
 export default function HowItWorks() {

@@ -1,3 +1,4 @@
+/* A password `<input>` with a show/hide toggle. Used inside: components/AuthModal.jsx. */
 import { useState } from 'react';
 
 export default function PasswordInput({ className = '', ...props }) {

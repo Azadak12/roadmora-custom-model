@@ -1,3 +1,4 @@
+/* Legal/disclaimer text section near the bottom of the homepage. Used on: HomePage. */
 export default function Disclaimer() {
   return (
     <section className="disclaimer">

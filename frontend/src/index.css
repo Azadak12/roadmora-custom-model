@@ -1,2 +1,7 @@
+/* This file just combines the two real stylesheets. To change any style,
+   edit one of these two files directly — each has its own QUICK GUIDE
+   comment at the top explaining where things are.
+   - styles-site.css      -> the public landing page (Home, Hero, Nav, Assessment form, etc.)
+   - styles-dashboard.css -> the logged-in Dashboard + Admin pages */
 @import './styles-site.css';
 @import './styles-dashboard.css';

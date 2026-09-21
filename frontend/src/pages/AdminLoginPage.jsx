@@ -1,3 +1,4 @@
+/* Separate login screen for the admin route. Route: /admin/login. */
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { supabase } from '../lib/supabaseClient';
@@ -30,6 +31,8 @@ export default function AdminLoginPage() {
       return;
     }
 
+    // Reject a valid Supabase login here if it is not configured as an admin.
+    // Protected API routes independently enforce their own ADMIN_EMAILS list.
     const adminEmails = (import.meta.env.VITE_ADMIN_EMAILS || '')
       .split(',')
       .map((s) => s.trim().toLowerCase())
@@ -75,7 +78,7 @@ export default function AdminLoginPage() {
             />
           </div>
           {msg.text && <div className={`auth-msg ${msg.type}`}>{msg.text}</div>}
-          <button type="submit" className="btn btn--primary btn--full" disabled={busy}>
+          <button type="submit" className="btn admin-login-submit-btn btn--full" disabled={busy}>
             {busy ? 'Signing in…' : 'Sign In to Admin'}
           </button>
         </form>

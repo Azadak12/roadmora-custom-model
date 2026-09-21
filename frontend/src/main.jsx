@@ -1,3 +1,4 @@
+/* React entry point. Wraps the whole app in BrowserRouter (routing), AuthProvider (login state, see context/AuthContext.jsx) and AuthModalProvider (login popup state). You shouldn't need to edit this file for normal UI changes. */
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';

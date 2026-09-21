@@ -1,3 +1,4 @@
+/* The very first thing visitors see: big title, subtitle, the two CTA buttons ('Discover Your Career Path' / 'See How It Works'), and the stat numbers. Used on: HomePage. Each button's color has its own dedicated class (hero-cta-btn, hero-secondary-btn) in styles-site.css — no shared color classes here. */
 import { useEffect, useRef } from 'react';
 
 export default function Hero() {
@@ -39,15 +40,15 @@ export default function Hero() {
           <span className="gradient-text">Start Growing.</span>
         </h1>
         <p className="hero__subtitle">
-          Roadmora AI analyzes your education, skills, interests, and goals —
+          Roadmora AI analyzes your education, skills, experience, and interests —
           then builds you a personalized career path with a step-by-step roadmap to get there.
         </p>
         <div className="hero__actions">
-          <a href="#cta" className="btn btn--primary btn--lg">
+          <a href="#cta" className="btn hero-cta-btn btn--lg">
             Discover Your Career Path
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
-          <a href="#how" className="btn btn--outline btn--lg">See How It Works</a>
+          <a href="#how" className="btn hero-secondary-btn btn--lg">See How It Works</a>
         </div>
         <div className="hero__stats">
           <div className="hero__stat">

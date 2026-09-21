@@ -1,3 +1,4 @@
+/* The homepage stack summary. Keep this aligned with the deployed FastAPI, PyTorch, and Supabase architecture. */
 export default function TechStack() {
   return (
     <section className="tech">
@@ -15,12 +16,12 @@ export default function TechStack() {
           <div className="tech-card reveal">
             <div className="tech-icon">🔄</div>
             <h4>Backend</h4>
-            <p>Python (FastAPI) handles assessment requests, calls n8n for AI processing, and writes results to the database.</p>
+            <p>Python (FastAPI) handles assessment requests, runs career predictions, and saves results.</p>
           </div>
           <div className="tech-card reveal">
             <div className="tech-icon">🤖</div>
             <h4>Artificial Intelligence</h4>
-            <p>A large language model analyzes your profile and returns structured JSON career guidance.</p>
+            <p>A self-trained PyTorch model estimates career interests, then ranks real O*NET occupations using your skills and preferences.</p>
           </div>
           <div className="tech-card reveal">
             <div className="tech-icon">🗄️</div>

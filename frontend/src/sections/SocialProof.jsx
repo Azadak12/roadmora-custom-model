@@ -1,3 +1,4 @@
+/* The small trust/social-proof strip near the top of the homepage. Used on: HomePage. */
 export default function SocialProof() {
   return (
     <section className="social-proof">

@@ -1,3 +1,4 @@
+/* The 'Roadmora AI vs other tools' comparison table on the homepage. Used on: HomePage. Edit the comparison rows directly below. */
 export default function Compare() {
   return (
     <section className="compare">

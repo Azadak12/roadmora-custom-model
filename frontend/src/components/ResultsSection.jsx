@@ -1,7 +1,9 @@
+/* Renders the ranked career-match cards after a user submits the assessment (title, % match, expandable market analysis + roadmap). Used inside: sections/AssessmentSection.jsx, fed by the response from POST /api/assessment. */
 import { useState } from 'react';
 
 function MatchCard({ match, expanded, onToggle }) {
   const ma = match.market_analysis || {};
+  // Accept both the current array roadmap and older object-shaped saved data.
   const roadmap = Array.isArray(match.learning_roadmap)
     ? match.learning_roadmap
     : Object.values(match.learning_roadmap || {});
@@ -12,7 +14,12 @@ function MatchCard({ match, expanded, onToggle }) {
         <div>
           <span className="res-match-title">{match.career_field}</span>
           {typeof match.similarity === 'number' && (
-            <span className="res-match-score">{Math.round(match.similarity * 100)}% match</span>
+            <span className={`res-match-score${match.strong_match === false ? ' res-match-score--weak' : ''}`}>
+              {Math.round(match.similarity * 100)}% match
+            </span>
+          )}
+          {match.strong_match === false && (
+            <span className="res-match-weak-label">Closest available fit — below our usual 75% match bar</span>
           )}
         </div>
         <span className="res-match-chevron">{expanded ? '▲' : '▼'}</span>
@@ -55,6 +62,7 @@ export default function ResultsSection({ result, onRetake }) {
 
   if (!result) return null;
 
+  // Older single-match responses remain renderable alongside top_matches.
   const matches = Array.isArray(result.top_matches) ? result.top_matches : [result];
 
   return (
@@ -81,7 +89,7 @@ export default function ResultsSection({ result, onRetake }) {
           </div>
 
           <div className="res-actions">
-            <button className="btn btn--ghost" onClick={onRetake}>← Retake Assessment</button>
+            <button className="btn results-retake-btn" onClick={onRetake}>← Retake Assessment</button>
           </div>
         </div>
       </div>

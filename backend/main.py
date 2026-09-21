@@ -20,6 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "ml" / "scripts"
 from predict import CareerPredictor  # noqa: E402
 
 app = FastAPI(title="Roadmora AI Backend")
+# Load the model and its occupation data once when the API process starts.
 predictor = CareerPredictor()
 
 app.add_middleware(
@@ -32,6 +33,7 @@ app.add_middleware(
 
 @app.post("/api/assessment")
 async def submit_assessment(payload: dict, user=Depends(get_current_user)):
+    """Predict matches for an authenticated user and save the top match."""
     try:
         result = predictor.predict(payload, k=3)
     except Exception as exc:
@@ -60,6 +62,7 @@ async def submit_assessment(payload: dict, user=Depends(get_current_user)):
 
 @app.get("/api/results")
 async def list_results(user=Depends(get_current_user)):
+    """Return only this user's saved assessments, newest first."""
     result = (
         supabase.table("results")
         .select("*")
@@ -72,6 +75,7 @@ async def list_results(user=Depends(get_current_user)):
 
 @app.get("/api/admin/stats")
 async def admin_stats(admin=Depends(get_current_admin)):
+    """Summarize registered users and saved assessments for an admin."""
     users = supabase.auth.admin.list_users(per_page=200)
     results = supabase.table("results").select("id", count="exact").execute()
     return {
@@ -82,6 +86,7 @@ async def admin_stats(admin=Depends(get_current_admin)):
 
 @app.get("/api/admin/users")
 async def admin_users(admin=Depends(get_current_admin)):
+    """Attach each user's assessment count to their Supabase account record."""
     users = supabase.auth.admin.list_users(per_page=200)
     results = supabase.table("results").select("user_id").execute()
 
@@ -103,6 +108,7 @@ async def admin_users(admin=Depends(get_current_admin)):
 
 @app.get("/api/admin/results")
 async def admin_results(admin=Depends(get_current_admin)):
+    """Return all saved assessments with user emails for the admin table."""
     users = supabase.auth.admin.list_users(per_page=200)
     email_by_id = {u.id: u.email for u in users}
 

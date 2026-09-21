@@ -1,9 +1,11 @@
+/* Popup that shows one saved result's full learning roadmap in detail. Used on: pages/DashboardPage.jsx, when a user clicks into a past result. */
 import { Link } from 'react-router-dom';
 
 export default function RoadmapModal({ result, onClose }) {
   if (!result) return null;
 
   const ma = result.market_analysis || {};
+  // Saved roadmaps may be arrays or objects, depending on when they were created.
   const roadmap = Array.isArray(result.learning_roadmap)
     ? result.learning_roadmap
     : Object.values(result.learning_roadmap || {});
@@ -41,7 +43,7 @@ export default function RoadmapModal({ result, onClose }) {
           </ol>
         </div>
         <div className="rm-footer">
-          <Link to="/#assessment" className="tb-btn tb-btn--ghost">← Take New Assessment</Link>
+          <Link to="/#assessment" className="tb-btn db-modal-new-assessment-btn">← Take New Assessment</Link>
         </div>
       </div>
     </div>

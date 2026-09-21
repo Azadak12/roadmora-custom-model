@@ -1,3 +1,4 @@
+/* Controls whether the login/signup popup (components/AuthModal.jsx) is open, and in which mode (login vs signup). Exposes useAuthModal() -> { openAuth(mode) }. */
 import { createContext, useContext, useState } from 'react';
 
 const AuthModalContext = createContext(null);

@@ -1,3 +1,4 @@
+/* Admin-only dashboard: user counts, assessment stats, results list. Route: /admin. Access is gated by isAdmin from context/AuthContext.jsx (checks the logged-in email against VITE_ADMIN_EMAILS). */
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
@@ -20,6 +21,8 @@ export default function AdminDashboardPage() {
   const [error, setError] = useState('');
   const [openIdx, setOpenIdx] = useState(null);
 
+  // Fetch each admin panel together after the restored session passes the UI gate.
+  // The API also enforces admin access on every endpoint.
   useEffect(() => {
     if (loading) return;
     if (!session || !isAdmin) {

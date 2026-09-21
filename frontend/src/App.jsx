@@ -1,3 +1,4 @@
+/* Top-level router: defines the 4 routes (/  /dashboard  /admin/login  /admin) and mounts the global AuthModal so it can pop up from any page. */
 import { Route, Routes } from 'react-router-dom';
 import AuthModal from './components/AuthModal.jsx';
 import HomePage from './pages/HomePage.jsx';
