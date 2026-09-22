@@ -97,7 +97,7 @@ export default function DashboardPage() {
 
             <div className="db-section">
               <div className="db-section-head">
-                <h2 className="db-section-title">Your Career Roadmaps</h2>
+                <h2 className="db-section-title">Your Career Results</h2>
               </div>
 
               {!results || results.length === 0 ? (
@@ -124,27 +124,27 @@ export default function DashboardPage() {
                             <div className="db-card__career">{r.career_field || 'Unknown'}</div>
                             <div className="db-card__date">{date}</div>
                           </div>
-                          {ma.demand && <span className="db-card__badge">{ma.demand} Demand</span>}
+                          {ma.demand && <span className="db-card__badge">{ma.demand}</span>}
                         </div>
 
                         <div className="db-card__stats">
                           <div className="db-card__stat">
-                            <span className="db-card__stat-label">Demand</span>
+                            <span className="db-card__stat-label">Job Zone</span>
                             <span className="db-card__stat-val">{ma.demand || '—'}</span>
                           </div>
                           <div className="db-card__stat">
-                            <span className="db-card__stat-label">Salary</span>
+                            <span className="db-card__stat-label">U.S. Median Wage</span>
                             <span className="db-card__stat-val">{ma.salary || '—'}</span>
                           </div>
                           <div className="db-card__stat">
-                            <span className="db-card__stat-label">Growth</span>
+                            <span className="db-card__stat-label">U.S. Growth</span>
                             <span className="db-card__stat-val">{ma.growth || '—'}</span>
                           </div>
                         </div>
 
                         {preview.length > 0 && (
                           <div className="db-card__preview">
-                            <div className="db-card__preview-label">Roadmap Preview</div>
+                            <div className="db-card__preview-label">Occupation Details</div>
                             <div className="db-card__steps">
                               {preview.map((step, si) => (
                                 <div className="db-card__step" key={si}>
@@ -157,7 +157,7 @@ export default function DashboardPage() {
                           </div>
                         )}
 
-                        <div className="db-card__view">View Full Roadmap →</div>
+                        <div className="db-card__view">View Details →</div>
                       </div>
                     );
                   })}

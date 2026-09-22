@@ -18,7 +18,7 @@ export default function AboutSection() {
           <div className="about-block reveal">
             <div className="ab-icon">💡</div>
             <h3>Our Solution</h3>
-            <p>Roadmora AI uses a structured assessment to gather all the right information — then passes it to an AI model with a controlled, career-focused prompt. The result is consistent, personalized, and actionable guidance that works for beginners and experienced learners alike.</p>
+            <p>Roadmora AI collects structured answers, uses a trained PyTorch model to estimate career interests, and ranks real O*NET occupations. Each result includes available occupation details and U.S. labor-market data.</p>
           </div>
           <div className="about-block reveal">
             <div className="ab-icon">🎓</div>

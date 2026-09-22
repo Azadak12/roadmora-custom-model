@@ -41,7 +41,7 @@ export default function Hero() {
         </h1>
         <p className="hero__subtitle">
           Roadmora AI analyzes your education, skills, experience, and interests —
-          then builds you a personalized career path with a step-by-step roadmap to get there.
+          then ranks real occupations and shows available training and labor-market information.
         </p>
         <div className="hero__actions">
           <a href="#cta" className="btn hero-cta-btn btn--lg">
@@ -52,18 +52,18 @@ export default function Hero() {
         </div>
         <div className="hero__stats">
           <div className="hero__stat">
-            <span className="stat-num">14+</span>
-            <span className="stat-label">Career Dimensions Analyzed</span>
+            <span className="stat-num">923</span>
+            <span className="stat-label">O*NET Occupations</span>
           </div>
           <div className="hero__divider"></div>
           <div className="hero__stat">
-            <span className="stat-num">AI</span>
-            <span className="stat-label">Personalized Roadmaps</span>
+            <span className="stat-num">41</span>
+            <span className="stat-label">Career Interest Areas</span>
           </div>
           <div className="hero__divider"></div>
           <div className="hero__stat">
-            <span className="stat-num">100%</span>
-            <span className="stat-label">Structured Guidance</span>
+            <span className="stat-num">3</span>
+            <span className="stat-label">Matches Shown at Most</span>
           </div>
         </div>
       </div>
@@ -73,43 +73,34 @@ export default function Hero() {
             <span className="rmc-dot rmc-dot--green"></span>
             <span className="rmc-dot rmc-dot--yellow"></span>
             <span className="rmc-dot rmc-dot--red"></span>
-            <span className="rmc-title">Career Recommendation</span>
+            <span className="rmc-title">What Your Results Include</span>
           </div>
           <div className="rmc-career">
-            <div className="rmc-icon">💻</div>
+            <div className="rmc-icon">🎯</div>
             <div>
-              <div className="rmc-career-title">Full-Stack Developer</div>
-              <div className="rmc-match">
-                <div className="rmc-match-bar"><div className="rmc-match-fill" style={{ '--w': '87%' }}></div></div>
-                <span>87% Match</span>
-              </div>
+              <div className="rmc-career-title">Ranked occupation matches</div>
+              <div className="rmc-match">Based on your assessment answers</div>
             </div>
           </div>
-          <div className="rmc-section-label">Skill Gap Analysis</div>
+          <div className="rmc-section-label">Available information</div>
           <div className="rmc-skills">
-            <div className="rmc-skill rmc-skill--have">✓ HTML / CSS</div>
-            <div className="rmc-skill rmc-skill--have">✓ JavaScript</div>
-            <div className="rmc-skill rmc-skill--need">+ React.js</div>
-            <div className="rmc-skill rmc-skill--need">+ Node.js</div>
-            <div className="rmc-skill rmc-skill--need">+ PostgreSQL</div>
+            <div className="rmc-skill rmc-skill--have">Match score</div>
+            <div className="rmc-skill rmc-skill--have">U.S. median wage</div>
+            <div className="rmc-skill rmc-skill--have">Projected growth</div>
           </div>
-          <div className="rmc-section-label">Your Roadmap</div>
+          <div className="rmc-section-label">Occupation details</div>
           <div className="rmc-roadmap">
-            <div className="rmc-step rmc-step--done">
+            <div className="rmc-step">
               <div className="rmc-step-dot"></div>
-              <div className="rmc-step-text">Foundation <span>4 weeks</span></div>
-            </div>
-            <div className="rmc-step rmc-step--active">
-              <div className="rmc-step-dot"></div>
-              <div className="rmc-step-text">Core Skills <span>8 weeks</span></div>
+              <div className="rmc-step-text">Education requirements</div>
             </div>
             <div className="rmc-step">
               <div className="rmc-step-dot"></div>
-              <div className="rmc-step-text">Projects <span>6 weeks</span></div>
+              <div className="rmc-step-text">Experience and training</div>
             </div>
             <div className="rmc-step">
               <div className="rmc-step-dot"></div>
-              <div className="rmc-step-text">Job Ready <span>4 weeks</span></div>
+              <div className="rmc-step-text">Core responsibilities</div>
             </div>
           </div>
         </div>

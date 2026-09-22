@@ -5,50 +5,43 @@ export default function Features() {
       <div className="container">
         <div className="section-header">
           <span className="section-eyebrow">Platform Features</span>
-          <h2 className="section-title">Everything you need to<br /><span className="gradient-text">launch your career</span></h2>
+          <h2 className="section-title">Explore career paths with<br /><span className="gradient-text">real occupation data</span></h2>
         </div>
 
         <div className="features-grid">
           <div className="feature-card feature-card--large reveal">
             <div className="fc-icon">🧠</div>
-            <h3 className="fc-title">AI Career Recommendation</h3>
-            <p className="fc-desc">Our AI doesn't just name a career. It explains precisely why the recommendation fits your unique profile — your education, skills, experience, and interests.</p>
+            <h3 className="fc-title">Ranked Career Matches</h3>
+            <p className="fc-desc">A trained model estimates your career interests. Your selected skills, interests, experience, and industries help rank real O*NET occupations.</p>
             <ul className="fc-list">
-              <li>Primary career with match score</li>
-              <li>Detailed fit explanation</li>
-              <li>Alternative career options</li>
-              <li>Possible challenges flagged</li>
+              <li>Up to three occupation matches</li>
+              <li>A match score for each result</li>
+              <li>Results based on the answers you provide</li>
             </ul>
           </div>
 
           <div className="feature-card reveal">
-            <div className="fc-icon">🔍</div>
-            <h3 className="fc-title">Skill-Gap Analysis</h3>
-            <p className="fc-desc">Know exactly which skills you have, which you're missing, and which to prioritize first.</p>
+            <div className="fc-icon">📋</div>
+            <h3 className="fc-title">Structured Assessment</h3>
+            <p className="fc-desc">Enter your education, current skills, work experience, career interests, and preferred industries in one five-step form.</p>
           </div>
 
           <div className="feature-card reveal">
-            <div className="fc-icon">🗺️</div>
-            <h3 className="fc-title">Learning Roadmap</h3>
-            <p className="fc-desc">Stage-by-stage plan: Foundation → Beginner → Intermediate → Advanced → Job Ready, with durations and tools.</p>
+            <div className="fc-icon">🗂️</div>
+            <h3 className="fc-title">Occupation Details</h3>
+            <p className="fc-desc">See available O*NET education, experience, training, and core-task information for each match.</p>
           </div>
 
           <div className="feature-card reveal">
             <div className="fc-icon">📊</div>
-            <h3 className="fc-title">Market Insights</h3>
-            <p className="fc-desc">Understand demand, job titles, industries hiring, remote opportunities, and career growth potential.</p>
-          </div>
-
-          <div className="feature-card reveal">
-            <div className="fc-icon">📄</div>
-            <h3 className="fc-title">Resume Builder</h3>
-            <p className="fc-desc">Generate career-aligned resumes with AI-suggested summaries, skill ordering, and project descriptions.</p>
+            <h3 className="fc-title">U.S. Market Data</h3>
+            <p className="fc-desc">View available BLS median annual wage and projected employment growth for matched occupations.</p>
           </div>
 
           <div className="feature-card reveal">
             <div className="fc-icon">📁</div>
-            <h3 className="fc-title">Personal Dashboard</h3>
-            <p className="fc-desc">Save your results, track your progress, and revisit your roadmap anytime from your account.</p>
+            <h3 className="fc-title">Saved Results</h3>
+            <p className="fc-desc">Sign in to save the top result from each assessment and revisit it from your dashboard.</p>
           </div>
         </div>
       </div>

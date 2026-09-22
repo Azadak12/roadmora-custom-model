@@ -298,9 +298,9 @@ export default function AssessmentForm({ onSubmit, submitting, errorMsg }) {
             <button type="button" className="btn assess-form-next-btn" onClick={() => goToStep(1)}>Next Step →</button>
           ) : (
             <button type="submit" className="btn assess-form-submit-btn" disabled={submitting}>
-              {submitting ? 'Generating your roadmap…' : (
+              {submitting ? 'Finding your matches…' : (
                 <>
-                  Get My Career Roadmap
+                  See My Career Matches
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </>
               )}

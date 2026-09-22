@@ -26,7 +26,7 @@ export default function TechStack() {
           <div className="tech-card reveal">
             <div className="tech-icon">🗄️</div>
             <h4>Database & Auth</h4>
-            <p>Supabase powers user authentication, profile storage, and recommendation history.</p>
+            <p>Supabase handles user authentication and stores assessment results for the dashboard.</p>
           </div>
         </div>
       </div>

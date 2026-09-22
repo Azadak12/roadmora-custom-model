@@ -189,9 +189,9 @@ export default function AdminDashboardPage() {
                       <tr>
                         <th>User</th>
                         <th>Career Match</th>
-                        <th>Demand</th>
-                        <th>Salary</th>
-                        <th>Growth</th>
+                        <th>Job Zone</th>
+                        <th>U.S. Median Wage</th>
+                        <th>U.S. Growth</th>
                         <th>Date</th>
                       </tr>
                     </thead>

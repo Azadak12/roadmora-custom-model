@@ -56,14 +56,14 @@ export default function AssessmentSection() {
           <div className="section-header">
             <span className="section-eyebrow">Career Assessment</span>
             <h2 className="section-title">Tell us about <span className="gradient-text">yourself</span></h2>
-            <p className="section-sub">Answer honestly — the more accurate your inputs, the more precise your career roadmap.</p>
+            <p className="section-sub">Answer honestly so the occupation matches reflect your skills and interests.</p>
           </div>
 
           {!user ? (
             <div className="assess-gate">
               <div className="assess-gate-icon">🔒</div>
               <h3 className="assess-gate-title">Sign in to take the assessment</h3>
-              <p className="assess-gate-sub">Create a free account or log in to get your personalized AI career roadmap. Your results are saved to your dashboard.</p>
+              <p className="assess-gate-sub">Create a free account or log in to see career matches. Your top result from each assessment is saved to your dashboard.</p>
               <div className="assess-gate-btns">
                 <button className="btn assess-gate-signup-btn btn--lg" onClick={() => openAuth('signup')}>Create Free Account</button>
                 <button className="btn assess-gate-login-btn btn--lg" onClick={() => openAuth('login')}>Log In</button>

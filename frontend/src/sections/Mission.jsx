@@ -7,8 +7,8 @@ export default function Mission() {
           <div className="mission-text">
             <span className="section-eyebrow">Our Mission</span>
             <h2 className="section-title">Guidance that respects<br /><span className="gradient-text">your individuality.</span></h2>
-            <p>We believe career guidance should be as unique as the person receiving it. That's why we don't give the same answer to everyone. Roadmora AI reads your complete picture before generating a single recommendation.</p>
-            <p style={{ marginTop: '1rem' }}>We also believe in honesty. Roadmora AI does not guarantee employment, does not replace a professional counsellor, and does not pretend to have live market data unless it's connected. What it does deliver: clear thinking, structured output, and a practical starting point.</p>
+            <p>We believe career guidance should account for the answers a person provides. Roadmora AI compares your interests, skills, experience, and preferences with real occupations and shows the strongest available matches.</p>
+            <p style={{ marginTop: '1rem' }}>Roadmora AI does not guarantee employment or replace a professional counsellor. Wage and growth figures come from published U.S. BLS data and may not reflect your local market.</p>
           </div>
           <div className="mission-values">
             <div className="value-card">
@@ -29,14 +29,14 @@ export default function Mission() {
               <span className="value-icon">🤝</span>
               <div>
                 <strong>Honesty</strong>
-                <p>We tell you what you need to hear, including the gaps and challenges.</p>
+                <p>We show when occupation or market data is unavailable.</p>
               </div>
             </div>
             <div className="value-card">
               <span className="value-icon">🚀</span>
               <div>
                 <strong>Action</strong>
-                <p>Every result ends with clear next steps — no vague inspiration.</p>
+                <p>Each match includes available occupation and labor-market information.</p>
               </div>
             </div>
           </div>

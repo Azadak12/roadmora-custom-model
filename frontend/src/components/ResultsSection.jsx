@@ -28,25 +28,25 @@ function MatchCard({ match, expanded, onToggle }) {
       {expanded && (
         <div className="res-match-body">
           <div className="res-block">
-            <h3 className="res-block-title">📊 Market Analysis</h3>
+            <h3 className="res-block-title">📊 Occupation &amp; U.S. Market Data</h3>
             <div className="res-market-grid">
               <div className="res-market-item">
-                <span className="res-market-label">Demand</span>
+                <span className="res-market-label">O*NET Job Zone</span>
                 <span className="res-market-val">{ma.demand || '—'}</span>
               </div>
               <div className="res-market-item">
-                <span className="res-market-label">Avg. Salary</span>
+                <span className="res-market-label">U.S. Median Annual Wage</span>
                 <span className="res-market-val">{ma.salary || '—'}</span>
               </div>
               <div className="res-market-item">
-                <span className="res-market-label">Growth Outlook</span>
+                <span className="res-market-label">U.S. Projected Growth</span>
                 <span className="res-market-val">{ma.growth || '—'}</span>
               </div>
             </div>
           </div>
 
           <div className="res-block">
-            <h3 className="res-block-title">🗺️ Roadmap</h3>
+            <h3 className="res-block-title">📋 Occupation Details</h3>
             <ol className="res-roadmap-list">
               {roadmap.map((step, i) => <li key={i}>{step}</li>)}
             </ol>

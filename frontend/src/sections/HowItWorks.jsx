@@ -3,7 +3,7 @@ const STEPS = [
   { num: '01', icon: '📋', title: 'Complete the Assessment', desc: 'Answer structured questions about your education, skills, experience, interests, and preferred industries.' },
   { num: '02', icon: '⚙️', title: 'AI Analyzes Your Profile', desc: 'Our PyTorch model estimates your career interests, then compares your profile with real O*NET occupations.' },
   { num: '03', icon: '🎯', title: 'Get Your Career Matches', desc: 'Explore ranked occupations with match scores, salary data, and growth outlooks.' },
-  { num: '04', icon: '🗺️', title: 'Follow Your Roadmap', desc: 'Review learning steps based on each occupation’s real tasks and training requirements.' },
+  { num: '04', icon: '📋', title: 'Review Occupation Details', desc: 'Read available education, experience, training, and core-task information for each match.' },
 ];
 
 export default function HowItWorks() {

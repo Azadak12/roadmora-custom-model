@@ -25,19 +25,19 @@ export default function RoadmapModal({ result, onClose }) {
         <div className="rm-body">
           <div className="rm-market">
             <div className="rm-market-item">
-              <span className="rm-market-label">Demand</span>
+              <span className="rm-market-label">O*NET Job Zone</span>
               <span className="rm-market-val">{ma.demand || '—'}</span>
             </div>
             <div className="rm-market-item">
-              <span className="rm-market-label">Avg. Salary</span>
+              <span className="rm-market-label">U.S. Median Annual Wage</span>
               <span className="rm-market-val">{ma.salary || '—'}</span>
             </div>
             <div className="rm-market-item">
-              <span className="rm-market-label">Growth</span>
+              <span className="rm-market-label">U.S. Projected Growth</span>
               <span className="rm-market-val">{ma.growth || '—'}</span>
             </div>
           </div>
-          <h3 className="rm-roadmap-title">Learning Roadmap</h3>
+          <h3 className="rm-roadmap-title">Occupation Details</h3>
           <ol className="rm-roadmap-list">
             {roadmap.map((step, i) => <li key={i}>{step}</li>)}
           </ol>
