@@ -49,3 +49,23 @@ async function adminGet(path) {
 export const getAdminStats = () => adminGet('/api/admin/stats');
 export const getAdminUsers = () => adminGet('/api/admin/users');
 export const getAdminResults = () => adminGet('/api/admin/results');
+
+async function adminWrite(path, method, data) {
+  const headers = await authHeaders();
+  const res = await fetch(`${API_BASE_URL}${path}`, {
+    method,
+    headers: { ...headers, ...(data ? { 'Content-Type': 'application/json' } : {}) },
+    ...(data ? { body: JSON.stringify(data) } : {}),
+  });
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({}));
+    const detail = Array.isArray(body.detail) ? body.detail.map((item) => item.msg).join(', ') : body.detail;
+    throw new Error(detail || `Server returned ${res.status}`);
+  }
+  return res.status === 204 ? null : res.json();
+}
+
+export const updateAdminUser = (id, data) => adminWrite(`/api/admin/users/${encodeURIComponent(id)}`, 'PATCH', data);
+export const deleteAdminUser = (id) => adminWrite(`/api/admin/users/${encodeURIComponent(id)}`, 'DELETE');
+export const updateAdminResult = (id, data) => adminWrite(`/api/admin/results/${encodeURIComponent(id)}`, 'PATCH', data);
+export const deleteAdminResult = (id) => adminWrite(`/api/admin/results/${encodeURIComponent(id)}`, 'DELETE');
