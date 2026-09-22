@@ -114,7 +114,32 @@ export default function AdminDashboardPage() {
     ? (a.career_field || '').localeCompare(b.career_field || '')
     : (resultSort === 'oldest' ? 1 : -1) * (time(a.created_at) - time(b.created_at)));
   const recent30 = (results || []).filter((r) => time(r.created_at) >= asOf - 30 * 86400000).length;
+  const newUsers30 = (users || []).filter((u) => time(u.created_at) >= asOf - 30 * 86400000).length;
+  const chartStart = new Date(asOf);
+  chartStart.setHours(0, 0, 0, 0);
+  chartStart.setDate(chartStart.getDate() - 6);
+  const previousStart = new Date(chartStart);
+  previousStart.setDate(previousStart.getDate() - 7);
+  const thisWeek = (results || []).filter((r) => time(r.created_at) >= chartStart.getTime()).length;
+  const previousWeek = (results || []).filter((r) => {
+    const created = time(r.created_at);
+    return created >= previousStart.getTime() && created < chartStart.getTime();
+  }).length;
   const activeUsers = new Set((results || []).map((r) => r.user_id).filter(Boolean)).size;
+  const participation = stats?.total_users ? Math.round(activeUsers / stats.total_users * 100) : 0;
+  const activityDays = Array.from({ length: 7 }, (_, index) => {
+    const start = new Date(asOf);
+    start.setHours(0, 0, 0, 0);
+    start.setDate(start.getDate() - (6 - index));
+    const end = new Date(start);
+    end.setDate(end.getDate() + 1);
+    return {
+      label: start.toLocaleDateString('en-US', { weekday: 'short' }),
+      date: dateText(start),
+      count: (results || []).filter((r) => time(r.created_at) >= start.getTime() && time(r.created_at) < end.getTime()).length,
+    };
+  });
+  const maxActivity = Math.max(1, ...activityDays.map((day) => day.count));
   const careerCounts = (results || []).reduce((counts, r) => {
     const career = r.career_field || 'Unknown';
     counts[career] = (counts[career] || 0) + 1;
@@ -209,9 +234,10 @@ export default function AdminDashboardPage() {
 
       <main className="admin-main">
         <header className="admin-main__header">
-          <div><p className="admin-eyebrow">ADMIN CONSOLE</p><h1 className="admin-main__title">{NAV_ITEMS.find((i) => i.key === section)?.label}</h1></div>
+          <div className="admin-main__heading"><p className="admin-eyebrow">ROADMORA / ADMIN CONSOLE</p><h1 className="admin-main__title">{NAV_ITEMS.find((i) => i.key === section)?.label}</h1>
+            <p className="admin-main__subtitle">{section === 'overview' ? 'A clear view of how people are using Roadmora.' : section === 'users' ? 'Find, review, and manage registered accounts.' : 'Explore and manage saved career recommendations.'}</p></div>
           <div className="admin-header-actions">
-            {lastUpdated && <span className="admin-updated">Updated {lastUpdated.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}</span>}
+            {lastUpdated && <span className="admin-updated"><span className="admin-live-dot" />Updated {lastUpdated.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}</span>}
             <button className="admin-action-btn" type="button" onClick={refresh} disabled={busy}>{busy ? 'Refreshing…' : '↻ Refresh'}</button>
           </div>
         </header>
@@ -230,27 +256,68 @@ export default function AdminDashboardPage() {
           <>
             {section === 'overview' && (
               <>
+                <section className="admin-hero" aria-label="Dashboard welcome">
+                  <div className="admin-hero__content">
+                    <span className="admin-hero__eyebrow"><span className="admin-live-dot" /> PLATFORM SNAPSHOT</span>
+                    <h2>Good to see you, {displayName}.</h2>
+                    <p>Follow assessment activity, spot popular career paths, and keep your community organized from one place.</p>
+                    <div className="admin-hero__actions">
+                      <button type="button" onClick={() => setSection('results')}>Explore assessments <span aria-hidden="true">↗</span></button>
+                      <button type="button" onClick={() => setSection('users')}>Manage users <span aria-hidden="true">→</span></button>
+                    </div>
+                  </div>
+                  <div className="admin-hero__orb" aria-hidden="true"><span>◈</span></div>
+                </section>
                 <div className="admin-stat-grid admin-stat-grid--four">
                   <div className="admin-stat-card">
+                    <span className="admin-stat-card__top"><span className="admin-stat-card__icon admin-stat-card__icon--purple">◎</span><span className="admin-stat-card__period">ALL TIME</span></span>
                     <span className="admin-stat-card__val">{stats.total_users}</span>
                     <span className="admin-stat-card__label">Registered Users</span>
+                    <span className="admin-stat-card__foot">+{newUsers30} joined in 30 days</span>
                   </div>
                   <div className="admin-stat-card">
+                    <span className="admin-stat-card__top"><span className="admin-stat-card__icon admin-stat-card__icon--cyan">▤</span><span className="admin-stat-card__period">ALL TIME</span></span>
                     <span className="admin-stat-card__val">{stats.total_assessments}</span>
                     <span className="admin-stat-card__label">Total Assessments</span>
+                    <span className="admin-stat-card__foot">{stats.total_users ? (stats.total_assessments / stats.total_users).toFixed(1) : '0'} per registered user</span>
                   </div>
                   <div className="admin-stat-card">
+                    <span className="admin-stat-card__top"><span className="admin-stat-card__icon admin-stat-card__icon--amber">↗</span><span className="admin-stat-card__period">LAST 30 DAYS</span></span>
                     <span className="admin-stat-card__val">{recent30}</span>
-                    <span className="admin-stat-card__label">Assessments in 30 days</span>
+                    <span className="admin-stat-card__label">Recent Assessments</span>
+                    <span className="admin-stat-card__foot">{thisWeek} in the last 7 days</span>
                   </div>
                   <div className="admin-stat-card">
+                    <span className="admin-stat-card__top"><span className="admin-stat-card__icon admin-stat-card__icon--green">◌</span><span className="admin-stat-card__period">ENGAGEMENT</span></span>
                     <span className="admin-stat-card__val">{activeUsers}</span>
                     <span className="admin-stat-card__label">Users with assessments</span>
+                    <span className="admin-stat-card__foot">{participation}% of registered users</span>
                   </div>
+                </div>
+                <div className="admin-analytics-grid">
+                  <section className="admin-panel admin-panel--activity">
+                    <div className="admin-panel__head"><div><p className="admin-panel__eyebrow">ACTIVITY</p><h2>Assessments this week</h2></div><span className="admin-panel__hint">Last 7 days</span></div>
+                    <div className="admin-activity-summary"><strong>{thisWeek}</strong><span>completed this week</span><span className="admin-activity-compare">{thisWeek >= previousWeek ? '↑' : '↓'} {Math.abs(thisWeek - previousWeek)} vs previous week</span></div>
+                    <div className="admin-activity-chart" role="img" aria-label={`Assessments over the last seven days: ${activityDays.map((day) => `${day.label} ${day.count}`).join(', ')}`}>
+                      {activityDays.map((day, index) => <div className="admin-activity-day" key={`${day.date}-${index}`} title={`${day.date}: ${day.count} assessments`}>
+                        <span className="admin-activity-day__count">{day.count || ''}</span>
+                        <span className="admin-activity-day__track"><span className={index === 6 ? 'admin-activity-day__bar admin-activity-day__bar--today' : 'admin-activity-day__bar'} style={{ height: `${day.count ? Math.max(10, day.count / maxActivity * 100) : 4}%` }} /></span>
+                        <span className="admin-activity-day__label">{day.label}</span>
+                      </div>)}
+                    </div>
+                  </section>
+                  <section className="admin-panel admin-panel--community">
+                    <div className="admin-panel__head"><div><p className="admin-panel__eyebrow">COMMUNITY</p><h2>Participation</h2></div></div>
+                    <div className="admin-participation"><span>{participation}%</span><p>of registered users have completed at least one assessment.</p></div>
+                    <div className="admin-participation__track"><span style={{ width: `${Math.min(100, participation)}%` }} /></div>
+                    <div className="admin-community-stat"><span>New users in 30 days</span><strong>{newUsers30}</strong></div>
+                    <div className="admin-community-stat"><span>Assessments per user</span><strong>{stats.total_users ? (stats.total_assessments / stats.total_users).toFixed(1) : '0'}</strong></div>
+                    <button className="admin-link-btn admin-community-link" type="button" onClick={() => setSection('users')}>Explore all users →</button>
+                  </section>
                 </div>
                 <div className="admin-overview-grid">
                 <section className="admin-panel">
-                  <div className="admin-panel__head"><h2>Most recommended careers</h2><span className="admin-panel__hint">In loaded assessments</span></div>
+                  <div className="admin-panel__head"><div><p className="admin-panel__eyebrow">CAREER TRENDS</p><h2>Most recommended careers</h2></div><span className="admin-panel__hint">All assessments</span></div>
                   {topCareers.map(([career, count]) => (
                     <div className="admin-chart-row" key={career}>
                       <div className="admin-chart-row__label"><span title={career}>{career}</span><strong>{count}</strong></div>
@@ -261,7 +328,7 @@ export default function AdminDashboardPage() {
                 </section>
                 <div className="admin-panel">
                   <div className="admin-panel__head">
-                    <h2>Recent Assessments</h2>
+                    <div><p className="admin-panel__eyebrow">LATEST ACTIVITY</p><h2>Recent assessments</h2></div>
                     <button className="admin-link-btn" onClick={() => setSection('results')}>View all →</button>
                   </div>
                   {results.slice(0, 5).map((r, i) => (
@@ -276,6 +343,13 @@ export default function AdminDashboardPage() {
                   {!results.length && <p className="admin-muted">No assessments submitted yet.</p>}
                 </div>
                 </div>
+                <section className="admin-panel admin-panel--new-users">
+                  <div className="admin-panel__head"><div><p className="admin-panel__eyebrow">PEOPLE</p><h2>Newest members</h2></div><button className="admin-link-btn" type="button" onClick={() => setSection('users')}>View all users →</button></div>
+                  <div className="admin-member-grid">{[...users].sort((a, b) => time(b.created_at) - time(a.created_at)).slice(0, 3).map((member) =>
+                    <div className="admin-member" key={member.id}><span className="admin-member__avatar">{(member.full_name || member.email || '?').charAt(0).toUpperCase()}</span><span className="admin-member__info"><strong>{member.full_name || 'New member'}</strong><small>{member.email}</small></span><span className="admin-member__date">{dateText(member.created_at)}</span></div>
+                  )}</div>
+                  {!users.length && <p className="admin-muted">No members have joined yet.</p>}
+                </section>
               </>
             )}
 
@@ -301,11 +375,11 @@ export default function AdminDashboardPage() {
                     <tbody>
                       {filteredUsers.slice((visibleUserPage - 1) * PAGE_SIZE, visibleUserPage * PAGE_SIZE).map((u) => (
                         <tr key={u.id}>
-                          <td>{u.email}</td>
-                          <td>{u.full_name || '—'}</td>
-                          <td>{dateText(u.created_at)}</td>
-                          <td><span className="admin-pill">{u.assessment_count}</span></td>
-                          <td><div className="admin-row-actions">
+                          <td data-label="Email" className="admin-table__primary">{u.email}</td>
+                          <td data-label="Name">{u.full_name || '—'}{u.is_admin && <span className="admin-role-pill">Admin</span>}</td>
+                          <td data-label="Joined">{dateText(u.created_at)}</td>
+                          <td data-label="Assessments"><span className="admin-pill">{u.assessment_count}</span></td>
+                          <td data-label="Actions"><div className="admin-row-actions">
                             <button type="button" onClick={() => openDialog('user', u, 'edit')}>Edit</button>
                             <button type="button" className="admin-row-actions__delete" disabled={u.is_admin} title={u.is_admin ? 'Admin accounts are protected' : `Delete ${u.email}`} onClick={() => openDialog('user', u, 'delete')}>Delete</button>
                           </div></td>
@@ -345,13 +419,13 @@ export default function AdminDashboardPage() {
                         const ma = r.market_analysis || {};
                         return (
                           <tr key={r.id ?? i} className="admin-table__row-clickable" tabIndex={0} onClick={() => setOpenResult(r)} onKeyDown={(e) => { if (e.target === e.currentTarget && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); setOpenResult(r); } }}>
-                            <td>{r.user_email}</td>
-                            <td>{r.career_field || 'Unknown'}</td>
-                            <td>{ma.demand || '—'}</td>
-                            <td>{ma.salary || '—'}</td>
-                            <td>{ma.growth || '—'}</td>
-                            <td>{dateText(r.created_at)}</td>
-                            <td onClick={(e) => e.stopPropagation()}><div className="admin-row-actions">
+                            <td data-label="User" className="admin-table__primary">{r.user_email}</td>
+                            <td data-label="Career match">{r.career_field || 'Unknown'}</td>
+                            <td data-label="Job zone">{ma.demand || '—'}</td>
+                            <td data-label="U.S. wage">{ma.salary || '—'}</td>
+                            <td data-label="U.S. growth">{ma.growth || '—'}</td>
+                            <td data-label="Date">{dateText(r.created_at)}</td>
+                            <td data-label="Actions" onClick={(e) => e.stopPropagation()}><div className="admin-row-actions">
                               <button type="button" onClick={() => openDialog('result', r, 'edit')}>Edit</button>
                               <button type="button" className="admin-row-actions__delete" onClick={() => openDialog('result', r, 'delete')}>Delete</button>
                             </div></td>
