@@ -333,16 +333,20 @@ h1,h2,h3,h4 { font-family: 'Inter', sans-serif; line-height: 1.2; }
 /* Market stats row */
 .db-card__stats {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
   gap: 8px;
 }
 .db-card__stat {
   min-width: 0;
+  display: grid;
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
+  align-items: start;
+  gap: 12px;
   background: var(--bg2);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 10px 8px;
-  text-align: center;
+  text-align: left;
 }
 .db-card__stat-label {
   display: block;
@@ -958,7 +962,7 @@ h1,h2,h3,h4 { font-family: 'Inter', sans-serif; line-height: 1.2; }
   .db-main { padding: 28px 20px 60px; }
   .db-stats { grid-template-columns: 1fr 1fr; }
   .db-grid { grid-template-columns: 1fr; }
-  .db-card__stats { grid-template-columns: 1fr 1fr; }
+  .db-card__stats { grid-template-columns: minmax(0, 1fr); }
   .rm-market { grid-template-columns: 1fr 1fr; }
   .rm-header, .rm-body, .rm-footer { padding-left: 22px; padding-right: 22px; }
   .topbar__user { display: none; }
