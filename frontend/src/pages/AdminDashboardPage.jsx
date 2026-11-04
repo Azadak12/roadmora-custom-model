@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
-import { getAdminStats, getAdminUsers, getAdminResults, updateAdminUser, deleteAdminUser, updateAdminResult, deleteAdminResult } from '../lib/api.js';
+import { createAdminUser, getAdminStats, getAdminUsers, getAdminResults, updateAdminUser, deleteAdminUser, updateAdminResult, deleteAdminResult } from '../lib/api.js';
 import RoadmapModal from '../components/RoadmapModal.jsx';
 import AdminRecordDialog from '../components/AdminRecordDialog.jsx';
 
@@ -156,7 +156,14 @@ export default function AdminDashboardPage() {
     setMutationError('');
     try {
       const { kind, record, mode } = dialog;
-      if (kind === 'user' && mode === 'edit') {
+      if (kind === 'user' && mode === 'create') {
+        const created = await createAdminUser(payload);
+        setUsers((current) => [created, ...current]);
+        setStats((current) => ({ ...current, total_users: current.total_users + 1 }));
+        setUserQuery('');
+        setUserSort('newest');
+        setUserPage(1);
+      } else if (kind === 'user' && mode === 'edit') {
         const updated = await updateAdminUser(record.id, payload);
         setUsers((current) => current.map((u) => u.id === record.id ? { ...u, ...updated } : u));
         setResults((current) => current.map((r) => r.user_id === record.id ? { ...r, user_email: updated.email } : r));
@@ -357,6 +364,7 @@ export default function AdminDashboardPage() {
               <div className="admin-toolbar">
                 <label className="admin-search"><span className="sr-only">Search users</span><input type="search" placeholder="Search name or email" value={userQuery} onChange={(e) => { setUserQuery(e.target.value); setUserPage(1); }} /></label>
                 <label className="admin-select">Sort <select value={userSort} onChange={(e) => { setUserSort(e.target.value); setUserPage(1); }}><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="active">Most assessments</option><option value="name">Name A–Z</option></select></label>
+                <button className="admin-action-btn admin-action-btn--primary" type="button" onClick={() => openDialog('user', {}, 'create')}>+ Add User</button>
                 <button className="admin-action-btn" type="button" disabled={!filteredUsers.length} onClick={exportUsers}>Export CSV</button>
               </div>
               <p className="admin-results-count">Showing {filteredUsers.length} of {users.length} loaded users</p>

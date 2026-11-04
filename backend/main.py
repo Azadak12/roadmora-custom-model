@@ -121,6 +121,40 @@ class AdminUserUpdate(BaseModel):
         return value.strip()
 
 
+class AdminUserCreate(AdminUserUpdate):
+    password: str = Field(min_length=8, max_length=128, repr=False)
+
+
+@app.post("/api/admin/users", status_code=201)
+def admin_create_user(payload: AdminUserCreate, admin=Depends(get_current_admin)):
+    """Create a regular account without replacing the administrator's session."""
+    if payload.email in ADMIN_EMAILS:
+        raise HTTPException(status_code=403, detail="Admin accounts cannot be created here")
+    try:
+        response = supabase.auth.admin.create_user({
+            "email": payload.email,
+            "password": payload.password,
+            "email_confirm": True,
+            "user_metadata": {"full_name": payload.full_name},
+        })
+    except Exception as exc:
+        code = getattr(exc, "code", "")
+        if code in {"email_exists", "user_already_exists"}:
+            raise HTTPException(status_code=409, detail="A user with this email already exists") from exc
+        raise HTTPException(status_code=400, detail="Could not create user. Check the email and password requirements, then try again.") from exc
+    if not response.user:
+        raise HTTPException(status_code=502, detail="Account creation returned no user")
+    user = response.user
+    return {
+        "id": user.id,
+        "email": user.email,
+        "full_name": (user.user_metadata or {}).get("full_name"),
+        "is_admin": False,
+        "created_at": user.created_at,
+        "assessment_count": 0,
+    }
+
+
 class AdminAssessmentUpdate(BaseModel):
     career_field: str = Field(min_length=1, max_length=200)
     demand: str = Field(max_length=120)

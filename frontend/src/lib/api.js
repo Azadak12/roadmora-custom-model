@@ -69,3 +69,5 @@ export const updateAdminUser = (id, data) => adminWrite(`/api/admin/users/${enco
 export const deleteAdminUser = (id) => adminWrite(`/api/admin/users/${encodeURIComponent(id)}`, 'DELETE');
 export const updateAdminResult = (id, data) => adminWrite(`/api/admin/results/${encodeURIComponent(id)}`, 'PATCH', data);
 export const deleteAdminResult = (id) => adminWrite(`/api/admin/results/${encodeURIComponent(id)}`, 'DELETE');
+
+export const createAdminUser = (data) => adminWrite('/api/admin/users', 'POST', data);
