@@ -276,12 +276,14 @@ h1,h2,h3,h4 { font-family: 'Inter', sans-serif; line-height: 1.2; }
 /* ── RESULTS GRID ── */
 .db-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
   gap: 16px;
 }
 
 /* ── RESULT CARD ── */
 .db-card {
+  min-width: 0;
+  overflow-wrap: anywhere;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
@@ -299,6 +301,7 @@ h1,h2,h3,h4 { font-family: 'Inter', sans-serif; line-height: 1.2; }
 }
 .db-card__head {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
   gap: 12px;
@@ -322,17 +325,19 @@ h1,h2,h3,h4 { font-family: 'Inter', sans-serif; line-height: 1.2; }
   border: 1px solid rgba(6,182,212,.18);
   border-radius: 100px;
   padding: 3px 10px;
-  white-space: nowrap;
+  max-width: 100%;
+  white-space: normal;
   flex-shrink: 0;
 }
 
 /* Market stats row */
 .db-card__stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
 }
 .db-card__stat {
+  min-width: 0;
   background: var(--bg2);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
@@ -388,6 +393,13 @@ h1,h2,h3,h4 { font-family: 'Inter', sans-serif; line-height: 1.2; }
   flex-shrink: 0;
   margin-top: 1px;
 }
+.db-card__step-text {
+  min-width: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
 .db-card__more {
   font-size: .73rem;
   color: var(--indigo-lt);
@@ -395,6 +407,7 @@ h1,h2,h3,h4 { font-family: 'Inter', sans-serif; line-height: 1.2; }
   margin-top: 2px;
 }
 .db-card__view {
+  margin-top: auto;
   display: flex;
   align-items: center;
   justify-content: center;

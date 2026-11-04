@@ -5,6 +5,12 @@ import { useAuth } from '../context/AuthContext.jsx';
 import { getResults } from '../lib/api.js';
 import RoadmapModal from '../components/RoadmapModal.jsx';
 
+function compactMarketValue(value) {
+  if (!value) return '—';
+  if (/^not yet available/i.test(value)) return 'Not available';
+  return value;
+}
+
 export default function DashboardPage() {
   const { user, session, loading, signOut } = useAuth();
   const navigate = useNavigate();
@@ -134,11 +140,11 @@ export default function DashboardPage() {
                           </div>
                           <div className="db-card__stat">
                             <span className="db-card__stat-label">U.S. Median Wage</span>
-                            <span className="db-card__stat-val">{ma.salary || '—'}</span>
+                              <span className="db-card__stat-val">{compactMarketValue(ma.salary)}</span>
                           </div>
                           <div className="db-card__stat">
                             <span className="db-card__stat-label">U.S. Growth</span>
-                            <span className="db-card__stat-val">{ma.growth || '—'}</span>
+                              <span className="db-card__stat-val">{compactMarketValue(ma.growth)}</span>
                           </div>
                         </div>
 
@@ -149,7 +155,7 @@ export default function DashboardPage() {
                               {preview.map((step, si) => (
                                 <div className="db-card__step" key={si}>
                                   <span className="db-card__step-num">{si + 1}</span>
-                                  <span>{step}</span>
+                                  <span className="db-card__step-text">{step}</span>
                                 </div>
                               ))}
                               {extra > 0 && <div className="db-card__more">+{extra} more steps →</div>}
