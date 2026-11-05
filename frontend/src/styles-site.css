@@ -1998,7 +1998,7 @@ section { padding: 100px 0; }
 .riasec-card p { font-size: .83rem; color: var(--text-3); line-height: 1.55; }
 
 .pipeline { background: var(--bg2); }
-.pipeline-list { max-width: 820px; margin: 0 auto; position: relative; display: flex; flex-direction: column; gap: 16px; }
+.pipeline-list { list-style: none; max-width: 820px; margin: 0 auto; position: relative; display: flex; flex-direction: column; gap: 16px; }
 .pipeline-list::before {
   content: '';
   position: absolute;
@@ -2077,7 +2077,7 @@ section { padding: 100px 0; }
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 12px;
-  counter-reset: none;
+  list-style: none;
 }
 .step-strip__item {
   padding: 20px;
