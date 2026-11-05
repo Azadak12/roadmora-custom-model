@@ -45,7 +45,6 @@ export default function HowItWorksPage() {
   return (
     <SiteLayout>
       <PageHeader
-        crumb="How It Works"
         eyebrow="How It Works"
         title={<>From your answers to <span className="gradient-text">real occupations</span></>}
         subtitle="Roadmora AI combines a self-trained neural network with official U.S. occupation data. Here is exactly what happens after you submit the assessment."

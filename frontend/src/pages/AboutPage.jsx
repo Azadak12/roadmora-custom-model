@@ -21,7 +21,6 @@ export default function AboutPage() {
   return (
     <SiteLayout>
       <PageHeader
-        crumb="About"
         eyebrow="About Us"
         title={<>Career guidance that starts <span className="gradient-text">with you</span></>}
         subtitle="Roadmora AI helps students and career changers find occupations that fit their interests, skills, and experience, using real data instead of guesswork."

@@ -20,7 +20,6 @@ export default function AssessmentPage() {
   return (
     <SiteLayout>
       <PageHeader
-        crumb="Assessment"
         eyebrow="Career Assessment"
         title={<>Tell us about <span className="gradient-text">yourself</span></>}
         subtitle="Answer five short steps and get up to three ranked occupation matches. The more detail you give, the sharper the results."

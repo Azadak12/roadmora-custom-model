@@ -16,7 +16,6 @@ export default function FeaturesPage() {
   return (
     <SiteLayout>
       <PageHeader
-        crumb="Features"
         eyebrow="Features"
         title={<>Everything you need to <span className="gradient-text">choose with confidence</span></>}
         subtitle="Roadmora AI turns a short assessment into ranked occupation matches, backed by the same data career counsellors use."
