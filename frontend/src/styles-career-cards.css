@@ -1,39 +1,38 @@
-/* Only career suggestion cards. Dashboard chrome, tables and dialogs retain
-   the existing dark design. */
+/* Career suggestions share the platform light-blue palette. */
 .db-card, .res-match-card {
-  --text: #202020; --text-2: #383838; --text-3: #606060; --text-4: #686868;
-  --border: #dedede; --border2: #dedede; --surface: #fff; --surface2: #f5f5f5;
-  --indigo-lt: #303030; --cyan: #333;
-  background: #fff; color: #202020; border: 1px solid #ddd;
-  border-radius: 10px; box-shadow: none; overflow: hidden;
+  --text: #172b4d; --text-2: #334863; --text-3: #52657d; --text-4: #52657d;
+  --border: #d9e5f3; --border2: #d9e5f3; --surface: #fff; --surface2: #f5f5f5;
+  --indigo-lt: #2459a6; --cyan: #334863;
+  background: #f5f9ff; color: #172b4d; border: 1px solid #d9e5f3;
+  border-radius: 16px; box-shadow: 0 3px 14px rgba(30,64,110,.05); overflow: hidden;
 }
 .db-card { padding: 26px; }
 .db-card:hover, .res-match-card:hover, .res-match-card--expanded {
-  background: #fff; border-color: #aaa; box-shadow: none; transform: none;
+  background: #f5f9ff; border-color: #adc7e8; box-shadow: 0 5px 18px rgba(30,64,110,.08); transform: none;
 }
-.db-card__career, .res-match-title { color: #202020; font-size: 21px; font-weight: 600; line-height: 1.35; letter-spacing: -.4px; }
-.db-card__date { color: #666; font-size: 12px; margin-top: 8px; }
-.db-card__stats { gap: 0; border-top: 1px solid #e3e3e3; }
-.db-card__stat { background: transparent; border: 0; border-bottom: 1px solid #e3e3e3; border-radius: 0; padding: 13px 0; }
-.db-card__stat-label { color: #666; font-size: 11px; letter-spacing: .04em; }
-.db-card__stat-val { color: #333; font-size: 13px; font-weight: 500; line-height: 1.65; }
+.db-card__career, .res-match-title { color: #172b4d; font-size: 21px; font-weight: 600; line-height: 1.35; letter-spacing: -.4px; }
+.db-card__date { color: #52657d; font-size: 12px; margin-top: 8px; }
+.db-card__stats { gap: 0; border-top: 1px solid #dce7f4; }
+.db-card__stat { background: transparent; border: 0; border-bottom: 1px solid #dce7f4; border-radius: 0; padding: 13px 0; }
+.db-card__stat-label { color: #52657d; font-size: 11px; letter-spacing: .04em; }
+.db-card__stat-val { color: #334863; font-size: 13px; font-weight: 500; line-height: 1.65; }
 .db-card__preview { border: 0; padding-top: 18px; }
-.db-card__preview-label { color: #666; font-size: 11px; }
-.db-card__step { color: #555; font-size: 13px; line-height: 1.7; }
-.db-card__step-num { background: #eee; color: #333; }
-.db-card__more { color: #666; font-size: 12px; }
-.db-card__view { background: #222; border: 1px solid #222; color: #fff; box-shadow: none; border-radius: 6px; font-size: 13px; }
+.db-card__preview-label { color: #52657d; font-size: 11px; }
+.db-card__step { color: #425873; font-size: 13px; line-height: 1.7; }
+.db-card__step-num { background: #dfebfc; color: #2459a6; }
+.db-card__more { color: #52657d; font-size: 12px; }
+.db-card__view { background: #2459a6; border: 1px solid #2459a6; color: #fff; box-shadow: none; border-radius: 6px; font-size: 13px; }
 .db-card:hover .db-card__view,
 .db-card .db-card__view:hover,
 .db-card .db-card__view:focus-visible {
-  background: #444; border-color: #444; color: #fff;
+  background: #194781; border-color: #194781; color: #fff;
 }
-.res-match-header, .res-match-header:hover { background: #fff; color: #222; }
-.res-match-score, .res-match-score--weak { color: #333; background: #f1f1f1; border: 1px solid #ddd; }
-.res-match-chevron, .res-match-weak-label { color: #555; }
+.res-match-header, .res-match-header:hover { background: #f5f9ff; color: #172b4d; }
+.res-match-score, .res-match-score--weak { color: #194781; background: #e1edff; border: 1px solid #c8dbf5; }
+.res-match-chevron, .res-match-weak-label { color: #425873; }
 .res-match-body { border-color: #ddd; }
 .res-match-card .res-block-title { color: #222; }
-.res-match-card .res-market-item { background: #f7f7f7; border-color: #e3e3e3; border-radius: 6px; }
-.res-match-card .res-roadmap-list li::before { background: #eee; color: #333; }
-.db-card button:focus-visible, .res-match-card button:focus-visible { outline: 2px solid #555; outline-offset: 3px; }
+.res-match-card .res-market-item { background: #fff; border-color: #dce7f4; border-radius: 6px; }
+.res-match-card .res-roadmap-list li::before { background: #dfebfc; color: #2459a6; }
+.db-card button:focus-visible, .res-match-card button:focus-visible { outline: 2px solid #425873; outline-offset: 3px; }
 @media(max-width: 600px) { .db-card { padding: 20px; } }

@@ -1,10 +1,10 @@
 /* Shared light palette for public pages, assessments and both dashboards. */
 :root {
   --bg: #fff; --bg2: #fff; --bg3: #f7f7f8;
-  --surface: #fff; --surface2: #f3f4f6;
-  --border: #dedee3; --border2: #e5e5e9; --border-hi: #b8b8c4;
+  --surface: #fff; --surface2: #eff5fc;
+  --border: #dbe5f0; --border2: #e5edf5; --border-hi: #a9c3e2;
   --text: #202024; --text-2: #38383f; --text-3: #575760; --text-4: #65656f;
-  --indigo-lt: #4f46e5; --cyan: #08768a; --cyan-lt: #08768a;
+  --indigo: #2459a6; --indigo-lt: #326bb9; --cyan: #08768a; --cyan-lt: #08768a;
   --green: #14734b; --amber: #895500; --red: #b42318;
   --shadow-card: 0 2px 10px rgba(0,0,0,.06);
   --shadow-glow: none; --shadow-glow-cyan: none;
@@ -45,3 +45,26 @@ body { color-scheme: light; }
 .ms-dropdown, .auth-modal, .rm-modal, .admin-dialog,
 .duplicate-assessment-dialog { box-shadow: 0 12px 40px rgba(0,0,0,.15); }
 input::placeholder, textarea::placeholder { color: var(--text-4); opacity: 1; }
+
+/* Gentle color separates content without changing the white page canvas. */
+.overview-card, .feature-card, .info-card, .tech-card, .roadmap-card,
+.db-stat, .admin-stat-card {
+  background: #f5f9ff;
+  border-color: #d9e5f3;
+  box-shadow: 0 3px 14px rgba(30,64,110,.05);
+}
+.admin-hero, .dash-action-card { background: #edf5ff; border-color: #d0e1f5; }
+.assessment-card, .results-card, .contact-form-wrap, .admin-panel {
+  border-color: #dbe5f0;
+  box-shadow: 0 4px 22px rgba(30,64,110,.06);
+}
+.admin-table th { background: #eff5fc; }
+.admin-table tbody tr:hover, .ms-option:hover,
+.admin-sidebar__nav-item:hover, .nav__link:hover { background: #eff5fc; }
+.admin-sidebar__nav-item--active { background: #e4efff; color: #194781; }
+.form-input, .ms-trigger { background-color: #fbfdff; }
+.form-input:focus, .ms-trigger:focus-within { border-color: #326bb9; }
+.hero__badge, .nav-user-badge, .res-badge, .ms-tag,
+.ov-icon, .assess-step-icon { background: #eaf2ff; color: #2459a6; border-color: #cfdef3; }
+.btn { box-shadow: none; }
+.btn:hover { box-shadow: 0 3px 10px rgba(30,64,110,.12); }
