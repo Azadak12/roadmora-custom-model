@@ -23,7 +23,11 @@
 .db-card__step-num { background: #eee; color: #333; }
 .db-card__more { color: #666; font-size: 12px; }
 .db-card__view { background: #222; border: 1px solid #222; color: #fff; box-shadow: none; border-radius: 6px; font-size: 13px; }
-.db-card__view:hover { background: #444; border-color: #444; color: #fff; }
+.db-card:hover .db-card__view,
+.db-card .db-card__view:hover,
+.db-card .db-card__view:focus-visible {
+  background: #444; border-color: #444; color: #fff;
+}
 .res-match-header, .res-match-header:hover { background: #fff; color: #222; }
 .res-match-score, .res-match-score--weak { color: #333; background: #f1f1f1; border: 1px solid #ddd; }
 .res-match-chevron, .res-match-weak-label { color: #555; }
