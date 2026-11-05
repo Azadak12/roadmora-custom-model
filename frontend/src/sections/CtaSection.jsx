@@ -1,15 +1,18 @@
-/* The call-to-action banner section (the 'Get Started' push before the assessment). Used on: HomePage. */
+import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
 import { useAuthModal } from '../context/AuthModalContext.jsx';
 
 export default function CtaSection() {
   const { user } = useAuth();
   const { openAuth } = useAuthModal();
+  const navigate = useNavigate();
 
   function handleClick(e) {
+    e.preventDefault();
     if (!user) {
-      e.preventDefault();
       openAuth('login');
+    } else {
+      navigate('/assessment');
     }
   }
 
@@ -22,7 +25,7 @@ export default function CtaSection() {
           <h2 className="cta-title">Your career path starts<br /><span className="gradient-text">with one assessment.</span></h2>
           <p className="cta-sub">No experience needed. No right or wrong answers. Just honest inputs — and Roadmora AI does the rest.</p>
           <div className="cta-actions">
-            <a href="#assessment" className="btn cta-section-btn btn--xl" onClick={handleClick}>
+            <a href="/assessment" className="btn cta-section-btn btn--xl" onClick={handleClick}>
               Start Your Career Assessment
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>

@@ -1845,3 +1845,53 @@ section { padding: 100px 0; }
   .res-market-grid { grid-template-columns: 1fr; }
   .res-roadmap-list li { padding: 14px; }
 }
+
+/* ── Home Overview Section ───────────────────────────── */
+.home-overview { background: var(--bg2); padding: 80px 0; }
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.overview-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius-lg);
+  padding: 32px 28px;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform .22s ease, border-color .22s ease, box-shadow .22s ease;
+}
+.overview-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--indigo);
+  box-shadow: 0 8px 32px rgba(99,102,241,.18);
+}
+
+.ov-icon { font-size: 2rem; line-height: 1; }
+.ov-title { font-size: 1.15rem; font-weight: 700; color: var(--text); }
+.ov-desc { font-size: 0.93rem; color: var(--text-3); line-height: 1.6; flex: 1; }
+
+.ov-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--indigo);
+  margin-top: 4px;
+}
+
+@media (max-width: 1024px) {
+  .overview-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .overview-grid { grid-template-columns: 1fr; }
+  .overview-card { padding: 24px 20px; }
+}

@@ -1,5 +1,5 @@
-/* The very first thing visitors see: big title, subtitle, the two CTA buttons ('Discover Your Career Path' / 'See How It Works'), and the stat numbers. Used on: HomePage. Each button's color has its own dedicated class (hero-cta-btn, hero-secondary-btn) in styles-site.css — no shared color classes here. */
 import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   const cardRef = useRef(null);
@@ -44,11 +44,11 @@ export default function Hero() {
           then ranks real occupations and shows available training and labor-market information.
         </p>
         <div className="hero__actions">
-          <a href="#cta" className="btn hero-cta-btn btn--lg">
+          <Link to="/assessment" className="btn hero-cta-btn btn--lg">
             Discover Your Career Path
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-          <a href="#how" className="btn hero-secondary-btn btn--lg">See How It Works</a>
+          </Link>
+          <Link to="/how-it-works" className="btn hero-secondary-btn btn--lg">See How It Works</Link>
         </div>
         <div className="hero__stats">
           <div className="hero__stat">
