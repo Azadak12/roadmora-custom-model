@@ -118,3 +118,101 @@ body { color: #253750; }
   .db-filters { padding: 16px; }
   .page-header { padding-top: 120px; padding-bottom: 40px; }
 }
+
+/* Visual refinement only. Content and interactions remain in the original components. */
+:root {
+  --bg: #fff; --bg2: #f6f7fa; --bg3: #eef3ff;
+  --surface: #fff; --surface2: #eef3ff;
+  --text: #17191f; --text-2: #383e49; --text-3: #525866; --text-4: #626977;
+  --indigo: #2457e6; --indigo-lt: #2457e6; --cyan: #2457e6; --cyan-lt: #2457e6;
+  --border: #dde2ea; --border2: #dde2ea; --border-hi: #8da8f1;
+}
+body { color: var(--text); font-size: 16px; line-height: 1.65; }
+h1, h2, h3, h4 { color: var(--text); letter-spacing: -.025em; }
+.gradient-text, .res-career-title { background: none; color: var(--text); -webkit-text-fill-color: var(--text); }
+.container { max-width: 1200px; }
+section { padding-top: 64px; padding-bottom: 64px; }
+.hero { min-height: auto; padding: 128px 32px 64px; gap: 48px; max-width: 1200px; }
+.hero__title { font-size: clamp(36px, 4.5vw, 58px); line-height: 1.12; }
+.hero__subtitle, .section-sub, .section-subtitle, .page-header__sub { font-size: 18px; line-height: 1.7; }
+.page-header { padding-top: 124px; padding-bottom: 40px; }
+.section-header { margin-bottom: 32px; }
+.home-overview, .home-highlights { padding-top: 56px; padding-bottom: 56px; }
+.hero__actions { margin-bottom: 28px; }
+.roadmap-card { animation: none; max-width: 100%; background: #eef3ff; }
+.hero__mesh, .page-header__mesh, .cta-mesh { background: none; }
+.cta-section { background: #eef3ff; }
+.nav, .nav.scrolled, .topbar { background: #fff; backdrop-filter: none; }
+.nav__link, .stat-label, .db-stat-label, .db-filter-summary,
+.db-filters label, .form-label, .db-card__date, .db-card__stat-label,
+.db-card__preview-label, .db-card__more, .admin-table th { font-size: 14px; }
+.ov-desc, .feature-card p, .info-card p, .highlight p,
+.form-input, .ms-trigger, .ms-option, .db-filters input, .db-filters select,
+.db-card__stat-val, .db-card__step { font-size: 16px; line-height: 1.65; }
+.overview-card, .feature-card, .info-card, .tech-card, .assessment-card,
+.results-card, .contact-form-wrap, .db-card, .admin-panel {
+  border: 1px solid var(--border); border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(23,25,31,.04);
+}
+.overview-card:hover, .feature-card:hover, .info-card:hover, .tech-card:hover,
+.db-card:hover { transform: none; box-shadow: 0 4px 12px rgba(23,25,31,.07); }
+.btn, .tb-btn, .db-card__view { min-height: 44px; border-radius: 8px; font-size: 15px; }
+.btn { background-image: none; }
+.btn-primary, .assess-form-next-btn, .assess-form-submit-btn,
+.hero-start-btn, .db-card__view { background: #2457e6; color: #fff; border-color: #2457e6; }
+.db-card:hover .db-card__view { background: #2457e6; color: #fff; border-color: #2457e6; }
+.db-card .db-card__view:hover, .db-card .db-card__view:focus-visible,
+.btn-primary:hover, .assess-form-next-btn:hover, .assess-form-submit-btn:hover {
+  background: #1944c2; color: #fff; border-color: #1944c2;
+}
+button, a, input, select, textarea { transition-duration: 160ms; }
+:focus-visible { outline: 3px solid #2457e6; outline-offset: 3px; }
+input, select, textarea { color: var(--text); }
+.form-input, .ms-trigger { min-height: 48px; border-color: #c4cddd; }
+.assessment-card { max-width: 840px; margin-inline: auto; padding: 32px; }
+.db-main { padding-top: 32px; }
+.db-grid { gap: 24px; align-items: start; }
+.db-card { --text: #17191f; --text-2: #383e49; --text-3: #525866; --text-4: #626977; }
+.db-card__career, .res-match-title { color: #17191f; font-size: 22px; line-height: 1.35; }
+.db-card__head, .res-match-header { background: #eef3ff; }
+.db-card__stat-val { color: #383e49; }
+.db-card__step { color: #525866; }
+.db-card__step-text { display: block; overflow: visible; -webkit-line-clamp: unset; }
+.db-card__stat { padding: 14px 0; }
+.admin-table-wrap { max-width: 100%; overflow-x: auto; }
+.admin-main { min-width: 0; }
+.admin-table { min-width: 760px; }
+.admin-table td { font-size: 14px; }
+.admin-table__primary { overflow-wrap: normal; }
+.admin-row-actions button, .admin-action-btn, .admin-pager button { min-height: 44px; }
+.reveal { opacity: 1; transform: none; }
+@media (max-width: 1024px) {
+  .hero { padding: 112px 24px 48px; gap: 32px; }
+}
+@media (max-width: 768px) {
+  section, .home-overview, .home-highlights { padding-top: 40px; padding-bottom: 40px; }
+  .page-header { padding-top: 108px; padding-bottom: 32px; }
+  .assessment-card { padding: 24px 18px; }
+  .hero__subtitle, .section-sub, .section-subtitle, .page-header__sub { font-size: 16px; }
+  .db-card__stat { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .admin-main { width: 100%; }
+  .admin-table-wrap { overflow-x: auto; background: #fff; border: 1px solid var(--border); }
+  .admin-table { display: table; min-width: 760px; }
+  .admin-table thead { display: table-header-group; }
+  .admin-table tbody { display: table-row-group; }
+  .admin-table tbody tr { display: table-row; background: #fff; }
+  .admin-table td, .admin-table td:last-child { display: table-cell; padding: 14px; border-bottom: 1px solid var(--border); }
+  .admin-table td::before { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+.hero-cta-btn, .nav-getstarted-btn, .assess-gate-signup-btn,
+.cta-section-btn, .contact-submit-btn {
+  background: #2457e6; color: #fff; border: 1px solid #2457e6; box-shadow: none;
+}
+.hero-cta-btn:hover, .nav-getstarted-btn:hover, .assess-gate-signup-btn:hover,
+.cta-section-btn:hover, .contact-submit-btn:hover {
+  background: #1944c2; color: #fff; border-color: #1944c2; box-shadow: none; transform: none;
+}
+.hero-secondary-btn { border-color: #dde2ea; }
