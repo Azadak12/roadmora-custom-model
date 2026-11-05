@@ -2,7 +2,6 @@ import SiteLayout from '../components/SiteLayout.jsx';
 import PageHeader from '../components/PageHeader.jsx';
 import Features from '../sections/Features.jsx';
 import Compare from '../sections/Compare.jsx';
-import CtaSection from '../sections/CtaSection.jsx';
 
 const RESULT_PARTS = [
   { label: 'Match score', desc: 'How closely the occupation fits your interest profile and details.' },
@@ -62,7 +61,6 @@ export default function FeaturesPage() {
       </section>
 
       <Compare />
-      <CtaSection />
     </SiteLayout>
   );
 }

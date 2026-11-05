@@ -2,7 +2,6 @@ import SiteLayout from '../components/SiteLayout.jsx';
 import PageHeader from '../components/PageHeader.jsx';
 import HowItWorks from '../sections/HowItWorks.jsx';
 import TechStack from '../sections/TechStack.jsx';
-import CtaSection from '../sections/CtaSection.jsx';
 
 const RIASEC = [
   { code: 'R', name: 'Realistic', tag: 'Doers', desc: 'Hands-on work with tools, machines, plants, or animals.' },
@@ -125,7 +124,6 @@ export default function HowItWorksPage() {
       </section>
 
       <TechStack />
-      <CtaSection />
     </SiteLayout>
   );
 }
