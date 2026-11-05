@@ -1,0 +1,47 @@
+/* Shared light palette for public pages, assessments and both dashboards. */
+:root {
+  --bg: #fff; --bg2: #fff; --bg3: #f7f7f8;
+  --surface: #fff; --surface2: #f3f4f6;
+  --border: #dedee3; --border2: #e5e5e9; --border-hi: #b8b8c4;
+  --text: #202024; --text-2: #38383f; --text-3: #575760; --text-4: #65656f;
+  --indigo-lt: #4f46e5; --cyan: #08768a; --cyan-lt: #08768a;
+  --green: #14734b; --amber: #895500; --red: #b42318;
+  --shadow-card: 0 2px 10px rgba(0,0,0,.06);
+  --shadow-glow: none; --shadow-glow-cyan: none;
+}
+body { color-scheme: light; }
+.nav, .nav.scrolled, .topbar, .admin-shell, .admin-sidebar { background: #fff; }
+.hero__mesh, .page-header__mesh, .cta-mesh, .admin-hero::after { background: none; }
+.admin-hero, .admin-stat-card, .admin-panel, .admin-table-wrap {
+  background: #fff; border-color: var(--border); box-shadow: var(--shadow-card);
+}
+.admin-hero__orb { display: none; }
+.admin-hero h2, .admin-activity-summary strong { color: var(--text); }
+.admin-hero p, .admin-stat-card__label, .admin-activity-day__count { color: var(--text-2); }
+.admin-hero__eyebrow, .admin-panel__eyebrow, .admin-stat-card__period { color: var(--text-3); }
+.admin-hero__actions button, .admin-hero__actions button:first-child {
+  background: #fff; color: var(--text); border-color: var(--border-hi);
+}
+.admin-hero__actions button:hover { background: var(--surface2); }
+.admin-sidebar__brand .logo-icon { color: var(--cyan); filter: none; }
+.admin-sidebar__nav-item:hover, .admin-row:hover, .nav__link:hover,
+.ms-option:hover { background: #f3f4f6; }
+.admin-sidebar__nav-item--active { background: #eeedf9; }
+.admin-header-actions .admin-action-btn { background: #fff; border-color: var(--border-hi); }
+.admin-action-btn:hover:not(:disabled), .admin-pager button:hover:not(:disabled) { background: #eeedf9; }
+.admin-table th, .admin-table tbody tr { background: #fff; }
+.admin-table th { background: #f5f5f7; }
+.admin-table__primary { color: var(--text) !important; }
+.admin-role-pill, .admin-stat-card__icon--cyan { color: #08768a; }
+.admin-stat-card__icon--purple, .admin-member__avatar, .admin-row-actions button { color: #4338ca; }
+.admin-stat-card__icon--amber { color: #895500; }
+.admin-stat-card__icon--green, .admin-participation > span,
+.admin-activity-summary .admin-activity-compare { color: #14734b; }
+.admin-participation__track { background: #e7e7ec; }
+.admin-alert, .admin-dialog__error, .admin-sidebar__logout,
+.admin-row-actions .admin-row-actions__delete { color: #b42318; }
+.admin-action-btn--danger { color: #fff; }
+.ms-trigger:hover { border-color: #9999a5; }
+.ms-dropdown, .auth-modal, .rm-modal, .admin-dialog,
+.duplicate-assessment-dialog { box-shadow: 0 12px 40px rgba(0,0,0,.15); }
+input::placeholder, textarea::placeholder { color: var(--text-4); opacity: 1; }
