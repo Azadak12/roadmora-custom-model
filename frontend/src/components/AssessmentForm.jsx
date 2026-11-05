@@ -1,9 +1,16 @@
-/* The actual 5-step assessment form (Personal -> Education -> Skills -> Experience -> Interests). Used inside: sections/AssessmentSection.jsx. The dropdown OPTIONS (skills, industries, interests, etc.) come from data/taxonomies.js, which is auto-generated from the ML model's own taxonomy files — don't hand-edit those option lists here. */
+/* The actual 5-step assessment form (Personal -> Education -> Skills -> Experience -> Interests). Used inside: sections/AssessmentSection.jsx. Base options come from data/taxonomies.js; data/assessmentOptions.js adds specific labels mapped to the trained vocabulary. */
 import { useState } from 'react';
 import MultiSelect from './MultiSelect.jsx';
 import {
-  TECHNICAL_SKILLS, SOFT_SKILLS, LANGUAGES, INDUSTRIES, INTEREST_AREAS, JOB_ROLES,
+  SOFT_SKILLS, LANGUAGES,
 } from '../data/taxonomies.js';
+import {
+  ASSESSMENT_TECHNICAL_SKILLS as TECHNICAL_SKILLS,
+  ASSESSMENT_INDUSTRIES as INDUSTRIES,
+  ASSESSMENT_INTEREST_AREAS as INTEREST_AREAS,
+  ASSESSMENT_JOB_ROLES as JOB_ROLES,
+  prepareAssessmentPayload,
+} from '../data/assessmentOptions.js';
 
 const STEPS = [
   { label: 'Personal' },
@@ -25,7 +32,7 @@ const REQUIRED_FIELDS_BY_STEP = {
 
 const initialFormData = {
   fullName: '', email: '', phone: '', gender: '', dob: '',
-  education: '', status: '',
+  education: '', status: '', genderOther: '', educationOther: '', statusOther: '',
   technicalSkills: [], softSkills: [], languages: [],
   internships: [], jobExperience: [],
   careerInterests: [], preferredIndustries: [],
@@ -54,6 +61,7 @@ export default function AssessmentForm({ onSubmit, submitting, errorMsg }) {
       const nextErrors = {};
       required.forEach((field) => {
         if (!String(formData[field] || '').trim()) nextErrors[field] = true;
+        if (formData[field] === 'other' && !formData[`${field}Other`]?.trim()) nextErrors[`${field}Other`] = true;
       });
       setErrors(nextErrors);
       if (Object.keys(nextErrors).length > 0) return;
@@ -68,10 +76,27 @@ export default function AssessmentForm({ onSubmit, submitting, errorMsg }) {
     const nextErrors = {};
     required.forEach((field) => {
       if (!String(formData[field] || '').trim()) nextErrors[field] = true;
+        if (formData[field] === 'other' && !formData[`${field}Other`]?.trim()) nextErrors[`${field}Other`] = true;
     });
     setErrors(nextErrors);
     if (Object.keys(nextErrors).length > 0) return;
-    onSubmit(formData);
+    const payload = prepareAssessmentPayload(formData);
+    ['gender', 'education', 'status'].forEach(field => {
+      payload[`${field}Other`] = formData[field] === 'other' ? formData[`${field}Other`].trim() : '';
+    });
+    onSubmit(payload);
+  }
+
+  function otherInput(field, label) {
+    if (formData[field] !== 'other') return null;
+    return <label className="form-label" style={{ marginTop: '12px' }}>
+      {label}
+      <input className="form-input" type="text" maxLength={120}
+        aria-invalid={!!errors[`${field}Other`]} style={borderStyle(`${field}Other`)}
+        placeholder="Please specify…" value={formData[`${field}Other`]}
+        onChange={e => setField(`${field}Other`, e.target.value)} />
+      {errors[`${field}Other`] && <small role="alert">Please enter your answer.</small>}
+    </label>;
   }
 
   const borderStyle = (field) => (errors[field] ? { borderColor: 'var(--red)' } : undefined);
@@ -133,6 +158,7 @@ export default function AssessmentForm({ onSubmit, submitting, errorMsg }) {
                     <option value="other">Other</option>
                     <option value="prefer_not">Prefer not to say</option>
                   </select>
+                  {otherInput('gender', 'Describe your gender (optional)')}
                 </div>
                 <div className="form-group">
                   <label className="form-label">Date of Birth</label>
@@ -163,6 +189,7 @@ export default function AssessmentForm({ onSubmit, submitting, errorMsg }) {
                   <option value="phd">PhD</option>
                   <option value="other">Other</option>
                 </select>
+                {otherInput('education', 'Your education level')}
               </div>
               <div className="form-group">
                 <label className="form-label">Current Status <span className="req">*</span></label>
@@ -174,7 +201,9 @@ export default function AssessmentForm({ onSubmit, submitting, errorMsg }) {
                   <option value="employed">Employed</option>
                   <option value="freelancer">Freelancer</option>
                   <option value="career_switcher">Career Switcher</option>
+                  <option value="other">Other</option>
                 </select>
+                {otherInput('status', 'Your current status')}
               </div>
             </div>
           </div>

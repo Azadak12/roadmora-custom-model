@@ -1,3 +1,4 @@
+import { uniqueCareerResults } from '../lib/assessmentDedup.js';
 /* Logged-in user's dashboard: lists their saved past assessment results, opens RoadmapModal for details. Route: /dashboard. */
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
@@ -69,7 +70,8 @@ export default function DashboardPage() {
   const query = search.trim().toLowerCase();
   const cutoff = period ? filterTime - Number(period) * 86400000 : null;
   // Keep original indices so opening a filtered or sorted card shows the correct result.
-  const visibleResults = (results || []).map((result, index) => ({ result, index }))
+  const uniqueResults = uniqueCareerResults(results || []);
+  const visibleResults = uniqueResults
     .filter(({ result }) => {
       const details = Array.isArray(result.learning_roadmap) ? result.learning_roadmap : Object.values(result.learning_roadmap || {});
       const text = [result.career_field, result.market_analysis?.demand, ...details].join(' ').toLowerCase();
@@ -164,7 +166,7 @@ export default function DashboardPage() {
                     </label>
                   </div>
                   <div className="db-filter-summary">
-                    <p role="status">Showing {visibleResults.length} of {results.length} results</p>
+                    <p role="status">Showing {visibleResults.length} of {uniqueResults.length} careers · latest assessment for each career</p>
                     {(search || jobZone || period || sort !== 'newest') && <button type="button" className="tb-btn db-topbar-logout-btn" onClick={clearFilters}>Clear filters</button>}
                   </div>
                 </>

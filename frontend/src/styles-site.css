@@ -2207,3 +2207,21 @@ section { padding: 100px 0; }
   .pipeline-item__num { width: 44px; height: 44px; font-size: .85rem; }
   .pipeline-list::before { left: 21px; }
 }
+
+/* Custom assessment options stay within the existing form design. */
+.ms-other-button {
+  padding: 12px 14px;
+  text-align: left;
+  color: var(--indigo-lt);
+  background: var(--surface2);
+  border: 0;
+  border-top: 1px solid var(--border2);
+  cursor: pointer;
+  font: inherit;
+}
+.ms-custom-entry { margin-top: 12px; }
+.ms-custom-entry__row { display: flex; flex-wrap: wrap; gap: 8px; }
+.ms-custom-entry__row .form-input { flex: 1 1 180px; min-width: 0; }
+.ms-custom-entry small { display: block; margin-top: 6px; color: var(--text-3); }
+.multi-select .ms-tag { white-space: normal; overflow-wrap: anywhere; max-width: 100%; }
+.multi-select .ms-display { min-width: 0; }
