@@ -93,8 +93,8 @@ export default function DashboardPage() {
           <BrandLogo />
         </Link>
         <div className="topbar__right" style={{ display: 'flex' }}>
-          <span className="topbar__user">{displayName}</span>
-          <Link to="/#assessment" className="tb-btn db-topbar-new-assessment-btn">+ New Assessment</Link>
+          <span className="topbar__user"><span className="topbar__avatar" aria-hidden="true">{name.charAt(0).toUpperCase()}</span>{displayName}</span>
+          <Link to="/assessment" className="tb-btn db-topbar-new-assessment-btn">+ New Assessment</Link>
           <button className="tb-btn db-topbar-logout-btn" onClick={() => { signOut(); navigate('/'); }}>Logout</button>
         </div>
       </header>
@@ -107,31 +107,34 @@ export default function DashboardPage() {
           </div>
         ) : (
           <div>
-            <div className="db-header">
-              <div>
-                <h1 className="db-title">My Dashboard</h1>
-                <p className="db-sub">Welcome back, <strong>{name}</strong></p>
+            <section className="db-hero">
+              <div className="db-hero__row">
+                <div>
+                  <p className="db-hero__eyebrow">My Dashboard</p>
+                  <h1 className="db-title">Welcome back, {name}</h1>
+                  <p className="db-sub">Your saved career matches, all in one place.</p>
+                </div>
+                <Link to="/assessment" className="tb-btn db-hero-assessment-btn">Take a New Assessment</Link>
               </div>
-            </div>
-
-            <div className="db-stats">
-              <div className="db-stat">
-                <span className="db-stat-val">{results ? results.length : '0'}</span>
-                <span className="db-stat-label">Assessments</span>
+              <div className="db-stats">
+                <div className="db-stat">
+                  <span className="db-stat-label">Assessments</span>
+                  <span className="db-stat-val">{results ? results.length : '0'}</span>
+                </div>
+                <div className="db-stat">
+                  <span className="db-stat-label">Latest Career</span>
+                  <span className="db-stat-val">{latest ? latest.career_field || '—' : '—'}</span>
+                </div>
+                <div className="db-stat">
+                  <span className="db-stat-label">Last Active</span>
+                  <span className="db-stat-val">
+                    {latest
+                      ? new Date(latest.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+                      : '—'}
+                  </span>
+                </div>
               </div>
-              <div className="db-stat">
-                <span className="db-stat-val">{latest ? latest.career_field || '—' : '—'}</span>
-                <span className="db-stat-label">Latest Career</span>
-              </div>
-              <div className="db-stat">
-                <span className="db-stat-val">
-                  {latest
-                    ? new Date(latest.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
-                    : '—'}
-                </span>
-                <span className="db-stat-label">Last Active</span>
-              </div>
-            </div>
+            </section>
 
             <div className="db-section">
               <div className="db-section-head">
@@ -178,7 +181,7 @@ export default function DashboardPage() {
                   <div className="db-empty-icon">🗺️</div>
                   <p className="db-empty-title">No assessments yet</p>
                   <p className="db-empty-sub">Complete your first career assessment to see your personalized roadmap here.</p>
-                  <Link to="/#assessment" className="tb-btn db-empty-state-assessment-btn">Take Assessment →</Link>
+                  <Link to="/assessment" className="tb-btn db-empty-state-assessment-btn">Take Assessment →</Link>
                 </div>
               ) : visibleResults.length === 0 ? (
                 <div className="db-empty">
@@ -201,7 +204,7 @@ export default function DashboardPage() {
                         <div className="db-card__head">
                           <div>
                             <div className="db-card__career">{r.career_field || 'Unknown'}</div>
-                            <div className="db-card__date">{date}</div>
+                            <div className="db-card__date">Assessed {date}</div>
                           </div>
                         </div>
 

@@ -17,9 +17,9 @@ export default function RoadmapModal({ result, onClose }) {
   return (
     <div className="rm-overlay open" onClick={handleOverlayClick}>
       <div className="rm-modal">
-        <button className="rm-close" onClick={onClose}>×</button>
+        <button type="button" className="rm-close" onClick={onClose} aria-label="Close">×</button>
         <div className="rm-header">
-          <p className="rm-eyebrow">AI Recommendation</p>
+          <p className="rm-eyebrow">Career Match</p>
           <h2 className="rm-career">{result.career_field || '—'}</h2>
         </div>
         <div className="rm-body">
@@ -43,7 +43,8 @@ export default function RoadmapModal({ result, onClose }) {
           </ol>
         </div>
         <div className="rm-footer">
-          <Link to="/#assessment" className="tb-btn db-modal-new-assessment-btn">← Take New Assessment</Link>
+          <button type="button" className="tb-btn db-modal-close-btn" onClick={onClose}>Close</button>
+          <Link to="/assessment" className="tb-btn db-modal-new-assessment-btn">Take New Assessment</Link>
         </div>
       </div>
     </div>
