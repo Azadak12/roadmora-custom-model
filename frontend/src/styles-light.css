@@ -68,3 +68,53 @@ input::placeholder, textarea::placeholder { color: var(--text-4); opacity: 1; }
 .ov-icon, .assess-step-icon { background: #eaf2ff; color: #2459a6; border-color: #cfdef3; }
 .btn { box-shadow: none; }
 .btn:hover { box-shadow: 0 3px 10px rgba(30,64,110,.12); }
+
+/* Layout rhythm and hierarchy: quiet surfaces, clear actions, readable content. */
+:root { --radius: 10px; --radius-lg: 16px; --radius-xl: 20px; }
+body { color: #253750; }
+.nav, .nav.scrolled, .topbar { border-bottom: 1px solid #e5edf5; }
+.nav__link { font-size: .85rem; font-weight: 500; border-radius: 7px; }
+.gradient-text, .res-career-title {
+  background: none; -webkit-text-fill-color: #2459a6; color: #2459a6;
+}
+.section-subtitle, .page-header__sub { line-height: 1.75; }
+.page-header { padding-top: 140px; padding-bottom: 56px; }
+.overview-card, .feature-card, .info-card, .tech-card {
+  background: #fff; border-color: #dbe5f0; border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(30,64,110,.04);
+}
+.overview-card:hover, .feature-card:hover, .info-card:hover, .tech-card:hover {
+  transform: none; border-color: #adc7e8; box-shadow: 0 6px 20px rgba(30,64,110,.07);
+}
+.btn, .tb-btn { border-radius: 8px; font-weight: 600; }
+.btn:hover, .tb-btn:hover { transform: none; }
+.db-header { margin-bottom: 28px; }
+.db-title { font-size: 28px; letter-spacing: -.7px; }
+.db-sub { margin-top: 8px; }
+.db-stat, .admin-stat-card { border-radius: 12px; box-shadow: none; }
+.db-stat { padding: 20px 24px; gap: 10px; }
+.db-stat-val { font-size: 23px; line-height: 1.3; }
+.db-stat-label { font-size: 12px; text-transform: none; letter-spacing: 0; color: #52657d; }
+.db-section-title { font-size: 20px; letter-spacing: -.3px; color: #172b4d; }
+.db-filters { padding: 20px; background: #f6f9fd; border: 1px solid #e0e9f4; border-radius: 12px; }
+.db-filters label { font-weight: 550; font-size: 12px; }
+.db-filters input, .db-filters select { border-color: #d1ddeb; font-weight: 400; font-size: 13px; }
+.db-filter-summary { margin: 14px 0 24px; font-size: 12px; }
+.db-grid { gap: 24px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.db-empty { border-color: #ccdced; background: #f6f9fd; }
+.assessment-card, .contact-form-wrap, .results-card { border-radius: 18px; }
+.form-input, .ms-trigger { border-radius: 8px; background-color: #fff; }
+.form-label { font-size: 13px; font-weight: 600; }
+.admin-panel, .admin-table-wrap { border-radius: 14px; box-shadow: 0 2px 8px rgba(30,64,110,.04); }
+.admin-table th { text-transform: none; letter-spacing: 0; font-size: 12px; }
+.admin-row-actions button { background: #eff5fc; border-color: #d1ddeb; color: #2459a6; }
+.admin-row-actions button:hover:not(:disabled) { background: #e0ecfc; }
+.admin-row-actions .admin-row-actions__delete { background: #fff5f4; color: #b42318; border-color: #f3cfcb; }
+@media(max-width: 760px) {
+  .db-grid { grid-template-columns: minmax(0, 1fr); }
+  .db-stats { gap: 10px; }
+  .db-stat { padding: 16px; }
+  .db-stat-val { font-size: 19px; }
+  .db-filters { padding: 16px; }
+  .page-header { padding-top: 120px; padding-bottom: 40px; }
+}

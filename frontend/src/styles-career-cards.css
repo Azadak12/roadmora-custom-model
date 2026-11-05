@@ -1,38 +1,63 @@
-/* Career suggestions share the platform light-blue palette. */
+/* Consistent career cards for saved assessments and ranked suggestions. */
 .db-card, .res-match-card {
   --text: #172b4d; --text-2: #334863; --text-3: #52657d; --text-4: #52657d;
-  --border: #d9e5f3; --border2: #d9e5f3; --surface: #fff; --surface2: #f5f5f5;
-  --indigo-lt: #2459a6; --cyan: #334863;
-  background: #f5f9ff; color: #172b4d; border: 1px solid #d9e5f3;
-  border-radius: 16px; box-shadow: 0 3px 14px rgba(30,64,110,.05); overflow: hidden;
+  --border: #dbe5f0; --border2: #dbe5f0; --surface: #fff; --surface2: #eff5fc;
+  --indigo-lt: #2459a6; --cyan: #2459a6;
+  background: #fff; color: var(--text); border: 1px solid var(--border);
+  border-radius: 16px; box-shadow: 0 2px 8px rgba(30,64,110,.04); overflow: hidden;
 }
-.db-card { padding: 26px; }
+.db-card { padding: 24px; gap: 20px; }
 .db-card:hover, .res-match-card:hover, .res-match-card--expanded {
-  background: #f5f9ff; border-color: #adc7e8; box-shadow: 0 5px 18px rgba(30,64,110,.08); transform: none;
+  background: #fff; border-color: #adc7e8;
+  box-shadow: 0 6px 20px rgba(30,64,110,.08); transform: none;
 }
-.db-card__career, .res-match-title { color: #172b4d; font-size: 21px; font-weight: 600; line-height: 1.35; letter-spacing: -.4px; }
+.db-card__head {
+  background: #f0f6ff; margin: -24px -24px 0; padding: 24px;
+  border-bottom: 1px solid #e0eaf7;
+}
+.db-card__career, .res-match-title {
+  color: #172b4d; font-size: 19px; font-weight: 650;
+  line-height: 1.4; letter-spacing: -.3px; overflow-wrap: anywhere;
+}
 .db-card__date { color: #52657d; font-size: 12px; margin-top: 8px; }
-.db-card__stats { gap: 0; border-top: 1px solid #dce7f4; }
-.db-card__stat { background: transparent; border: 0; border-bottom: 1px solid #dce7f4; border-radius: 0; padding: 13px 0; }
-.db-card__stat-label { color: #52657d; font-size: 11px; letter-spacing: .04em; }
-.db-card__stat-val { color: #334863; font-size: 13px; font-weight: 500; line-height: 1.65; }
-.db-card__preview { border: 0; padding-top: 18px; }
-.db-card__preview-label { color: #52657d; font-size: 11px; }
-.db-card__step { color: #425873; font-size: 13px; line-height: 1.7; }
-.db-card__step-num { background: #dfebfc; color: #2459a6; }
-.db-card__more { color: #52657d; font-size: 12px; }
-.db-card__view { background: #2459a6; border: 1px solid #2459a6; color: #fff; box-shadow: none; border-radius: 6px; font-size: 13px; }
-.db-card:hover .db-card__view,
-.db-card .db-card__view:hover,
-.db-card .db-card__view:focus-visible {
+.db-card__stats { gap: 0; border: 0; }
+.db-card__stat {
+  background: transparent; border: 0; border-bottom: 1px solid #e8eef5;
+  border-radius: 0; padding: 11px 0;
+  grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr);
+}
+.db-card__stat:first-child { padding-top: 0; }
+.db-card__stat-label { color: #52657d; font-size: 12px; letter-spacing: 0; text-transform: none; }
+.db-card__stat-val { color: #263e5e; font-size: 13px; font-weight: 550; line-height: 1.6; }
+.db-card__preview { border: 0; padding-top: 0; }
+.db-card__preview-label { color: #52657d; font-size: 11px; letter-spacing: .06em; margin-bottom: 12px; }
+.db-card__steps { gap: 12px; }
+.db-card__step { color: #425873; font-size: 13px; line-height: 1.6; gap: 10px; }
+.db-card__step-text { -webkit-line-clamp: 2; }
+.db-card__step-num { background: #edf4ff; color: #2459a6; width: 22px; height: 22px; }
+.db-card__more { color: #2459a6; font-size: 12px; margin-top: 4px; }
+.db-card__view {
+  background: #2459a6; border: 1px solid #2459a6; color: #fff;
+  box-shadow: none; border-radius: 8px; font-size: 13px; font-weight: 600; min-height: 42px;
+}
+.db-card:hover .db-card__view { background: #2459a6; border-color: #2459a6; color: #fff; }
+.db-card .db-card__view:hover, .db-card .db-card__view:focus-visible {
   background: #194781; border-color: #194781; color: #fff;
 }
-.res-match-header, .res-match-header:hover { background: #f5f9ff; color: #172b4d; }
-.res-match-score, .res-match-score--weak { color: #194781; background: #e1edff; border: 1px solid #c8dbf5; }
-.res-match-chevron, .res-match-weak-label { color: #425873; }
-.res-match-body { border-color: #ddd; }
-.res-match-card .res-block-title { color: #222; }
-.res-match-card .res-market-item { background: #fff; border-color: #dce7f4; border-radius: 6px; }
-.res-match-card .res-roadmap-list li::before { background: #dfebfc; color: #2459a6; }
-.db-card button:focus-visible, .res-match-card button:focus-visible { outline: 2px solid #425873; outline-offset: 3px; }
-@media(max-width: 600px) { .db-card { padding: 20px; } }
+.res-match-header { background: #f0f6ff; color: #172b4d; padding: 22px 24px; }
+.res-match-header:hover { background: #e7f0fd; }
+.res-match-score { color: #194781; background: #fff; border: 1px solid #c8dbf5; border-radius: 6px; padding: 3px 9px; margin-top: 10px; }
+.res-match-score--weak { color: #895500; background: #fff8e8; border-color: #ebd7a8; }
+.res-match-chevron { color: #2459a6; }
+.res-match-weak-label { color: #895500; }
+.res-match-body { border-color: #dbe5f0; padding: 4px 24px 24px; }
+.res-match-card .res-block-title { color: #263e5e; }
+.res-match-card .res-market-item { background: #f6f9fd; border-color: #e0e9f4; border-radius: 10px; }
+.res-match-card .res-roadmap-list li::before { background: #edf4ff; color: #2459a6; }
+.db-card button:focus-visible, .res-match-card button:focus-visible { outline: 2px solid #2459a6; outline-offset: 3px; }
+@media(max-width: 600px) {
+  .db-card { padding: 20px; }
+  .db-card__head { margin: -20px -20px 0; padding: 20px; }
+  .res-match-header { padding: 18px; }
+  .res-match-body { padding: 4px 18px 20px; }
+}
