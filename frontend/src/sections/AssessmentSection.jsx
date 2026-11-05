@@ -5,6 +5,7 @@ import { useAuthModal } from '../context/AuthModalContext.jsx';
 import { postAssessment } from '../lib/api.js';
 import AssessmentForm from '../components/AssessmentForm.jsx';
 import ResultsSection from '../components/ResultsSection.jsx';
+import DuplicateAssessmentDialog from '../components/DuplicateAssessmentDialog.jsx';
 import { assessmentFingerprint } from '../lib/assessmentDedup.js';
 
 export default function AssessmentSection() {
@@ -15,7 +16,16 @@ export default function AssessmentSection() {
   const [result, setResult] = useState(null);
   const submissionLocked = useRef(false);
   const completed = useRef(new Map());
-  const [notice, setNotice] = useState('');
+  const [duplicateResult, setDuplicateResult] = useState(null);
+
+  function scrollToResults() {
+    setTimeout(() => {
+      const el = document.getElementById('results');
+      if (!el) return;
+      const navH = document.getElementById('nav')?.offsetHeight || 0;
+      window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - navH - 24, behavior: 'smooth' });
+    }, 100);
+  }
 
   // Submit the full form and show ranked matches below it when the API responds.
   async function handleSubmit(formData) {
@@ -24,7 +34,7 @@ export default function AssessmentSection() {
     submissionLocked.current = true;
     setSubmitting(true);
     setErrorMsg('');
-    setNotice('');
+    setDuplicateResult(null);
     try {
       const fingerprint = await assessmentFingerprint(formData);
       const key = `roadmora-assessment:${user.id}:${fingerprint}`;
@@ -33,24 +43,14 @@ export default function AssessmentSection() {
         try { cached = JSON.parse(sessionStorage.getItem(key)); } catch { /* Storage may be unavailable. */ }
       }
       if (cached?.top_matches?.length) {
-        setResult(cached);
-        setNotice('You have already submitted this information. Your existing career recommendations are shown below; no duplicate assessment was saved.');
+        setDuplicateResult(cached);
         return;
       }
       const data = await postAssessment(formData);
       completed.current.set(key, data);
       try { sessionStorage.setItem(key, JSON.stringify(data)); } catch { /* In-memory protection remains active. */ }
       setResult(data);
-      // Wait for React to render ResultsSection before calculating its screen position.
-      setTimeout(() => {
-        const el = document.getElementById('results');
-        const nav = document.getElementById('nav');
-        if (el) {
-          const navH = nav ? nav.offsetHeight : 0;
-          const top = el.getBoundingClientRect().top + window.scrollY - navH - 24;
-          window.scrollTo({ top, behavior: 'smooth' });
-        }
-      }, 100);
+      scrollToResults();
     } catch (err) {
       submissionLocked.current = false;
       setErrorMsg(err.message || 'Submission failed. Please check your connection and try again.');
@@ -65,7 +65,7 @@ export default function AssessmentSection() {
     submissionLocked.current = false;
     setErrorMsg('');
     setResult(null);
-    setNotice('');
+    setDuplicateResult(null);
     const el = document.getElementById('assessment');
     const nav = document.getElementById('nav');
     if (el) {
@@ -95,7 +95,14 @@ export default function AssessmentSection() {
         </div>
       </section>
 
-      {notice && <p className="container" role="status">{notice}</p>}
+      {duplicateResult && <DuplicateAssessmentDialog
+        onClose={() => setDuplicateResult(null)}
+        onViewResults={() => {
+          setResult(duplicateResult);
+          setDuplicateResult(null);
+          scrollToResults();
+        }}
+      />}
       {result && <ResultsSection result={result} onRetake={handleRetake} />}
     </>
   );

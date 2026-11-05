@@ -2225,3 +2225,25 @@ section { padding: 100px 0; }
 .ms-custom-entry small { display: block; margin-top: 6px; color: var(--text-3); }
 .multi-select .ms-tag { white-space: normal; overflow-wrap: anywhere; max-width: 100%; }
 .multi-select .ms-display { min-width: 0; }
+
+.duplicate-assessment-dialog {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: min(480px, calc(100vw - 32px));
+  max-height: calc(100dvh - 40px);
+  overflow-y: auto;
+  padding: 28px;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border-hi);
+  border-radius: 14px;
+  box-shadow: 0 20px 70px #0006;
+}
+.duplicate-assessment-dialog::backdrop { background: rgba(0,0,0,.65); }
+.duplicate-assessment-dialog h2 { font-size: 22px; line-height: 1.3; margin-bottom: 14px; }
+.duplicate-assessment-dialog p { color: var(--text-2); font-size: 14px; line-height: 1.7; }
+.duplicate-assessment-dialog__actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.duplicate-assessment-dialog button { font: inherit; font-size: 14px; padding: 10px 16px; border-radius: 7px; border: 1px solid var(--border); background: transparent; color: var(--text); cursor: pointer; }
+.duplicate-assessment-dialog button:last-child { background: var(--indigo); border-color: var(--indigo); color: white; }
+.duplicate-assessment-dialog button:focus-visible { outline: 2px solid var(--indigo-lt); outline-offset: 3px; }

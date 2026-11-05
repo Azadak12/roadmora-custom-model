@@ -202,7 +202,6 @@ export default function DashboardPage() {
                             <div className="db-card__career">{r.career_field || 'Unknown'}</div>
                             <div className="db-card__date">{date}</div>
                           </div>
-                          {ma.demand && <span className="db-card__badge">{ma.demand}</span>}
                         </div>
 
                         <div className="db-card__stats">
