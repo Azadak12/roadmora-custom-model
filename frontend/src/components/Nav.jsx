@@ -15,7 +15,7 @@ const LINKS = [
 const linkClass = ({ isActive }) => `nav__link${isActive ? ' active' : ''}`;
 
 export default function Nav() {
-  const { user, isAdmin, signOut } = useAuth();
+  const { user, signOut } = useAuth();
   const { openAuth } = useAuthModal();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -74,11 +74,6 @@ export default function Nav() {
           {user && (
             <li>
               <NavLink to="/dashboard" className={linkClass}>Dashboard</NavLink>
-            </li>
-          )}
-          {isAdmin && (
-            <li>
-              <NavLink to="/admin" className={linkClass}>Admin</NavLink>
             </li>
           )}
           <li className="nav__mobile-actions">
