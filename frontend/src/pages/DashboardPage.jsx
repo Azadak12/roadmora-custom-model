@@ -1,4 +1,5 @@
 import BrandLogo from '../components/BrandLogo.jsx';
+import Footer from '../components/Footer.jsx';
 import { uniqueCareerResults } from '../lib/assessmentDedup.js';
 /* Logged-in user's dashboard: lists their saved past assessment results, opens RoadmapModal for details. Route: /dashboard. */
 import { useEffect, useState } from 'react';
@@ -248,6 +249,7 @@ export default function DashboardPage() {
           </div>
         )}
       </main>
+      <Footer />
 
       <RoadmapModal result={openIdx != null ? results[openIdx] : null} onClose={() => setOpenIdx(null)} />
     </>
