@@ -836,3 +836,31 @@ main .pipeline-item p { color: var(--text-2); }
 @media (max-width: 760px) { .topbar .topbar__user { display: none; } .topbar__right { flex-shrink: 0; } }
 /* Keep Logout and "Clear filters" visible on phones (styles-dashboard.css hid them). */
 @media (max-width: 760px) { .db-topbar-logout-btn { display: inline-flex; } }
+
+/* ── ADMIN BUTTONS: explicit text color for every state ── */
+.admin-action-btn, .admin-header-actions .admin-action-btn, .admin-pager button {
+  background: #fff; color: var(--t-heading); border: 1px solid #b9c6d8;
+  font-weight: 700; border-radius: 8px;
+}
+.admin-action-btn:hover:not(:disabled), .admin-pager button:hover:not(:disabled) {
+  background: var(--t-pill); color: var(--t-heading); border-color: var(--t-blue);
+}
+.admin-action-btn--primary, .admin-header-actions .admin-action-btn--primary {
+  background: var(--t-blue); color: #fff; border-color: var(--t-blue);
+}
+.admin-action-btn--primary:hover:not(:disabled) { background: var(--t-navy); color: #fff; border-color: var(--t-navy); }
+.admin-action-btn--danger { background: #b42318; color: #fff; border-color: #b42318; }
+.admin-action-btn--danger:hover:not(:disabled) { background: #8f1c13; color: #fff; border-color: #8f1c13; }
+.admin-row-actions button { color: var(--t-blue); font-weight: 700; }
+.admin-row-actions button:hover:not(:disabled) { background: var(--t-pill); color: var(--t-heading); }
+.admin-row-actions .admin-row-actions__delete:hover:not(:disabled) { background: #fde8e6; color: #8f1c13; }
+.admin-link-btn { color: var(--t-blue); font-weight: 700; }
+.admin-link-btn:hover { color: var(--t-heading); text-decoration: underline; }
+.admin-dialog__close { color: var(--t-heading); }
+.admin-sidebar__logout { color: #b42318; font-weight: 700; }
+
+/* MultiSelect "Other" entry: Add / Cancel */
+.ms-custom-entry .btn { min-height: 40px; padding: 8px 16px; font-size: 14px; background: #fff; color: var(--t-heading); border: 1px solid #b9c6d8; }
+.ms-custom-entry .btn:first-child { background: var(--t-blue); color: #fff; border-color: var(--t-blue); }
+.ms-custom-entry .btn:hover:not(:disabled) { background: var(--t-pill); color: var(--t-heading); border-color: var(--t-blue); }
+.ms-custom-entry .btn:first-child:hover:not(:disabled) { background: var(--t-navy); color: #fff; }
