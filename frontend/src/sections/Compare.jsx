@@ -1,3 +1,19 @@
+const CHATBOT = [
+  'Answers depend on how you word your prompt',
+  'No structured way to describe your profile',
+  'Can invent job titles, salaries, or statistics',
+  'Not linked to an official occupation database',
+  'Results are not saved to a dashboard',
+];
+
+const ROADMORA = [
+  'Five-step assessment collects the right details',
+  'Self-trained model gives the same result for the same answers',
+  'Ranks 923 real O*NET occupations',
+  'Wage and growth figures come from the U.S. BLS',
+  'Top result saved to your dashboard when signed in',
+];
+
 export default function Compare() {
   return (
     <section className="compare">
@@ -13,13 +29,7 @@ export default function Compare() {
               <h3>General AI Chatbot</h3>
             </div>
             <ul className="compare-list">
-              <li className="bad">You must write the right prompt yourself</li>
-              <li className="bad">Results vary based on how you phrase things</li>
-              <li className="bad">No structured data collection</li>
-              <li className="bad">Generic, non-personalized advice</li>
-              <li className="bad">No skill-gap analysis</li>
-              <li className="bad">No saved history or dashboard</li>
-              <li className="bad">No roadmap or project guidance</li>
+              {CHATBOT.map((t) => <li className="bad" key={t}>{t}</li>)}
             </ul>
           </div>
           <div className="compare-col compare-col--good reveal">
@@ -28,13 +38,7 @@ export default function Compare() {
               <h3>Roadmora AI</h3>
             </div>
             <ul className="compare-list">
-              <li className="good">Structured assessment collects all relevant info</li>
-              <li className="good">Consistent, predictable AI output every time</li>
-              <li className="good">Analyzes 14+ career dimensions</li>
-              <li className="good">Fully personalized to your profile</li>
-              <li className="good">Detailed skill-gap breakdown</li>
-              <li className="good">Dashboard with saved recommendations</li>
-              <li className="good">Step-by-step roadmap + project guidance</li>
+              {ROADMORA.map((t) => <li className="good" key={t}>{t}</li>)}
             </ul>
           </div>
         </div>

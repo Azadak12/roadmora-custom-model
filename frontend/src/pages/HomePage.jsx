@@ -1,65 +1,59 @@
 import { Link } from 'react-router-dom';
-import Nav from '../components/Nav.jsx';
-import Footer from '../components/Footer.jsx';
+import SiteLayout from '../components/SiteLayout.jsx';
 import Hero from '../sections/Hero.jsx';
 import SocialProof from '../sections/SocialProof.jsx';
 import CtaSection from '../sections/CtaSection.jsx';
 import Disclaimer from '../sections/Disclaimer.jsx';
-import { useScrollReveal } from '../hooks/useScrollReveal.js';
 
 const OVERVIEW_CARDS = [
   {
     to: '/how-it-works',
-    icon: '🗺️',
+    icon: '⚙️',
     title: 'How It Works',
-    desc: 'From confusion to clarity in four structured steps — no vague advice, no generic chatbot responses.',
-    cta: 'See the Process',
+    desc: 'See how a self-trained model turns your answers into an interest profile and ranks real occupations.',
+    cta: 'See the process',
   },
   {
     to: '/features',
-    icon: '⚙️',
+    icon: '✨',
     title: 'Features',
-    desc: 'AI recommendations, skill-gap analysis, learning roadmaps, market insights, and a personal dashboard.',
-    cta: 'Explore Features',
+    desc: 'Ranked matches with match scores, U.S. wage and growth data, education, training, and core tasks.',
+    cta: 'Explore features',
   },
   {
     to: '/assessment',
     icon: '📋',
     title: 'Take the Assessment',
-    desc: 'Answer structured questions about your skills, interests, and goals — get a personalized career roadmap.',
-    cta: 'Start Assessment',
+    desc: 'Five short steps covering your education, skills, experience, and interests.',
+    cta: 'Start now',
   },
   {
     to: '/about',
     icon: '💡',
     title: 'About Roadmora AI',
-    desc: 'Built to solve a real problem: millions of students graduate with skills but no clear direction.',
-    cta: 'Learn More',
-  },
-  {
-    to: '/contact',
-    icon: '📬',
-    title: 'Contact Us',
-    desc: 'Have a question or feedback? We\'re here to help — reach out and we\'ll respond within 24 hours.',
-    cta: 'Get in Touch',
+    desc: 'Why we built a structured, data-driven alternative to generic career advice.',
+    cta: 'Read our story',
   },
 ];
 
-export default function HomePage() {
-  useScrollReveal();
+const HIGHLIGHTS = [
+  { title: 'Real occupation data', desc: 'Every match is a real occupation from the U.S. Department of Labor’s O*NET database.' },
+  { title: 'Our own trained model', desc: 'Predictions come from a PyTorch network trained for this project, not a chatbot.' },
+  { title: 'Results you can revisit', desc: 'Sign in and your top match from each assessment is saved to your dashboard.' },
+];
 
+export default function HomePage() {
   return (
-    <>
-      <Nav />
+    <SiteLayout>
       <Hero />
       <SocialProof />
 
       <section className="home-overview">
         <div className="container">
           <div className="section-header">
-            <span className="section-eyebrow">Everything in One Place</span>
-            <h2 className="section-title">What Roadmora AI <span className="gradient-text">offers you</span></h2>
-            <p className="section-sub">Navigate to any section to explore in depth — or start your assessment right now.</p>
+            <span className="section-eyebrow">Explore</span>
+            <h2 className="section-title">Everything you need, <span className="gradient-text">one click away</span></h2>
+            <p className="section-sub">Learn how Roadmora AI works, see what your results include, or jump straight into the assessment.</p>
           </div>
           <div className="overview-grid">
             {OVERVIEW_CARDS.map((card) => (
@@ -77,9 +71,22 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="home-highlights">
+        <div className="container">
+          <div className="highlights-grid">
+            {HIGHLIGHTS.map((h, i) => (
+              <div className="highlight reveal" key={h.title}>
+                <span className="highlight__num">{String(i + 1).padStart(2, '0')}</span>
+                <h3>{h.title}</h3>
+                <p>{h.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <CtaSection />
       <Disclaimer />
-      <Footer />
-    </>
+    </SiteLayout>
   );
 }

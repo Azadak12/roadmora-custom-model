@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import AuthModal from './components/AuthModal.jsx';
+import ScrollToTop from './components/ScrollToTop.jsx';
 import HomePage from './pages/HomePage.jsx';
 import DashboardPage from './pages/DashboardPage.jsx';
 import AdminDashboardPage from './pages/AdminDashboardPage.jsx';
@@ -13,6 +14,7 @@ import ContactPage from './pages/ContactPage.jsx';
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/how-it-works" element={<HowItWorksPage />} />

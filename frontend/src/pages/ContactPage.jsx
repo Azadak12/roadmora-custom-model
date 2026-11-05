@@ -1,17 +1,17 @@
-import Nav from '../components/Nav.jsx';
-import Footer from '../components/Footer.jsx';
+import SiteLayout from '../components/SiteLayout.jsx';
+import PageHeader from '../components/PageHeader.jsx';
 import Contact from '../sections/Contact.jsx';
-import { useScrollReveal } from '../hooks/useScrollReveal.js';
 
 export default function ContactPage() {
-  useScrollReveal();
   return (
-    <>
-      <Nav />
-      <div style={{ paddingTop: 'var(--nav-h, 72px)' }}>
-        <Contact />
-      </div>
-      <Footer />
-    </>
+    <SiteLayout>
+      <PageHeader
+        crumb="Contact"
+        eyebrow="Contact"
+        title={<>We're here to <span className="gradient-text">help</span></>}
+        subtitle="Questions about your results, feedback on the platform, or interest in the project? Get in touch."
+      />
+      <Contact />
+    </SiteLayout>
   );
 }

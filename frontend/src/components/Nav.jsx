@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
 import { useAuthModal } from '../context/AuthModalContext.jsx';
 
@@ -12,85 +12,108 @@ const LINKS = [
   { to: '/contact', label: 'Contact' },
 ];
 
+const linkClass = ({ isActive }) => `nav__link${isActive ? ' active' : ''}`;
+
 export default function Nav() {
   const { user, isAdmin, signOut } = useAuth();
   const { openAuth } = useAuthModal();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const navRef = useRef(null);
-  const location = useLocation();
-  const navigate = useNavigate();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
+    onScroll();
     window.addEventListener('scroll', onScroll);
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  function isActive(to) {
-    if (to === '/') return location.pathname === '/';
-    return location.pathname === to;
-  }
-
-  function handleLinkClick(e, to) {
+  function handleAssessmentClick(e) {
+    if (user) return;
     e.preventDefault();
     setMenuOpen(false);
-    if (to === '/assessment' && !user) {
-      openAuth('login');
-      return;
-    }
-    navigate(to);
+    openAuth('login');
   }
 
+  function openAuthFromMenu(mode) {
+    setMenuOpen(false);
+    openAuth(mode);
+  }
+
+  function handleSignOut() {
+    setMenuOpen(false);
+    signOut();
+  }
+
+  const displayName = user ? (user.user_metadata?.full_name || user.email).split(/[@\s]/)[0] : '';
+
   return (
-    <nav className={`nav${scrolled ? ' scrolled' : ''}`} id="nav" ref={navRef}>
+    <nav className={`nav${scrolled || menuOpen ? ' scrolled' : ''}${user ? ' nav--authed' : ''}`} id="nav">
       <div className="nav__inner">
-        <Link to="/" className="nav__logo" onClick={() => setMenuOpen(false)}>
+        <Link to="/" className="nav__logo">
           <span className="logo-icon">◈</span> Roadmora<span className="logo-accent">AI</span>
         </Link>
-        <ul className={`nav__links${menuOpen ? ' open' : ''}`} id="navLinks">
+
+        <ul
+          className={`nav__links${menuOpen ? ' open' : ''}`}
+          id="navLinks"
+          onClick={(e) => { if (e.target.closest('a')) setMenuOpen(false); }}
+        >
           {LINKS.map((link) => (
             <li key={link.to}>
-              <a
-                href={link.to}
-                className={`nav__link${isActive(link.to) ? ' active' : ''}`}
-                onClick={(e) => handleLinkClick(e, link.to)}
+              <NavLink
+                to={link.to}
+                end={link.to === '/'}
+                className={linkClass}
+                onClick={link.to === '/assessment' ? handleAssessmentClick : undefined}
               >
                 {link.label}
-              </a>
+              </NavLink>
             </li>
           ))}
+          {user && <li className="nav__divider" aria-hidden="true"></li>}
           {user && (
             <li>
-              <Link to="/dashboard" className="nav__link nav-auth-in" onClick={() => setMenuOpen(false)}>
-                Dashboard
-              </Link>
+              <NavLink to="/dashboard" className={linkClass}>Dashboard</NavLink>
             </li>
           )}
           {isAdmin && (
             <li>
-              <Link to="/admin" className="nav__link nav-auth-in" onClick={() => setMenuOpen(false)}>
-                Admin
-              </Link>
+              <NavLink to="/admin" className={linkClass}>Admin</NavLink>
             </li>
           )}
+          <li className="nav__mobile-actions">
+            {!user ? (
+              <>
+                <button className="btn nav-login-btn" onClick={() => openAuthFromMenu('login')}>Login</button>
+                <button className="btn nav-getstarted-btn" onClick={() => openAuthFromMenu('signup')}>Get Started</button>
+              </>
+            ) : (
+              <button className="btn nav-logout-btn" onClick={handleSignOut}>Logout ({displayName})</button>
+            )}
+          </li>
         </ul>
+
         <div className="nav__actions">
           {!user ? (
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <>
               <button className="btn nav-login-btn" onClick={() => openAuth('login')}>Login</button>
               <button className="btn nav-getstarted-btn" onClick={() => openAuth('signup')}>Get Started</button>
-            </div>
+            </>
           ) : (
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <span className="nav-user-badge">
-                {(user.user_metadata?.full_name || user.email).split(/[@\s]/)[0]}
-              </span>
-              <button className="btn nav-logout-btn" onClick={() => signOut()}>Logout</button>
-            </div>
+            <>
+              <span className="nav-user-badge">{displayName}</span>
+              <button className="btn nav-logout-btn" onClick={handleSignOut}>Logout</button>
+            </>
           )}
         </div>
-        <button className="nav__burger" id="burger" aria-label="Toggle menu" onClick={() => setMenuOpen((v) => !v)}>
+
+        <button
+          className="nav__burger"
+          id="burger"
+          aria-label="Toggle menu"
+          aria-expanded={menuOpen}
+          onClick={() => setMenuOpen((v) => !v)}
+        >
           <span style={menuOpen ? { transform: 'translateY(7px) rotate(45deg)' } : undefined}></span>
           <span style={menuOpen ? { opacity: 0 } : undefined}></span>
           <span style={menuOpen ? { transform: 'translateY(-7px) rotate(-45deg)' } : undefined}></span>

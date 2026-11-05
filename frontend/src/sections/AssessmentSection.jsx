@@ -53,12 +53,6 @@ export default function AssessmentSection() {
     <>
       <section className="assessment" id="assessment">
         <div className="container">
-          <div className="section-header">
-            <span className="section-eyebrow">Career Assessment</span>
-            <h2 className="section-title">Tell us about <span className="gradient-text">yourself</span></h2>
-            <p className="section-sub">Answer honestly so the occupation matches reflect your skills and interests.</p>
-          </div>
-
           {!user ? (
             <div className="assess-gate">
               <div className="assess-gate-icon">🔒</div>
