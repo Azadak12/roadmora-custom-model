@@ -1,17 +1,23 @@
+import BrandLogo from './BrandLogo.jsx';
 import { Link } from 'react-router-dom';
 import { CONTACT_EMAIL } from '../lib/site.js';
 
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className="container">
+      <div className="footer-box">
         <div className="footer-grid">
           <div className="footer-brand">
-            <Link to="/" className="nav__logo">
-              <span className="logo-icon">◈</span> Roadmora<span className="logo-accent">AI</span>
+            <Link to="/" className="footer-logo-chip" aria-label="Roadmora AI home">
+              <BrandLogo />
             </Link>
             <p className="footer-tagline">Explore career matches built on real occupation data and a self-trained model.</p>
-            <a className="footer-email" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+            <a className="footer-email" href={`mailto:${CONTACT_EMAIL}`}>
+              <span className="footer-email__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 6 9 7 9-7" /></svg>
+              </span>
+              {CONTACT_EMAIL}
+            </a>
           </div>
           <div className="footer-col">
             <h5>Platform</h5>

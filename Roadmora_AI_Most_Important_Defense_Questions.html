@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Most important Roadmora AI FYP viva questions and short answers.">
+  <title>Roadmora AI | Most Important Defense Questions</title>
+  <style>
+    :root {
+      --ink: #17232e;
+      --muted: #66727c;
+      --navy: #123047;
+      --teal: #087f78;
+      --red: #c8483d;
+      --amber: #e5a11a;
+      --paper: #f3f5f4;
+      --white: #fff;
+      --line: #d9dfdc;
+      --green: #2d7a49;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+    button, input, select { font: inherit; }
+    button { cursor: pointer; }
+    .hero { color: white; background: var(--navy); border-bottom: 5px solid var(--amber); }
+    .hero__inner { width: min(1060px, calc(100% - 30px)); margin: auto; padding: 34px 0 30px; }
+    .eyebrow { margin: 0 0 7px; color: #8edbd6; font-size: 12px; font-weight: 800; text-transform: uppercase; }
+    h1 { max-width: 760px; margin: 0; font-size: clamp(31px, 5vw, 52px); line-height: 1.06; letter-spacing: 0; }
+    .hero p:last-child { max-width: 730px; margin: 12px 0 0; color: #d5e2e7; }
+    .wrap { width: min(1060px, calc(100% - 30px)); margin: 22px auto 60px; }
+    .memory-line {
+      padding: 19px 20px;
+      border: 1px solid #e4bd64;
+      border-left: 5px solid var(--amber);
+      border-radius: 7px;
+      background: #fff9eb;
+    }
+    .memory-line strong { display: block; margin-bottom: 5px; }
+    .memory-line p { margin: 0; color: #594e3b; }
+    .facts { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin: 14px 0; }
+    .fact { padding: 12px; border: 1px solid var(--line); border-radius: 7px; background: white; }
+    .fact b { display: block; color: var(--navy); font-size: 21px; }
+    .fact span { color: var(--muted); font-size: 11px; }
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      display: grid;
+      grid-template-columns: 1fr 220px auto auto;
+      gap: 8px;
+      padding: 10px;
+      margin: 18px 0;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: rgba(243,245,244,.96);
+      backdrop-filter: blur(8px);
+    }
+    .control, .btn { min-height: 42px; border-radius: 6px; }
+    .control { width: 100%; padding: 0 12px; color: var(--ink); border: 1px solid #c5cfca; background: white; }
+    .btn { padding: 0 14px; border: 1px solid var(--navy); color: white; background: var(--navy); font-weight: 750; }
+    .btn.secondary { color: var(--navy); background: white; }
+    .section { margin-top: 28px; }
+    .section__head { padding-bottom: 9px; border-bottom: 2px solid var(--line); display: flex; justify-content: space-between; gap: 14px; align-items: end; }
+    .section__head h2 { margin: 0; color: var(--navy); font-size: 23px; }
+    .section__head p { margin: 3px 0 0; color: var(--muted); font-size: 13px; }
+    .section__count { flex: none; color: var(--teal); font-size: 12px; font-weight: 800; }
+    .list { display: grid; gap: 8px; margin-top: 10px; }
+    .card { overflow: hidden; border: 1px solid var(--line); border-left: 5px solid var(--red); border-radius: 7px; background: white; }
+    .card.core { border-left-color: var(--amber); }
+    .question { width: 100%; padding: 14px 15px; border: 0; color: var(--ink); background: transparent; text-align: left; display: grid; grid-template-columns: 42px 1fr 20px; gap: 8px; align-items: center; }
+    .question:hover { background: #f8faf9; }
+    .num { color: var(--red); font-size: 11px; font-weight: 850; }
+    .core .num { color: #9b6500; }
+    .q { font-weight: 760; }
+    .plus { color: var(--muted); font-size: 18px; }
+    .answer { display: none; padding: 0 15px 15px 65px; color: #3e4953; }
+    .answer p { margin: 0; }
+    .card.open .answer { display: block; }
+    .card.open .plus { transform: rotate(45deg); }
+    .badge { display: inline-block; margin-top: 10px; padding: 3px 7px; border-radius: 4px; color: white; background: var(--red); font-size: 10px; font-weight: 800; text-transform: uppercase; }
+    .empty { display: none; padding: 35px; color: var(--muted); text-align: center; }
+    .closing { margin-top: 25px; padding: 20px; border: 1px solid var(--line); border-radius: 7px; background: white; }
+    .closing h2 { margin: 0 0 8px; font-size: 19px; }
+    .closing p { margin: 0; }
+    footer { padding: 25px; color: var(--muted); text-align: center; font-size: 12px; }
+    @media (max-width: 800px) {
+      .facts { grid-template-columns: repeat(2, 1fr); }
+      .toolbar { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 520px) {
+      .facts, .toolbar { grid-template-columns: 1fr; }
+      .question { grid-template-columns: 36px 1fr 18px; padding: 13px 10px; }
+      .answer { padding: 0 10px 13px 54px; }
+    }
+    @media print {
+      body { background: white; font-size: 10.5pt; }
+      .hero { color: var(--ink); background: white; border-bottom: 2px solid #000; }
+      .hero p:last-child, .eyebrow { color: #333; }
+      .wrap { width: 100%; margin: 0; }
+      .toolbar { display: none; }
+      .facts { grid-template-columns: repeat(5, 1fr); }
+      .answer { display: block !important; }
+      .card { break-inside: avoid; }
+      .section { break-before: page; }
+      .section:first-of-type { break-before: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__inner">
+      <p class="eyebrow">Roadmora AI · Final Defense Shortlist</p>
+      <h1>70 Most Important Viva Questions</h1>
+      <p>A focused preparation file for the questions most likely to be asked about the model, metric, data, base paper, competitive advantage, architecture, and limitations.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="memory-line">
+      <strong>Answer to memorize first</strong>
+      <p>Roadmora AI uses a supervised multi-output regression MLP to predict six continuous RIASEC scores from 376 encoded assessment features. It then ranks 923 real O*NET occupations using RIASEC plus concrete interest, skill, experience, and industry evidence. Its current best validation mean percentile rank is about 0.202, where lower is better; this is not classification accuracy.</p>
+    </section>
+
+    <section class="facts" aria-label="Essential facts">
+      <div class="fact"><b>376</b><span>input features</span></div>
+      <div class="fact"><b>6</b><span>RIASEC outputs</span></div>
+      <div class="fact"><b>923</b><span>O*NET occupations</span></div>
+      <div class="fact"><b>138,450</b><span>synthetic rows</span></div>
+      <div class="fact"><b>0.202</b><span>best mean rank</span></div>
+    </section>
+
+    <div class="toolbar">
+      <input id="search" class="control" type="search" placeholder="Search important questions" aria-label="Search questions">
+      <select id="filter" class="control" aria-label="Filter section"></select>
+      <button id="reveal" class="btn secondary" type="button">Reveal all</button>
+      <button class="btn" type="button" onclick="window.print()">Print</button>
+    </div>
+
+    <div id="bank"></div>
+    <div id="empty" class="empty">No matching question found.</div>
+
+    <section class="closing">
+      <h2>Strong closing statement</h2>
+      <p>Roadmora is not presented as a perfect career authority. It is a reproducible decision-support system that improves on the base paper through a structured RIASEC foundation, 923 specific O*NET occupations, multi-signal ranking, real BLS market data, and actionable roadmaps, while honestly acknowledging synthetic respondents and U.S.-data localization as limitations.</p>
+    </section>
+  </main>
+
+  <footer>Roadmora AI · Most Important Defense Questions</footer>
+
+  <script>
+    const sections = [
+      {
+        id: 'project', title: 'Project Fundamentals', note: 'The opening questions every member must answer',
+        items: [
+          ['What is Roadmora AI?', 'Roadmora AI is a web-based career-guidance platform that recommends specific occupations and provides market information, occupation details, and a saved roadmap.'],
+          ['What problem does it solve?', 'It replaces generic, fragmented career advice with one personalized and evidence-grounded workflow.'],
+          ['Who are the target users?', 'Students, fresh graduates, job seekers, employed users, freelancers, and career changers.'],
+          ['What is the main project objective?', 'To convert a structured assessment into useful career recommendations supported by occupational and labour-market evidence.'],
+          ['What is the complete user flow?', 'The user authenticates, completes the five-step assessment, submits it, reviews ranked matches, and revisits the saved result from the dashboard.'],
+          ['What does the final result contain?', 'Up to three strong occupation matches, match evidence, O*NET preparation and task details, BLS wage and growth information, and a roadmap.'],
+          ['Does the system use ChatGPT or another external LLM?', 'No. Prediction runs through the locally loaded PyTorch model and structured O*NET/BLS data.'],
+          ['Why is this suitable as an FYP?', 'It combines machine learning, data engineering, APIs, authentication, databases, frontend design, testing, evaluation, and a meaningful real-world problem.']
+        ]
+      },
+      {
+        id: 'model', title: 'Model, RIASEC & Accuracy', note: 'Highest-priority technical defense questions',
+        items: [
+          ['What type of model did you train?', 'A supervised feed-forward multi-layer perceptron trained from random initialization.'],
+          ['Is the model classification or regression?', 'It is multi-output regression because it predicts six continuous RIASEC scores. The next stage is occupation ranking.'],
+          ['What does RIASEC stand for?', 'Realistic, Investigative, Artistic, Social, Enterprising, and Conventional.'],
+          ['Why did you use RIASEC?', 'It is an established vocational-interest framework and connects naturally with real O*NET occupation profiles.'],
+          ['What is the model architecture?', 'The architecture is 376 inputs, hidden layers of 256, 128, and 64 units, and six outputs.'],
+          ['Which activation and regularization methods are used?', 'Each hidden layer uses batch normalization, ReLU, and dropout; dropout rates are 0.20, 0.15, and 0.10.'],
+          ['Which optimizer is used?', 'Adam with a learning rate of 0.001 and weight decay of 0.00001.'],
+          ['What loss function is used?', 'A combined loss of 20% mean squared error and 80% cosine loss.'],
+          ['Why combine MSE and cosine loss?', 'Cosine loss trains the profile direction used for ranking, while MSE retains magnitude information.'],
+          ['What is the model’s accuracy?', 'We do not report classification accuracy because this is regression followed by ranking. The current best validation mean percentile rank is approximately 0.202.'],
+          ['How is mean percentile rank calculated?', 'For each validation example, we rank all 923 occupations, divide the true occupation’s zero-based rank by 923, and average the result across examples.'],
+          ['How do you interpret 0.202?', 'The true source occupation appears around the top 20.2% of candidates on average. Lower is better: zero is perfect and about 0.5 is random.'],
+          ['Can we call it 79.8% accuracy?', 'No. Subtracting percentile rank from one does not produce accuracy; doing so would misrepresent the metric.'],
+          ['Why not use ordinary classification accuracy?', 'The model predicts continuous interests and ranks 923 similar occupations rather than selecting one broad class.'],
+          ['What are the baseline results?', 'The documented comparison reported about 0.496 for a mean-vector baseline, 0.249 for Ridge, 0.325 for Random Forest, and 0.214 for the earlier MLP run; lower is better.'],
+          ['Why is the current result different from the older 0.214 figure?', 'The current generator and saved run use 150 samples per occupation and reach about 0.202; 0.214 belongs to an earlier 60-sample-per-occupation run.'],
+          ['Does the MLP directly output a career?', 'No. It outputs the RIASEC vector; the ranking pipeline converts that profile and other evidence into occupations.'],
+          ['Why not use an LLM?', 'The task is structured, an LLM is unnecessary and less auditable, and the requirement was to train our own model without an external AI API.']
+        ]
+      },
+      {
+        id: 'data', title: 'Training Data & Recommendation', note: 'Real data, synthetic respondents, encoding, and final ranking',
+        items: [
+          ['Where did the training data come from?', 'Real targets come from O*NET 31.0; synthetic assessment respondents were generated around those real occupation profiles.'],
+          ['What part of the dataset is real?', 'The 923 occupations, RIASEC target vectors, interest taxonomy, occupation skills, Job Zones, and tasks are real O*NET data.'],
+          ['What part is synthetic?', 'The individual combinations of assessment answers are generated rather than collected from real users.'],
+          ['How many training rows are there?', 'The current generator produces 150 rows for each of 923 occupations, totaling 138,450 rows.'],
+          ['Why did you use synthetic respondents?', 'No large labeled dataset matched our exact assessment schema, so synthetic sampling enabled training while preserving real O*NET supervision.'],
+          ['How many encoded input features are there?', 'There are 376 one-hot and multi-hot features covering education, status, skills, languages, interests, industries, internships, and job roles.'],
+          ['How do model outputs become final recommendations?', 'Centered RIASEC similarity creates candidates, then interests, technical skills, industry, experience, core skills, and supported goal intent re-rank them.'],
+          ['Why is plain cosine similarity not sufficient?', 'Positive RIASEC values make raw cosine similarities cluster too closely, so row-centering is used to compare profile shape.'],
+          ['What are the main ranking weights?', 'RIASEC is 0.15, interests 0.30, technical skills 0.35, and industry 0.20; extra signals activate only when supported.'],
+          ['What is considered a strong match?', 'A final combined score of at least 0.75. The system avoids padding the list with weaker results.']
+        ]
+      },
+      {
+        id: 'paper', title: 'Base Paper & Why We Are Better', note: 'The most likely comparison and limitation questions',
+        items: [
+          ['What is your base paper?', '“Machine Learning-Based Career Recommendation System Using Academic and Behavioral Analytics,” published at ESIC 2026 by Mallick and co-authors.'],
+          ['Which algorithms does the paper use?', 'Decision Tree, Random Forest, KNN, and SVM. Random Forest has the best representative result.'],
+          ['What is the paper’s best reported result?', 'Random Forest reports 0.86 accuracy and 0.84 macro-F1 on its broad-category classification task.'],
+          ['Can its 86% be compared directly with our 0.202?', 'No. It is classification accuracy over broad career classes, while ours is mean percentile rank over 923 occupations.'],
+          ['What are the five main limitations of the base paper?', 'Broad career categories, unclear and limited dataset grounding, basic self-reported personality labels, no implemented O*NET integration, and deeper explainability and real-world data left for future work.'],
+          ['What is its dataset limitation?', 'The paper refers to a small curated dataset but does not clearly state a reproducible headline sample size, provenance, or class distribution.'],
+          ['Does the base paper use personality?', 'Yes, but only as basic self-reported labels such as introvert, extrovert, analytical, or creative. Do not claim that it has no personality input.'],
+          ['How is our personality approach better?', 'We use RIASEC as a structured vocational-interest representation and match its six-dimensional profile to real occupation profiles.'],
+          ['What is wrong with broad career categories?', 'A field such as Engineering or Business does not identify a specific occupation, its real tasks, preparation requirements, salary, or growth outlook.'],
+          ['How is Roadmora more specific?', 'Roadmora ranks 923 named O*NET occupations instead of stopping at a small set of broad career fields.'],
+          ['Does the base paper use O*NET?', 'No. It lists O*NET job descriptors as future work; Roadmora already integrates O*NET 31.0 throughout the active pipeline.'],
+          ['What O*NET information does Roadmora use?', 'Occupation RIASEC profiles, specific interest areas, technology skills, Job Zones, task statements, titles, descriptions, and SOC codes.'],
+          ['Does the base paper provide salary and growth information?', 'No. Roadmora links occupations to BLS wage and projected-growth data through SOC codes.'],
+          ['Does the base paper provide an actionable roadmap?', 'It returns career categories and probabilities; Roadmora additionally presents O*NET-based preparation and task information as roadmap content.'],
+          ['Why is explainability a paper limitation?', 'It mentions feature importance but leaves personalized SHAP or LIME explanations as future work.'],
+          ['Why is real-world validation a paper limitation?', 'The authors propose future datasets from schools and institutions, so broader real-world educational validation is not yet demonstrated.'],
+          ['Is a neural network automatically better than Random Forest?', 'No. Our improvement comes from the problem formulation, structured RIASEC target, real occupation grounding, multi-signal ranking, and complete product output.'],
+          ['Give the strongest comparison answer.', 'The paper predicts broad fields from academic and basic behavioral features. Roadmora uses RIASEC, already integrates O*NET, ranks 923 specific occupations, and adds BLS market facts and actionable roadmaps.']
+        ]
+      },
+      {
+        id: 'system', title: 'Architecture, Security & Testing', note: 'Common software-engineering questions',
+        items: [
+          ['What technology stack is used?', 'React and Vite for the frontend, FastAPI for the backend, PyTorch for ML, Supabase Auth/PostgreSQL for accounts and storage, and O*NET/BLS for knowledge.'],
+          ['What happens after assessment submission?', 'The frontend sends authenticated JSON to FastAPI, the backend validates the token, runs prediction, saves the top result, and returns ranked matches.'],
+          ['How is authentication secured?', 'The frontend sends a Supabase bearer token and FastAPI validates it through Supabase before protected processing.'],
+          ['How are admin routes protected?', 'The interface has a display gate, but every admin API also checks the authenticated email against the server-side admin list.'],
+          ['Why load the model at startup?', 'Loading it once avoids disk and initialization overhead on every prediction request.'],
+          ['What automated tests exist?', 'Seven ranking regression tests cover important data-science, accounting, graphic-design, and false-goal-intent cases.'],
+          ['What was the 99.9% accuracy issue?', 'It was a warning sign caused by data leakage. The team corrected the data pipeline and stopped reporting that misleading result.'],
+          ['What testing should be added?', 'Broader frontend, API, security, fairness, load, and end-to-end tests should be added to continuous integration.']
+        ]
+      },
+      {
+        id: 'limits', title: 'Limitations & Future Work', note: 'Honest answers that strengthen the defense',
+        items: [
+          ['What is Roadmora’s biggest limitation?', 'Respondents are synthetic, so current validation mainly proves pipeline consistency rather than real-user generalization.'],
+          ['What is the RIASEC limitation?', 'Six dimensions cannot uniquely separate all 923 occupations, which makes multi-signal re-ranking necessary.'],
+          ['What is the geographic limitation?', 'O*NET and BLS are U.S.-focused, so Pakistan-specific salary, qualification, and demand data are still needed.'],
+          ['What is the user-input limitation?', 'Self-reported answers may be incomplete, misunderstood, aspirational, or dishonest.'],
+          ['What is the fairness limitation?', 'Synthetic mappings and occupational sources may contain cultural or representation bias, and full subgroup fairness evaluation is still required.'],
+          ['Does Roadmora replace a career counsellor?', 'No. It is a decision-support tool and cannot fully understand family, emotional, financial, cultural, or local context.'],
+          ['What is the most important future model improvement?', 'Collect consented real-user assessments and outcome feedback, then evaluate on a strictly separated real-world test set.'],
+          ['What is the most important product improvement?', 'Localize occupation requirements and market information for Pakistan while adding transparent user feedback and model monitoring.']
+        ]
+      }
+    ];
+
+    const bank = document.getElementById('bank');
+    const search = document.getElementById('search');
+    const filter = document.getElementById('filter');
+    const reveal = document.getElementById('reveal');
+    const empty = document.getElementById('empty');
+    let revealAll = false;
+
+    filter.add(new Option('All important questions', 'all'));
+    sections.forEach(section => filter.add(new Option(section.title, section.id)));
+
+    function render() {
+      const query = search.value.trim().toLowerCase();
+      const selected = filter.value;
+      bank.innerHTML = '';
+      let shown = 0;
+      let globalNumber = 0;
+
+      sections.forEach(section => {
+        const visible = [];
+        section.items.forEach((item, index) => {
+          globalNumber += 1;
+          if ((selected === 'all' || selected === section.id) && `${item[0]} ${item[1]}`.toLowerCase().includes(query)) {
+            visible.push({ item, index, number: globalNumber });
+          }
+        });
+        if (!visible.length) return;
+        shown += visible.length;
+        const sectionEl = document.createElement('section');
+        sectionEl.className = 'section';
+        sectionEl.innerHTML = `<div class="section__head"><div><h2>${section.title}</h2><p>${section.note}</p></div><span class="section__count">${visible.length} questions</span></div>`;
+        const list = document.createElement('div');
+        list.className = 'list';
+        visible.forEach(({ item, index, number }) => {
+          const card = document.createElement('article');
+          card.className = `card${section.id === 'model' || section.id === 'paper' ? '' : ' core'}${revealAll ? ' open' : ''}`;
+          card.innerHTML = `<button class="question" type="button" aria-expanded="${revealAll}"><span class="num">Q${String(number).padStart(2, '0')}</span><span class="q">${item[0]}</span><span class="plus">+</span></button><div class="answer"><p>${item[1]}</p>${section.id === 'model' || section.id === 'paper' ? '<span class="badge">Highest priority</span>' : ''}</div>`;
+          list.appendChild(card);
+        });
+        sectionEl.appendChild(list);
+        bank.appendChild(sectionEl);
+      });
+      empty.style.display = shown ? 'none' : 'block';
+      reveal.textContent = revealAll ? 'Hide all' : 'Reveal all';
+    }
+
+    bank.addEventListener('click', event => {
+      const button = event.target.closest('.question');
+      if (!button) return;
+      const card = button.closest('.card');
+      card.classList.toggle('open');
+      button.setAttribute('aria-expanded', card.classList.contains('open'));
+    });
+    search.addEventListener('input', render);
+    filter.addEventListener('change', render);
+    reveal.addEventListener('click', () => { revealAll = !revealAll; render(); });
+    render();
+  </script>
+</body>
+</html>

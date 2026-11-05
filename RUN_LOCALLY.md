@@ -26,10 +26,9 @@ Leave running in its own terminal tab. Runs on `http://localhost:5173`.
 ## Demo accounts
 Created via `backend/seed_test_users.py` (password is in `backend/.env` as `SEED_USER_PASSWORD`):
 
-| Role  | Email                          |
-|-------|--------------------------------|
-| User  | teacher.user@roadmora.test     |
-| Admin | admin@roadmora.test            |
+Role	Email	Password
+User	teacher.user@roadmora.test	Roadmora2026!
+Admin	admin@roadmora.test	Roadmora2026!
 
 ## Notes
 - `frontend/.env` already points `VITE_API_BASE_URL` at `http://localhost:8003` for local dev.

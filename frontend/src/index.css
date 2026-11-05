@@ -2,9 +2,13 @@
    edit one of these two files directly — each has its own QUICK GUIDE
    comment at the top explaining where things are.
    - styles-site.css      -> the public landing page (Home, Hero, Nav, Assessment form, etc.)
-   - styles-dashboard.css -> the logged-in Dashboard + Admin pages */
+   - styles-dashboard.css -> the logged-in Dashboard + Admin pages
+   - styles-theme.css     -> the current look (colors, nav, hero, footer). Loaded last, so start here. */
 @import './styles-site.css';
 @import './styles-dashboard.css';
 
 @import './styles-career-cards.css';
 @import './styles-light.css';
+
+/* Site theme — loaded last so it wins. Edit this one first. */
+@import './styles-theme.css';

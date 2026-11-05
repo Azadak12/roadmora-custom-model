@@ -1,3 +1,4 @@
+import BrandLogo from '../components/BrandLogo.jsx';
 /* Separate login screen for the admin route. Route: /admin/login. */
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
@@ -52,7 +53,7 @@ export default function AdminLoginPage() {
     <div className="admin-login-page">
       <div className="admin-login-card">
         <div className="auth-brand">
-          <span className="logo-icon">◈</span> Roadmora<span className="logo-accent">AI</span>
+          <BrandLogo />
         </div>
         <p className="admin-login-eyebrow">Admin Sign In</p>
 

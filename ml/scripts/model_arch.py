@@ -1,11 +1,3 @@
-"""
-Single definition of the RIASEC-prediction network architecture, imported by
-both train_mlp.py and predict.py. Keeping this in one place is deliberate —
-a duplicated class definition in each file previously drifted out of sync
-after a hyperparameter change and broke checkpoint loading with a shape
-mismatch. Change the architecture here only.
-"""
-
 import torch.nn as nn
 
 

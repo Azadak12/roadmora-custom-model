@@ -113,7 +113,7 @@ export default function Contact() {
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                 >
                   {faq.q}
-                  <span className="faq-arrow">▾</span>
+                  <span className="faq-arrow" aria-hidden="true">+</span>
                 </button>
                 <div className={`faq-a${openFaq === i ? ' open' : ''}`}>{faq.a}</div>
               </div>

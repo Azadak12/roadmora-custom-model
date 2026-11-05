@@ -33,10 +33,11 @@ workforce data.
 
 The **respondents are synthetic**: no real user has filled out this
 assessment yet, so we generated synthetic training examples — for each of
-the 923 real occupations, we sampled plausible assessment answers weighted
-toward that occupation's real dominant interest types, with randomness mixed
-in so the model can't just memorize a lookup table. The occupation's real
-RIASEC vector becomes the training target.
+the 923 real occupations, we sampled 60 plausible assessment answers weighted
+toward that occupation's real dominant interest types (55,380 rows total,
+923 × 60), with randomness mixed in so the model can't just memorize a
+lookup table. The occupation's real RIASEC vector becomes the training
+target for every synthetic respondent generated from it.
 
 So: real labels, synthetic respondents. We say that explicitly rather than
 implying we collected real user data, because we didn't — that's an honest
@@ -83,18 +84,32 @@ looks impressive but doesn't mean anything."
 ### "How do you turn the model's output into an actual career recommendation?"
 
 "Two stages. First, the model predicts a 6-dimensional interest vector.
-Second, we compare that vector — cosine similarity — against all 923 real
-occupations' real interest profiles, and take the top matches.
+Second, we compare that vector against all 923 real occupations' real
+interest profiles and take the top matches.
 
 We found that stage two alone wasn't enough — RIASEC space is only 6
 dimensions, so hundreds of unrelated occupations can score almost identically
-similar. A user who selected Python and Machine Learning was getting
-'Coroners' as a top match purely because it happened to share a similar
-interest *shape*, not because it made sense. So we added a second real
-signal: we extracted actual technology tool tags per occupation from O*NET's
-own data — which occupations really use Python, React, Docker, etc. — and
-re-rank candidates by overlap between the user's selected skills and that
-occupation's real tags. That's what makes the final top-3 list coherent."
+similar, and because all 6 scores are positive, plain cosine similarity
+barely discriminates at all: almost everything comes out above 95% similar
+to almost anything. We fixed part of this by row-centering before computing
+cosine similarity, which turns it into a Pearson correlation across the 6
+dimensions — sensitive to each profile's *shape* (which traits are
+relatively higher or lower) instead of just 'points in a similar direction
+because all values are positive.'
+
+We also added a second, independent real signal: we extracted actual
+technology tool tags per occupation from O*NET's own data — which
+occupations really use Python, React, Docker, etc. — and re-rank candidates
+by overlap between the user's selected skills and that occupation's real
+tags. Early on this had a bug we caught by manual testing: the overlap
+formula normalized by the *smaller* of the two skill sets, so a user who
+picked just one common skill (e.g. 'Microsoft Excel') got a perfect 100%
+overlap against any occupation that merely listed Excel among dozens of
+tags — 'Coroners' and 'Airline Pilots' were showing up as top matches for
+completely unrelated reasons. We fixed it by scaling the overlap score by
+how many skills actually matched, requiring several real matches before
+it's trusted at full strength. That's what makes the final top-3 list
+coherent instead of being hijacked by one incidental skill match."
 
 ### "What does the roadmap/market analysis content come from?"
 
@@ -102,10 +117,12 @@ occupation's real tags. That's what makes the final top-3 list coherent."
 requirements come from O*NET's Job Zone data. Day-to-day responsibilities
 come from O*NET's real Task Statements for that occupation. Salary and
 growth outlook come from the U.S. Bureau of Labor Statistics' Employment
-Projections — matched to O*NET occupations by their shared SOC code, with
-892 of 923 occupations matched; the rest are honestly marked 'not available'
-because BLS itself didn't publish a figure for those, rather than us
-guessing one."
+Projections — matched to O*NET occupations by their shared 6-digit SOC code.
+892 of the 923 O*NET occupations resolve to one of our 831 real BLS wage
+records (several detailed O*NET codes share one 6-digit base SOC, so there
+are fewer unique wage records than matched occupations); the remaining
+occupations are honestly marked 'not available' because BLS itself didn't
+publish a figure for those, rather than us guessing one."
 
 ### "What are the model's limitations?"
 
@@ -158,3 +175,135 @@ epoch live — a genuine, visible "watch it learn" moment.
 psychological interest profile (RIASEC), then match it against 923 real
 government-sourced occupations — no LLM, no external API, and every dataset
 we used is a real, citable, public source."
+
+---
+
+# Defending against the base paper
+
+Base paper: Mallick, Chakraborty, Sanyal, Brahma, Jagadev, Bhoi. "Machine
+Learning-Based Career Recommendation System Using Academic and Behavioral
+Analytics." 2026 International Conference on Emerging Systems and
+Intelligent Computing (ESIC), Feb 2026. DOI: 10.1109/ESIC68176.2026.11495729.
+
+**We have the full text**, not just the abstract, so every claim below is
+verified against the actual Methodology/Results sections, not guessed.
+
+What the base paper actually does, precisely:
+- **Models**: Decision Tree, Random Forest, KNN, SVM — classical ML,
+  compared against each other. No neural network, no deep learning.
+- **Best result**: Random Forest, Accuracy 0.86 / Macro-F1 0.84 (Decision
+  Tree 0.82/0.80, SVM 0.83/0.81, KNN 0.78/0.76).
+- **Features**: academic stream (Science/Commerce/Arts), subject scores,
+  hobbies/interests, working style, a self-reported personality label
+  (introvert/extrovert/analytical/creative) — no RIASEC or other named
+  psychological framework driving the feature set. They cite Holland's
+  RIASEC in their references list [12] but don't use it in their model.
+- **Label**: a small set of broad career categories (their own text example
+  list: Engineering, Medicine, Business, Law, Design, Teaching, Data
+  Science). Output is top-N categories ranked by predicted probability.
+- **Occupation/wage data**: none. Their own Future Work section says O*NET
+  integration is a *planned* future addition, confirming it isn't used now.
+  No salary or growth data anywhere in the paper.
+- **Stack**: Flask backend, React frontend, scikit-learn models. No LLM.
+- **Dataset size**: not stated as a headline number, but the only concrete
+  count shown (an education-level chart) sums to roughly ~195 records —
+  small, and of unstated/unclear provenance (not shown to be from a real
+  institution or a public dataset).
+
+## Opening pitch — say this before anyone asks
+
+Don't wait to be asked how you compare. Lead with this, confidently, in
+this order — strongest, most concrete point first:
+
+> "We picked this base paper because it tackles the same core problem we
+> do — recommending a career from a student's profile using machine
+> learning. We built on it in four concrete ways.
+>
+> **One — real, government-grounded data.** The base paper's dataset is
+> small — about 195 records, and the paper doesn't say where they came
+> from. Every piece of data in our system — the RIASEC interest profiles,
+> the 923 occupations, the salary and growth numbers — comes from the
+> real O*NET 31.0 database and U.S. Bureau of Labor Statistics, publicly
+> documented and citable.
+>
+> **Two — a real theoretical foundation.** Their model predicts a career
+> category from stream, subject scores, and a self-labeled personality
+> type, with no named psychological framework behind it. Ours is built on
+> Holland's RIASEC theory — an established model of vocational interests
+> — so every prediction has a real conceptual grounding, not just
+> pattern-matching.
+>
+> **Three — far finer-grained output.** Their system classifies into a
+> handful of broad categories like 'Engineering' or 'Business.' We rank
+> against 923 real, specific occupations — a materially harder and more
+> useful recommendation problem, which is exactly why we don't use plain
+> accuracy as our metric — at that resolution, it isn't a meaningful bar.
+>
+> **Four — a complete output, not just a label.** Their system returns a
+> predicted category. Ours returns a ranked list of real occupations, each
+> with real salary and growth data, a real education/task-based learning
+> roadmap, and a persistent dashboard — a full career-guidance pipeline,
+> not a single classification.
+>
+> And throughout, everything is reproducible: our data, our training
+> pipeline, and our evaluation are all in a public notebook anyone can
+> run."
+
+Say this once, early, and you've pre-empted almost every comparison
+question below — the Q&A section is there for follow-ups, not to replace
+this opening.
+
+### "The base paper also uses supervised learning on academic/behavioral data — how is yours actually different?"
+
+"Four concrete differences:
+
+**Scale and grounding of the label space.** They classify into a small,
+example-style set of broad career categories on what looks like a
+few-hundred-row dataset. We rank against 923 real O*NET occupations, each
+with a government-measured interest profile — a materially harder and more
+useful problem.
+
+**Theoretical grounding.** They don't drive their model with a named
+psychological framework — features are stream, subjects, hobbies, a
+self-reported personality label. We use Holland's RIASEC explicitly: every
+training label is a real, documented six-dimensional RIASEC score from
+O*NET, not an arbitrary class.
+
+**Market grounding.** They have no occupation or wage database — O*NET is
+explicitly their *future work*, not something they built. Every result we
+show — matched occupation, salary, growth outlook, education path — traces
+to real O*NET or BLS data today, not a roadmap item.
+
+**Model type.** They compare four classical algorithms (best: Random
+Forest, 86% accuracy on their dataset). We trained a from-scratch PyTorch
+neural network — a different, harder engineering exercise for an FYP scope,
+evaluated with a metric suited to ranking rather than classification."
+
+### "Their Random Forest got 86% accuracy — isn't that better than your 0.214?"
+
+"Those numbers aren't comparable, and it's worth explaining exactly why
+rather than dodging it. 86% accuracy is a *classification* metric over a
+small set of broad categories (a handful of classes like 'Engineering' or
+'Data Science') — with few classes, high accuracy is easier to reach. We
+report *mean percentile rank* over 923 fine-grained real occupations,
+where even a genuinely strong model can't hit 'accuracy' in that sense,
+because dozens of real occupations legitimately share near-identical
+interest profiles — getting the *exact* one right by classification
+accuracy would be an unreasonably strict, almost meaningless bar at that
+resolution. That's precisely why we didn't use plain accuracy: it would
+either be undefined at our scale or misleadingly easy on a coarser one.
+Our 0.214 mean percentile rank means the true occupation lands in roughly
+the top fifth of 923 candidates on average — evaluated against two
+baselines we built ourselves (Ridge 0.249, Random Forest 0.325) for a fair
+internal comparison, which is the correct way to contextualize this metric,
+not a cross-paper number that isn't measuring the same thing."
+
+### "Isn't this just a reimplementation of their idea?"
+
+"The problem framing is similar — that's expected, it's the same general
+task. But nothing was copied: we never had their code or data. The actual
+system differs in every layer — label space (923 real occupations vs. a
+handful of broad categories), theory (RIASEC vs. none), data grounding
+(real O*NET/BLS vs. none currently, per their own future-work section),
+and model family (from-scratch neural network vs. classical scikit-learn
+models)."

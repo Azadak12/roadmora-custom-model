@@ -1,3 +1,4 @@
+import BrandLogo from '../components/BrandLogo.jsx';
 import { uniqueCareerResults } from '../lib/assessmentDedup.js';
 /* Logged-in user's dashboard: lists their saved past assessment results, opens RoadmapModal for details. Route: /dashboard. */
 import { useEffect, useState } from 'react';
@@ -89,7 +90,7 @@ export default function DashboardPage() {
     <>
       <header className="topbar" id="topbar">
         <Link to="/" className="topbar__logo">
-          <span className="logo-icon">◈</span> Roadmora<span className="logo-accent">AI</span>
+          <BrandLogo />
         </Link>
         <div className="topbar__right" style={{ display: 'flex' }}>
           <span className="topbar__user">{displayName}</span>

@@ -1,3 +1,4 @@
+import BrandLogo from './BrandLogo.jsx';
 import { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
@@ -50,7 +51,7 @@ export default function Nav() {
     <nav className={`nav${scrolled || menuOpen ? ' scrolled' : ''}${user ? ' nav--authed' : ''}`} id="nav">
       <div className="nav__inner">
         <Link to="/" className="nav__logo">
-          <span className="logo-icon">◈</span> Roadmora<span className="logo-accent">AI</span>
+          <BrandLogo />
         </Link>
 
         <ul

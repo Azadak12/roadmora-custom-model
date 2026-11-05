@@ -1,3 +1,4 @@
+import BrandLogo from '../components/BrandLogo.jsx';
 /* Admin-only dashboard: user counts, assessment stats, results list. Route: /admin. Access is gated by isAdmin from context/AuthContext.jsx (checks the logged-in email against VITE_ADMIN_EMAILS). */
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -203,11 +204,8 @@ export default function AdminDashboardPage() {
     <div className="admin-shell">
       <aside className="admin-sidebar">
         <div className="admin-sidebar__brand">
-          <span className="logo-icon">◈</span>
-          <div>
-            <div className="admin-sidebar__brand-name">Roadmora</div>
-            <div className="admin-sidebar__brand-tag">SYSTEM ADMIN</div>
-          </div>
+          <BrandLogo />
+          <div className="admin-sidebar__brand-tag">SYSTEM ADMIN</div>
         </div>
 
         <nav className="admin-sidebar__nav" aria-label="Admin sections">

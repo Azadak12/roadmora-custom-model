@@ -1,3 +1,4 @@
+import BrandLogo from './BrandLogo.jsx';
 /* The login/signup popup. Its open/closed state is controlled globally by context/AuthModalContext.jsx, so it can be triggered from any page (e.g. the 'Login' button in Nav, or the assessment gate). */
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -75,7 +76,7 @@ export default function AuthModal() {
       <div className="auth-modal">
         <button className="auth-close" onClick={closeAuth}>×</button>
         <div className="auth-brand">
-          <span className="logo-icon">◈</span> Roadmora<span className="logo-accent">AI</span>
+          <BrandLogo />
         </div>
         <div className="auth-tabs">
           <button className={`auth-tab${tab === 'login' ? ' auth-tab--active' : ''}`} onClick={() => switchTab('login')}>Login</button>
