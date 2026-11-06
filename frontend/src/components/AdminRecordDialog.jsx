@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useBodyScrollLock } from '../hooks/useBodyScrollLock.js';
 
 export default function AdminRecordDialog({ target, mode, saving, error, onClose, onSubmit }) {
   const { kind, record } = target;
@@ -6,6 +7,7 @@ export default function AdminRecordDialog({ target, mode, saving, error, onClose
   const market = record.market_analysis || {};
   const roadmap = Array.isArray(record.learning_roadmap)
     ? record.learning_roadmap : Object.values(record.learning_roadmap || {});
+  useBodyScrollLock(true);
   const [form, setForm] = useState(isUser
     ? { email: record.email || '', full_name: record.full_name || '', password: '' }
     : { career_field: record.career_field || '', demand: market.demand || '',

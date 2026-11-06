@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabaseClient';
 import { useAuthModal } from '../context/AuthModalContext.jsx';
 import PasswordInput from './PasswordInput.jsx';
+import { useBodyScrollLock } from '../hooks/useBodyScrollLock.js';
 
 export default function AuthModal() {
   const { isOpen, tab, setTab, closeAuth } = useAuthModal();
@@ -20,6 +21,8 @@ export default function AuthModal() {
   const [signupPassword, setSignupPassword] = useState('');
   const [signupMsg, setSignupMsg] = useState({ text: '', type: '' });
   const [signupBusy, setSignupBusy] = useState(false);
+
+  useBodyScrollLock(isOpen);
 
   if (!isOpen) return null;
 
@@ -57,7 +60,7 @@ export default function AuthModal() {
   async function handleSignup(e) {
     e.preventDefault();
     setSignupBusy(true);
-    const { error } = await supabase.auth.signUp({
+    const { data, error } = await supabase.auth.signUp({
       email: signupEmail,
       password: signupPassword,
       options: { data: { full_name: signupName } },
@@ -67,7 +70,13 @@ export default function AuthModal() {
     if (error) {
       setSignupMsg({ text: error.message, type: 'error' });
     } else {
-      setSignupMsg({ text: '✓ Account created! Check your email to confirm, then log in.', type: 'success' });
+      // With email confirmation off, Supabase signs the new user in straight away.
+      if (data?.session) {
+        closeAuth();
+        navigate('/dashboard');
+        return;
+      }
+      setSignupMsg({ text: '✓ Account created! You can now log in.', type: 'success' });
     }
   }
 

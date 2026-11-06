@@ -1,7 +1,9 @@
 /* Popup that shows one saved result's full learning roadmap in detail. Used on: pages/DashboardPage.jsx, when a user clicks into a past result. */
 import { Link } from 'react-router-dom';
+import { useBodyScrollLock } from '../hooks/useBodyScrollLock.js';
 
 export default function RoadmapModal({ result, onClose }) {
+  useBodyScrollLock(!!result);
   if (!result) return null;
 
   const ma = result.market_analysis || {};
@@ -16,7 +18,7 @@ export default function RoadmapModal({ result, onClose }) {
 
   return (
     <div className="rm-overlay open" onClick={handleOverlayClick}>
-      <div className="rm-modal">
+      <div className="rm-modal" role="dialog" aria-modal="true" aria-label={result.career_field || 'Career match'}>
         <button type="button" className="rm-close" onClick={onClose} aria-label="Close">×</button>
         <div className="rm-header">
           <p className="rm-eyebrow">Career Match</p>
