@@ -6,6 +6,10 @@ import './index.css';
 import App from './App.jsx';
 import { AuthProvider } from './context/AuthContext.jsx';
 import { AuthModalProvider } from './context/AuthModalContext.jsx';
+import { pingBackend } from './lib/api.js';
+
+// Wake a sleeping backend as early as possible, before any page needs it.
+pingBackend();
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

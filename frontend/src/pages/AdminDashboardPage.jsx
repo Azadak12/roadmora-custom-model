@@ -6,6 +6,7 @@ import { useAuth } from '../context/AuthContext.jsx';
 import { createAdminUser, getAdminStats, getAdminUsers, getAdminResults, updateAdminUser, deleteAdminUser, updateAdminResult, deleteAdminResult } from '../lib/api.js';
 import RoadmapModal from '../components/RoadmapModal.jsx';
 import AdminRecordDialog from '../components/AdminRecordDialog.jsx';
+import { useSlowLoadHint } from '../hooks/useSlowLoadHint.js';
 
 const NAV_ITEMS = [
   { key: 'overview', label: 'Overview', icon: '◈' },
@@ -65,6 +66,7 @@ export default function AdminDashboardPage() {
   const [dialog, setDialog] = useState(null);
   const [saving, setSaving] = useState(false);
   const [mutationError, setMutationError] = useState('');
+  const dataSlow = useSlowLoadHint(!(stats && users && results) && !error);
 
   // Fetch each admin panel together after the restored session passes the UI gate.
   // The API also enforces admin access on every endpoint.
@@ -250,6 +252,7 @@ export default function AdminDashboardPage() {
         {!ready && !error ? (
           <div className="admin-shell-loading">
             <div className="db-spinner"></div>
+            {dataSlow && <p className="admin-loading-hint">Still waking up the server — this can take up to a minute on first load…</p>}
           </div>
         ) : !ready && error ? (
           <div className="db-empty">

@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage.jsx';
 import DashboardPage from './pages/DashboardPage.jsx';
 import AdminDashboardPage from './pages/AdminDashboardPage.jsx';
 import AdminLoginPage from './pages/AdminLoginPage.jsx';
+import ResetPasswordPage from './pages/ResetPasswordPage.jsx';
 import HowItWorksPage from './pages/HowItWorksPage.jsx';
 import FeaturesPage from './pages/FeaturesPage.jsx';
 import AssessmentPage from './pages/AssessmentPage.jsx';
@@ -24,6 +25,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/admin/login" element={<AdminLoginPage />} />
+        <Route path="/reset-password" element={<ResetPasswordPage />} />
         <Route path="/admin" element={<AdminDashboardPage />} />
       </Routes>
       <AuthModal />

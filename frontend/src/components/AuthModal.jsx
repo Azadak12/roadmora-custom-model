@@ -22,15 +22,20 @@ export default function AuthModal() {
   const [signupMsg, setSignupMsg] = useState({ text: '', type: '' });
   const [signupBusy, setSignupBusy] = useState(false);
 
+  const [forgotEmail, setForgotEmail] = useState('');
+  const [forgotMsg, setForgotMsg] = useState({ text: '', type: '' });
+  const [forgotBusy, setForgotBusy] = useState(false);
+
   useBodyScrollLock(isOpen);
 
   if (!isOpen) return null;
 
-  // Switching modes clears messages from the previous login or signup attempt.
+  // Switching modes clears messages from the previous login, signup, or reset attempt.
   function switchTab(next) {
     setTab(next);
     setLoginMsg({ text: '', type: '' });
     setSignupMsg({ text: '', type: '' });
+    setForgotMsg({ text: '', type: '' });
   }
 
   // A click inside the dialog must not close it.
@@ -80,6 +85,22 @@ export default function AuthModal() {
     }
   }
 
+  // Supabase emails the user a link to /reset-password, where they set a new password.
+  async function handleForgotPassword(e) {
+    e.preventDefault();
+    setForgotBusy(true);
+    const { error } = await supabase.auth.resetPasswordForEmail(forgotEmail, {
+      redirectTo: `${window.location.origin}/reset-password`,
+    });
+    setForgotBusy(false);
+
+    if (error) {
+      setForgotMsg({ text: error.message, type: 'error' });
+    } else {
+      setForgotMsg({ text: '✓ Check your email for a password reset link.', type: 'success' });
+    }
+  }
+
   return (
     <div className="auth-overlay open" id="authOverlay" onClick={handleOverlayClick}>
       <div className="auth-modal">
@@ -87,10 +108,12 @@ export default function AuthModal() {
         <div className="auth-brand">
           <BrandLogo />
         </div>
-        <div className="auth-tabs">
-          <button className={`auth-tab${tab === 'login' ? ' auth-tab--active' : ''}`} onClick={() => switchTab('login')}>Login</button>
-          <button className={`auth-tab${tab === 'signup' ? ' auth-tab--active' : ''}`} onClick={() => switchTab('signup')}>Sign Up</button>
-        </div>
+        {tab !== 'forgot' && (
+          <div className="auth-tabs">
+            <button className={`auth-tab${tab === 'login' ? ' auth-tab--active' : ''}`} onClick={() => switchTab('login')}>Login</button>
+            <button className={`auth-tab${tab === 'signup' ? ' auth-tab--active' : ''}`} onClick={() => switchTab('signup')}>Sign Up</button>
+          </div>
+        )}
 
         {tab === 'login' ? (
           <form className="auth-form" onSubmit={handleLogin}>
@@ -108,7 +131,24 @@ export default function AuthModal() {
             <button type="submit" className="btn authmodal-login-btn btn--full" disabled={loginBusy}>
               {loginBusy ? 'Logging in…' : 'Login'}
             </button>
+            <p className="auth-switch">
+              <span onClick={() => switchTab('forgot')}>Forgot password?</span>
+            </p>
             <p className="auth-switch">No account? <span onClick={() => switchTab('signup')}>Sign up free →</span></p>
+          </form>
+        ) : tab === 'forgot' ? (
+          <form className="auth-form" onSubmit={handleForgotPassword}>
+            <p className="auth-forgot-hint">Enter your email and we'll send you a link to reset your password.</p>
+            <div className="form-group">
+              <label className="form-label">Email</label>
+              <input className="form-input" type="email" placeholder="you@example.com" required
+                value={forgotEmail} onChange={(e) => setForgotEmail(e.target.value)} />
+            </div>
+            {forgotMsg.text && <div className={`auth-msg ${forgotMsg.type}`}>{forgotMsg.text}</div>}
+            <button type="submit" className="btn authmodal-login-btn btn--full" disabled={forgotBusy}>
+              {forgotBusy ? 'Sending…' : 'Send Reset Link'}
+            </button>
+            <p className="auth-switch"><span onClick={() => switchTab('login')}>← Back to login</span></p>
           </form>
         ) : (
           <form className="auth-form" onSubmit={handleSignup}>

@@ -33,6 +33,13 @@ app.add_middleware(
 )
 
 
+@app.get("/health")
+async def health():
+    """Unauthenticated, no-DB endpoint the frontend and uptime pings use to
+    wake a sleeping Render free-tier instance before a real request lands."""
+    return {"status": "ok"}
+
+
 @app.post("/api/assessment")
 async def submit_assessment(payload: dict, user=Depends(get_current_user)):
     """Predict matches for an authenticated user and save the top match."""

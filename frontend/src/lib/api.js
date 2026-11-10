@@ -3,6 +3,13 @@ import { supabase } from './supabaseClient';
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
+// Render's free tier sleeps the backend after idle time, so the first real
+// request can take 30-60s. Fired fire-and-forget as early as app load (see
+// main.jsx) so the instance is already waking up before any page needs data.
+export function pingBackend() {
+  fetch(`${API_BASE_URL}/health`).catch(() => {});
+}
+
 // Read the current session for each request so refreshed tokens are used.
 async function authHeaders() {
   const { data: { session } } = await supabase.auth.getSession();

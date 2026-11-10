@@ -594,8 +594,14 @@ h1,h2,h3,h4 { font-family: 'Inter', sans-serif; line-height: 1.2; }
   min-height: 100vh;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 16px;
+}
+.admin-loading-hint {
+  color: rgba(255,255,255,.55);
+  font-size: .86rem;
 }
 
 .admin-sidebar {

@@ -7,6 +7,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
 import { getResults } from '../lib/api.js';
 import RoadmapModal from '../components/RoadmapModal.jsx';
+import { useSlowLoadHint } from '../hooks/useSlowLoadHint.js';
 
 function compactMarketValue(value) {
   if (!value) return '—';
@@ -25,6 +26,7 @@ export default function DashboardPage() {
   const [period, setPeriod] = useState('');
   const [filterTime, setFilterTime] = useState(() => Date.now());
   const [sort, setSort] = useState('newest');
+  const resultsSlow = useSlowLoadHint(results === null && !error);
 
   function clearFilters() {
     setSearch('');
@@ -104,7 +106,7 @@ export default function DashboardPage() {
         {results === null && !error ? (
           <div className="db-loading">
             <div className="db-spinner"></div>
-            <p>Loading…</p>
+            <p>{resultsSlow ? 'Still waking up the server — this can take up to a minute on first load…' : 'Loading…'}</p>
           </div>
         ) : (
           <div>
