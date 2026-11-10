@@ -14,7 +14,14 @@ export function AuthProvider({ children }) {
 
   // Undefined means Supabase has not finished restoring the browser session yet.
   useEffect(() => {
-    supabase.auth.getSession().then(({ data: { session } }) => setSession(session));
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setSession(session);
+      // The cached session can hold a stale name/email if an admin edited
+      // this account (or the user edited their own) from elsewhere since
+      // this browser last logged in. Pull the current record once per load
+      // so the greeting always matches what's actually in the database.
+      if (session) supabase.auth.refreshSession();
+    });
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
       setSession(session);
