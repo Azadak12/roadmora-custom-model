@@ -13,10 +13,29 @@ export default function AdminLoginPage() {
   const [password, setPassword] = useState('');
   const [msg, setMsg] = useState({ text: '', type: '' });
   const [busy, setBusy] = useState(false);
+  const [forgot, setForgot] = useState(false);
+  const [forgotEmail, setForgotEmail] = useState('');
+  const [forgotMsg, setForgotMsg] = useState({ text: '', type: '' });
+  const [forgotBusy, setForgotBusy] = useState(false);
 
   if (isAdmin) {
     navigate('/admin');
     return null;
+  }
+
+  async function handleForgotPassword(e) {
+    e.preventDefault();
+    setForgotBusy(true);
+    const { error } = await supabase.auth.resetPasswordForEmail(forgotEmail, {
+      redirectTo: `${window.location.origin}/reset-password`,
+    });
+    setForgotBusy(false);
+
+    if (error) {
+      setForgotMsg({ text: error.message, type: 'error' });
+    } else {
+      setForgotMsg({ text: '✓ Check your email for a password reset link.', type: 'success' });
+    }
   }
 
   async function handleSubmit(e) {
@@ -57,32 +76,51 @@ export default function AdminLoginPage() {
         </div>
         <p className="admin-login-eyebrow">Admin Sign In</p>
 
-        <form className="auth-form" onSubmit={handleSubmit}>
-          <div className="form-group">
-            <label className="form-label">Admin Email</label>
-            <input
-              className="form-input"
-              type="email"
-              placeholder="admin@example.com"
-              required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </div>
-          <div className="form-group">
-            <label className="form-label">Password</label>
-            <PasswordInput
-              placeholder="Your password"
-              required
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-            />
-          </div>
-          {msg.text && <div className={`auth-msg ${msg.type}`}>{msg.text}</div>}
-          <button type="submit" className="btn admin-login-submit-btn btn--full" disabled={busy}>
-            {busy ? 'Signing in…' : 'Sign In to Admin'}
-          </button>
-        </form>
+        {!forgot ? (
+          <form className="auth-form" onSubmit={handleSubmit}>
+            <div className="form-group">
+              <label className="form-label">Admin Email</label>
+              <input
+                className="form-input"
+                type="email"
+                placeholder="admin@example.com"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </div>
+            <div className="form-group">
+              <label className="form-label">Password</label>
+              <PasswordInput
+                placeholder="Your password"
+                required
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+            </div>
+            {msg.text && <div className={`auth-msg ${msg.type}`}>{msg.text}</div>}
+            <button type="submit" className="btn admin-login-submit-btn btn--full" disabled={busy}>
+              {busy ? 'Signing in…' : 'Sign In to Admin'}
+            </button>
+            <p className="auth-switch">
+              <span onClick={() => { setForgot(true); setForgotMsg({ text: '', type: '' }); }}>Forgot password?</span>
+            </p>
+          </form>
+        ) : (
+          <form className="auth-form" onSubmit={handleForgotPassword}>
+            <p className="auth-forgot-hint">Enter your admin email and we'll send you a link to reset your password.</p>
+            <div className="form-group">
+              <label className="form-label">Admin Email</label>
+              <input className="form-input" type="email" placeholder="admin@example.com" required
+                value={forgotEmail} onChange={(e) => setForgotEmail(e.target.value)} />
+            </div>
+            {forgotMsg.text && <div className={`auth-msg ${forgotMsg.type}`}>{forgotMsg.text}</div>}
+            <button type="submit" className="btn admin-login-submit-btn btn--full" disabled={forgotBusy}>
+              {forgotBusy ? 'Sending…' : 'Send Reset Link'}
+            </button>
+            <p className="auth-switch"><span onClick={() => setForgot(false)}>← Back to sign in</span></p>
+          </form>
+        )}
 
         <p className="admin-login-back"><Link to="/">← Back to Roadmora AI</Link></p>
       </div>
