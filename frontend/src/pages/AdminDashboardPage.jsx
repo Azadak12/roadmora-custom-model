@@ -3,6 +3,7 @@ import BrandLogo from '../components/BrandLogo.jsx';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
+import { supabase } from '../lib/supabaseClient';
 import { createAdminUser, getAdminStats, getAdminUsers, getAdminResults, updateAdminUser, deleteAdminUser, updateAdminResult, deleteAdminResult } from '../lib/api.js';
 import RoadmapModal from '../components/RoadmapModal.jsx';
 import AdminRecordDialog from '../components/AdminRecordDialog.jsx';
@@ -170,6 +171,9 @@ export default function AdminDashboardPage() {
         const updated = await updateAdminUser(record.id, payload);
         setUsers((current) => current.map((u) => u.id === record.id ? { ...u, ...updated } : u));
         setResults((current) => current.map((r) => r.user_id === record.id ? { ...r, user_email: updated.email } : r));
+        // The edit above changes auth.users directly, so the signed-in admin's
+        // own cached session (name in the sidebar/greeting) needs a refresh too.
+        if (record.id === user.id) await supabase.auth.refreshSession();
       } else if (kind === 'user') {
         await deleteAdminUser(record.id);
         setUsers((current) => current.filter((u) => u.id !== record.id));
