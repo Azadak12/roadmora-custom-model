@@ -993,6 +993,18 @@ section { padding: 100px 0; }
   font-weight: 500;
 }
 .form-success.visible { display: block; }
+.form-error {
+  display: none;
+  text-align: center;
+  padding: 14px;
+  background: rgba(239,68,68,.1);
+  border: 1px solid rgba(239,68,68,.25);
+  border-radius: var(--radius);
+  color: var(--red);
+  font-size: .9rem;
+  font-weight: 500;
+}
+.form-error.visible { display: block; }
 
 .contact-info { display: flex; flex-direction: column; gap: 16px; }
 .ci-card {

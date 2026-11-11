@@ -3,10 +3,11 @@ import sys
 from pathlib import Path
 from uuid import UUID
 
+import httpx
 from dotenv import load_dotenv
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, EmailStr, Field, field_validator
 
 from auth import ADMIN_EMAILS, get_current_admin, get_current_user
 from supabase_client import supabase
@@ -14,6 +15,11 @@ from supabase_client import supabase
 load_dotenv()
 
 FRONTEND_ORIGIN = os.environ.get("FRONTEND_ORIGIN", "http://localhost:5173")
+RESEND_API_KEY = os.environ.get("RESEND_API_KEY")
+CONTACT_TO_EMAIL = os.environ.get("CONTACT_TO_EMAIL", "hello@roadmora.ai")
+# Resend's shared sandbox sender; swap for your own verified domain's address
+# once one is set up in the Resend dashboard (see RESEND_API_KEY setup notes).
+CONTACT_FROM_EMAIL = os.environ.get("CONTACT_FROM_EMAIL", "Roadmora AI <onboarding@resend.dev>")
 
 # The trained model + real O*NET data live in ../ml — see ml/README.md for
 # the full pipeline (feature encoding, training, evaluation) that produced
@@ -38,6 +44,55 @@ async def health():
     """Unauthenticated, no-DB endpoint the frontend and uptime pings use to
     wake a sleeping Render free-tier instance before a real request lands."""
     return {"status": "ok"}
+
+
+class ContactMessage(BaseModel):
+    name: str = Field(min_length=1, max_length=120)
+    email: EmailStr
+    subject: str = Field(default="", max_length=120)
+    message: str = Field(min_length=1, max_length=5000)
+
+    @field_validator("name", "subject", "message")
+    @classmethod
+    def strip_text(cls, value):
+        return value.strip()
+
+    @field_validator("name", "message")
+    @classmethod
+    def require_text(cls, value):
+        if not value:
+            raise ValueError("This field is required")
+        return value
+
+
+@app.post("/api/contact", status_code=202)
+async def submit_contact(payload: ContactMessage):
+    """Relay the public Contact form to CONTACT_TO_EMAIL via Resend."""
+    if not RESEND_API_KEY:
+        raise HTTPException(status_code=503, detail="Email sending is not configured yet")
+
+    subject = f"[Roadmora AI] {payload.subject or 'General Question'}"
+    body = (
+        f"From: {payload.name} <{payload.email}>\n\n"
+        f"{payload.message}"
+    ).replace("\n", "<br>")
+
+    async with httpx.AsyncClient() as client:
+        response = await client.post(
+            "https://api.resend.com/emails",
+            headers={"Authorization": f"Bearer {RESEND_API_KEY}"},
+            json={
+                "from": CONTACT_FROM_EMAIL,
+                "to": [CONTACT_TO_EMAIL],
+                "reply_to": payload.email,
+                "subject": subject,
+                "html": body,
+            },
+            timeout=15,
+        )
+    if response.status_code >= 400:
+        raise HTTPException(status_code=502, detail="Could not send message. Please try again later.")
+    return {"sent": True}
 
 
 @app.post("/api/assessment")

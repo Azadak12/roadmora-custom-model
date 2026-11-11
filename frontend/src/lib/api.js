@@ -32,6 +32,21 @@ export async function postAssessment(data) {
   return res.json();
 }
 
+// Public endpoint — no auth header, unlike the rest of this file.
+export async function sendContactMessage(data) {
+  const res = await fetch(`${API_BASE_URL}/api/contact`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data),
+  });
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({}));
+    const detail = Array.isArray(body.detail) ? body.detail.map((item) => item.msg).join(', ') : body.detail;
+    throw new Error(detail || `Server returned ${res.status}`);
+  }
+  return res.json();
+}
+
 export async function getResults() {
   const headers = await authHeaders();
   const res = await fetch(`${API_BASE_URL}/api/results`, { headers });

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { CONTACT_EMAIL } from '../lib/site.js';
+import { sendContactMessage } from '../lib/api.js';
 
 const FAQS = [
   { q: 'Is Roadmora AI free to use?', a: 'Yes. Roadmora AI is free to use during its current phase as a Final Year Project platform.' },
@@ -17,18 +18,22 @@ const EMPTY_FORM = { name: '', email: '', subject: '', message: '' };
 export default function Contact() {
   const [openFaq, setOpenFaq] = useState(0);
   const [form, setForm] = useState(EMPTY_FORM);
-  const [opened, setOpened] = useState(false);
+  const [status, setStatus] = useState({ sent: false, error: '', busy: false });
 
   function update(field) {
     return (e) => setForm({ ...form, [field]: e.target.value });
   }
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
-    const subject = `[Roadmora AI] ${form.subject || 'General Question'}`;
-    const body = `${form.message}\n\n— ${form.name} (${form.email})`;
-    window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    setOpened(true);
+    setStatus({ sent: false, error: '', busy: true });
+    try {
+      await sendContactMessage(form);
+      setStatus({ sent: true, error: '', busy: false });
+      setForm(EMPTY_FORM);
+    } catch (err) {
+      setStatus({ sent: false, error: err.message || 'Could not send message. Please try again later.', busy: false });
+    }
   }
 
   return (
@@ -37,7 +42,7 @@ export default function Contact() {
         <div className="contact-grid">
           <div className="contact-form-wrap reveal">
             <h2 className="contact-form-title">Send us a message</h2>
-            <p className="contact-form-sub">This opens your email app with your message ready to send.</p>
+            <p className="contact-form-sub">We'll get your message by email and reply directly to you.</p>
             <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-row">
                 <div className="form-group">
@@ -63,12 +68,13 @@ export default function Contact() {
                 <textarea className="form-input form-textarea" id="message" placeholder="Tell us how we can help…" rows="5" required
                   value={form.message} onChange={update('message')}></textarea>
               </div>
-              <button type="submit" className="btn contact-submit-btn btn--full">
-                Compose Email
+              <button type="submit" className="btn contact-submit-btn btn--full" disabled={status.busy}>
+                {status.busy ? 'Sending…' : 'Send Message'}
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
               </button>
-              <div className={`form-success${opened ? ' visible' : ''}`}>
-                Your email app should open now. If it didn't, write to us at {CONTACT_EMAIL}.
+              {status.error && <div className="form-error visible">{status.error} You can also write to us directly at {CONTACT_EMAIL}.</div>}
+              <div className={`form-success${status.sent ? ' visible' : ''}`}>
+                ✓ Message sent — we'll reply within 2–3 working days.
               </div>
             </form>
           </div>
